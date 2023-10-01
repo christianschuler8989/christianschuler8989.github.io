@@ -1,0 +1,18 @@
+@inproceedings{
+	10.1145/3536221.3556621,
+	author = {Nayak, Shravan and Schuler, Christian and Saha, Debjoy and Baumann, Timo},
+	title = {A Deep Dive Into Neural Synchrony Evaluation for Audio-Visual Translation},
+	year = {2022},
+	isbn = {9781450393904},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3536221.3556621},
+	doi = {10.1145/3536221.3556621},
+	abstract = {We present a comprehensive analysis of the neural audio-visual synchrony evaluation tool SyncNet. We assess the agreement of SyncNet scores vis-a-vis human perception and whether we can use these as a reliable metric for evaluating audio-visual lip-synchrony in generation tasks with no ground truth reference audio-video pair. We further look into the underlying elements in audio and video which vitally affect synchrony using interpretable explanations from SyncNet predictions and analyse its susceptibility by introducing adversarial noise. SyncNet has been used in numerous papers on visually-grounded text-to-speech for scenarios such as dubbing. We focus on this scenario which features many local asynchronies (something that SyncNet isn’t made for).},
+	booktitle = {Proceedings of the 2022 International Conference on Multimodal Interaction},
+	pages = {642–647},
+	numpages = {6},
+	keywords = {dubbing, audio-visual synchrony, speech-lip synchrony},
+	location = {Bengaluru, India},
+	series = {ICMI '22}
+}
