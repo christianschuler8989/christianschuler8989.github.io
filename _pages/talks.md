@@ -33,18 +33,24 @@ title: Talks
 		      <td class="w-25" rowspan="5">
 			      <a href="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" target="_blank"><img src="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
 		      </td>
-		      <td><b><a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">EASIER Autumn School</a>: Sign language data meets data science - data science meets sign linguistics </b></td>
+		      <td>
+		      	<b><a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">EASIER Autumn School</a>: Sign language data meets data science - data science meets sign linguistics </b>
+	      	</td>
 		    </tr>
 		    <tr>
-			    <td>⏱ 25.-26. September, 2023 📍 <a href="https://www.idgs.uni-hamburg.de/en.html" target="_blank">Institute of German Sign Language and Communication of the Deaf</a>, Hamburg, Germany</td>
+			    <td>
+			    		⏱ 25.-26. September, 2023 📝 English & International Sign Language 
+			    </td>
+			  </tr>
+		    <tr>
+		    	<td>
+		    	📍 <a href="https://www.idgs.uni-hamburg.de/en.html" target="_blank">Institute of German Sign Language and Communication of the Deaf</a>, Hamburg, Germany
+			    </td>
 			  </tr>
 		    <tr>
 		    	<td>
 		    	💡 Workshop aimed at bridging the gap between data scientists and sign language experts, advancing collaborative endevors.
 					</td>
-			    <td>
-			    	📝 English & International Sign Language 
-		    	</td>
 			  </tr>
 			  <tr>
 			    <td>
@@ -59,15 +65,21 @@ title: Talks
 		      <td><b><a href="https://turn-conference.org/" target="_blank">TURN Prototyp Zukunft</a></b></td>
 		    </tr>
 		    <tr>
-			    <td>⏱ 13.-15. September, 2023 📍 <a href="https://www.th-koeln.de/en/" target="_blank">TH Köln - University of Applied Sciences</a>, Cologne, Germany</td>
+			    <td>
+			    		⏱ 13.-15. September, 2023 📝 German
+			    </td>
+			  </tr>
+		    <tr>
+		    	<td>
+		    	📍 <a href="https://www.th-koeln.de/en/" target="_blank">TH Köln - University of Applied Sciences</a>, Cologne, Germany
+		    	</td>
 			  </tr>
 		    <tr>
 		    	<td>
 		    	💡 Conference aimed at sharing and collectively developing innovative teaching concepts for the education of the future.
 					</td>
-			    <td>
-			    	📝 German
-		    	</td>
+			  </tr>
+		    <tr>
 			    <td>
 			    	⭐ (Pitch Session) Data-driven Digital Innovation Lab
 		    	</td>		    	
@@ -96,18 +108,26 @@ This was the first time for Dominik and me visiting Cologne and attending a conf
 		      <td><b><a href="https://www.uni-frankfurt.de/141901385/ContentPage_141901385?" target="_blank">6th International Conference on Kurdish Linguistics</a></b></td>
 		    </tr>
 		    <tr>
-			    <td>⏱ 04.-05. September, 2023 📍 <a href="https://www.goethe-university-frankfurt.de/en?locale=en" target="_blank">Goethe Universität</a>, Frankfurt am Main, Germany</td>
+			    <td>
+			    		⏱ 04.-05. September, 2023 📝 English
+	    		</td>
+			  </tr>
+		    <tr>
+		    	<td>
+		    	📍 <a href="https://www.goethe-university-frankfurt.de/en?locale=en" target="_blank">Goethe Universität</a>, Frankfurt am Main, Germany
+	    		</td>
 			  </tr>
 		    <tr>
 		    	<td>
 		    	💡 Conference aimed at the low-resource language Kurdish and any neighboring or contacting languages with a linguistic focus.
 					</td>
-			    <td>
-			    	📝 English
-		    	</td>
+			  </tr>
+		    <tr>
 			    <td>
 			    	⭐ (Poster Session) Analysis of Phonology and Morphology in the Kobani Dialect (Raman Ahmad, Christian Schuler) → <a href="https://github.com/Low-ResourceDialectology/KobaniAnalysis" target="_blank">Kobani Analysis</a>
 		    	</td>		
+			  </tr>
+		    <tr>
 		    	<td>
 		    	  ⭐ (Poster Session) Towards a Complete Mapping of Kurdish Dialectology (Christian Schuler, Raman Ahmad) → <a href="https://github.com/Low-ResourceDialectology/DialectMapping" target="_blank">Dialect Mapping</a>
 		    	</td>		
@@ -137,14 +157,18 @@ This was the first time for Dominik and me visiting Cologne and attending a conf
 		      
 		    </tr>
 		    <tr>
-			    <td>⏱ 09.-10. October, 2023 📍 <a href="https://www.hcds.uni-hamburg.de/en/hcds.html" target="_blank">House of Computing & Data Science</a>, Hamburg, Germany</td>
+			    <td>
+			    		⏱ 09.-10. October, 2023 📝 English
+	    		</td>
+			  </tr>
+		    <tr>
+			    <td>
+			    📍 <a href="https://www.hcds.uni-hamburg.de/en/hcds.html" target="_blank">House of Computing & Data Science</a>, Hamburg, Germany
+	    		</td>
 			  </tr>
 		    <tr>
 			    <td>
 		    	💡 Conference aimed at publicly highlight and consolidate the important data science/AI/computation themes in Hamburg's academic scene.
-					</td>
-			    <td>
-			    	📝 English
 					</td>
 			  </tr>
 		  </tbody>
