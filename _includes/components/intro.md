@@ -6,7 +6,7 @@
 
 **Halli und Hallo and welcome to Christian Schuler's home on the web!**
 
-This site is obviously very much still work-in-progress, but you can already read a bit in some of the sections regarding my [publications](/publications/), previous [teaching](/teaching/), some selected [projects](/projects/), and attended [events](/events/). <!--, and finally my [CV](/cv/). -->
+This site is obviously very much still work-in-progress, but you can already read a bit in some of the sections regarding my [publications](/publications.html), previous [teaching](/teaching.html), some selected [projects](/projects.html), and attended [events](/events.html). <!--, and finally my [CV](/cv/). -->
 
 Please feel free to contact me any time with your questions, or maybe just to chat about some cool ideas!
 <hr />
