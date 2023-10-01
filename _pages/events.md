@@ -59,7 +59,7 @@ Always attending- sometimes presenting (⭐)
 			  </tr>
 
 				<tr>
-		      <td class="w-25" rowspan="5">
+		      <td class="w-25" rowspan="7">
 			      <a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
 		      </td>
 		      <td><b><a href="https://turn-conference.org/" target="_blank">TURN Prototyp Zukunft</a></b></td>
@@ -106,7 +106,7 @@ Always attending- sometimes presenting (⭐)
 			  </tr>
 
 				<tr>
-		      <td class="w-25" rowspan="5">
+		      <td class="w-25" rowspan="8">
 			      <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
 		      </td>
 		      <td><b><a href="https://www.uni-frankfurt.de/141901385/ContentPage_141901385?" target="_blank">6th International Conference on Kurdish Linguistics</a></b></td>

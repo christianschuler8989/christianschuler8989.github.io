@@ -22,7 +22,7 @@ Publications in reversed chronological order in two categories:
 </div>
 
 1. **A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation**   
-Shravan Nayak, <u>Christian Schuler</u>, Debjoy Saha and Timo Baumann    
+Shravan Nayak, <u>Christian Schuler</u>, Debjoy Saha and Timo Baumann   
 *ICMI '22: Proceedings of the 2022 International Conference on Multimodal Interaction*   
 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3536221.3556621){:target="_blank"} [[Poster]](docs/posters/2022-Nayak_Schuler_Saha_Baumann-ICMI-A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation.pdf){:target="_blank"} [[bib]](bibliography/nayak2022deepdive.txt){:target="_blank"}  
 
@@ -34,19 +34,19 @@ Shravan Nayak, <u>Christian Schuler</u>, Debjoy Saha and Timo Baumann
 </div>
 
 1. **Lip-Synched**   
-Timo Baumann and <u>Christian Schuler</u>
-*Linux Magazine Issue 267/2023*
-This is the English translated version of Timo's and my linux-article from 2022.
+Timo Baumann and <u>Christian Schuler</u>   
+*Linux Magazine Issue 267/2023*   
+This is the English translated version of Timo's and my linux-article from 2022.   
 [[Article]](https://www.linux-magazine.com/Issues/2023/267/Natural-Language-Processing){:target="_blank"}
 
 <div align="center" style="background-color:lightblue" id="main">
 		<b>2022</b>
 </div>
 
-1. **Natural Language Processing mit Neuronalen Netzen**
-Timo Baumann and <u>Christian Schuler</u>
-*Linux Magazine 10/2022*
-This article is about natural language processing with neural networks and lip-synchrony in dubbing.
+1. **Natural Language Processing mit Neuronalen Netzen**   
+Timo Baumann and <u>Christian Schuler</u>   
+*Linux Magazine 10/2022*   
+This article is about natural language processing with neural networks and lip-synchrony in dubbing.   
 [[Article]](https://www.linux-magazin.de/ausgaben/2022/10/nlp/){:target="_blank"}
 
 
