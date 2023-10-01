@@ -86,11 +86,15 @@ Always attending- sometimes presenting (⭐)
 			  </tr>
 			  <tr>
 			    <td>
-			    	Here I presented inside a "Pitch Session" our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas)
-				<p>
-	    	<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
-		   	</p>
-This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D
+						<p>			    
+				    	Here I presented inside a "Pitch Session" our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas)
+		   			</p>
+						<p>
+	    				<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
+		   			</p>
+						<p>
+							This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D
+		   			</p>
 			   	</td>
 			  </tr>
 			  <tr>
@@ -136,9 +140,6 @@ This was the first time for Dominik and me visiting Cologne and attending a conf
 			    <td>
 			    	Here, Raman and I presented our projects as part of the poster session.
 			    	We had an amazing time and got to meet so many awesome people that we can't wait to see again in two years at the 7th ICKL! :D
-					<p>
-			  	<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
-				 	</p>
 			   	</td>
 			  </tr>
 			  <tr>
