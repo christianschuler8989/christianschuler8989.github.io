@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 title:            Christian Schuler's Personal Page # Site title
 name:             Christian Schuler              # Your name
 affiliation:      NLP-Enthusiast and Student at University of Hamburg              # Your name
-avatar:           /docs/pictures/profile-2023.png   # Path to an avatar image
+avatar:           /docs/pictures/profile-2023-christian.png   # Path to an avatar image
 author:           Christian Schuler
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.

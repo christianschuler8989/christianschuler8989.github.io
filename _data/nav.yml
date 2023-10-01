@@ -13,11 +13,11 @@
 - title: Teaching
   href: teaching.html
   
-- title: Talks
-  href: talks.html
+#- title: Talks
+#  href: talks.html
   
-#- title: Events
-#  href: events.html
+- title: Events
+  href: events.html
   
 - title: Posts
   href: list/posts.html
