@@ -30,28 +30,96 @@ title: Projects
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/gmnlp.png" class="img-fluid img-thumbnail" alt="GMNLP logo">
+			      <img src="/docs/pictures/proj-2023-ddlitlab-TextAsCorpusRep.jpg" class="img-fluid img-thumbnail" alt="TextAsCorpusRep">
 		      </td>
-		      <td><a href="https://nlp.cs.gmu.edu/" target="_blank">George Mason NLP</a></td>
+		      <td><a href="https://github.com/Low-ResourceDialectology/TextAsCorpusRep" target="_blank">TextAsCorpusRep</a></td>
 		    </tr>
 		      <tr>
-			    <td>Oct. 2022-</td>
+			    <td>Oct. 2023 - Apr. 2024</td>
 			  </tr>
 			  <tr>
-			    <td>I am very lucky to be working at GMNLP on various topics in language technology in low-resource setups. Looking forward to a rewarding experience in research, supervision and teaching.</td>
+			    <td>Our student research project "TextAsCorpusRep", a corpus of text data to advance machine translations of low-resource languages. Mentored by Dr. Seid Muhie Yimam got funded by the DDLitLab for up to 10,000€ :D</td>
 			  </tr>
+			  
 			  <tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="https://raw.githubusercontent.com/sinaahmadi/klpt/master/docs/img/KLPT_logo.png" class="img-fluid img-thumbnail" alt="Kurdish Language Processing Toolkit">
+			      <img src="/docs/pictures/proj-2023-kurdish-dialectmapping-500x333.png" class="img-fluid img-thumbnail" alt="DialectMapping">
 		      </td>
-		      <td><a href="https://github.com/sinaahmadi/klpt" target="_blank">Kurdish Langauge Processing Toolkit</a></td>
+		      <td><a href="https://github.com/Low-ResourceDialectology/DialectMapping" target="_blank">Dialect Mapping</a></td>
 		    </tr>
-		    <tr>
-			    <td>2020-</td>
-			 </tr>
-			  <tr>
-			    <td>KLPT-Kurdish Language Processing Toolkit is a natural language processing (NLP) toolkit in Python for the Kurdish language. It comes with core modules for language processing, such as preprocessing, stemming, transliteration and tokenizion, spell-checking and morphological analysis of various dialects of Kurdish.</td>
+		      <tr>
+			    <td>2023 - ongoing</td>
 			  </tr>
+			  <tr>
+			    <td>
+			    <p>
+			    		Towards a Complete Mapping of Kurdish Dialectology
+					</p>
+			    <p>
+			    		Together with my dear friend Raman, I have been working on creating an interactive map of the Kurdish dialects. This map is still very much work-in-progress, but it already seems quite promising! :D
+					</p>
+			    </td>
+			  </tr>
+			  
+			  <tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="/docs/pictures/proj-2023-kurdish-kobanianalysis-500x333.png" class="img-fluid img-thumbnail" alt="KobaniAnalysis">
+		      </td>
+		      <td><a href="https://github.com/Low-ResourceDialectology/KobaniAnalysis" target="_blank">Kobani Analysis</a></td>
+		    </tr>
+		      <tr>
+			    <td>2023 - ongoing</td>
+			  </tr>
+			  <tr>
+			    <td>
+			    <p>
+			    		Analysis of Phonology and Morphology in the Kobani Dialect
+					</p>
+			    <p>
+			    		Raman and I have been working on analysing the phonology and morphology in the Kobani dialect of the Kurdish language. It has been absolutely amazing, how much we have been learning from each other while working on this project! :D
+					</p>
+			    </td>
+			  </tr>
+			  			  
+			  <tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="/docs/pictures/proj-2022-ddlitlab-StudyToolkitVid.jpg" class="img-fluid img-thumbnail" alt="StudyToolkitVid">
+		      </td>
+		      <td><a href="https://github.com/christianschuler8989/StudyToolkitVid" target="_blank">StudyToolkitVid</a></td>
+		    </tr>
+		      <tr>
+			    <td>Oct. 2022 - Oct. 2023</td>
+			  </tr>
+			  <tr>
+			    <td>Our student research project "StudyToolkitVid", a toolkit to study human perception of video material. Mentored by Prof. Dr. Timo Baumann got funded by the DDLitLab for 10,000€ :D</td>
+			  </tr>
+			  
+			  <tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="/docs/pictures/proj-2018-university-woodmath.jpg" class="img-fluid img-thumbnail" alt="WoodenMath">
+		      </td>
+		      <td>Wooden Math</td>
+		    </tr>
+		      <tr>
+			    <td>2018</td>
+			  </tr>
+			  <tr>
+			    <td>In the second semester of studying computer science, two friends and I decided to have a little fun with our math tutor at the time and carved our assignment onto wood, painted it white, and then added black for better readability :D</td>
+			  </tr>
+			  
+			  <tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="/docs/pictures/proj-2018-games-cdprototype.jpg" class="img-fluid img-thumbnail" alt="CrazyDeck">
+		      </td>
+		      <td>Crazy Deck</td>
+		    </tr>
+		      <tr>
+			    <td>Nov. 2017 - ongoing</td>
+			  </tr>
+			  <tr>
+			    <td>Together with a dear friend (Domi), I designed and created the card game Crazy Deck. This took place over the entire time of us studying computer science at the university of Hamburg and will hopefully continue at some point when we find some free time again! :D</td>
+			  </tr>
+
 		  </tbody>
 		</table>   
     </div>
@@ -59,6 +127,7 @@ title: Projects
 </div>
 
 
+<!-- Comment
 
 <h2>Past projects</h2>
 
@@ -69,77 +138,29 @@ title: Projects
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/elexis_logo.jpeg" class="img-fluid img-thumbnail" alt="ELEXIS logo">
+			      <img src="/docs/images/file.jpg" class="img-fluid img-thumbnail" alt="NAME logo">
 		      </td>
-		      <td><a href="https://elex.is" target="_blank">ELEXIS - European Lexicographic Infrastructure</a></td>
+		      <td><a href="URL-TO-PROJECT" target="_blank">TITLE</a></td>
 		    </tr>
 		    <tr>
-			    <td>2018-2022</td>
+			    <td>date-date</td>
 			  </tr>
 			  <tr>
 			    <td>
 			    	<p>
-			    		Linking lexical resources is a challenge that requires impractical amounts of human efforts, but is still not easy to solve automatically. We develop methods that will make the linking problem viable for large resources, by using state-of-the-art semantic and natural language processing techniques. Our approaches are integrated as a single automated linking tool called <a href="https://github.com/insight-centre/naisc" target="_blank">NAISC</a> /naʃk/ which facilitates any linking problem for any type of input, from tabular to ontological.
+			    		Description of project <a href="URL" target="_blank">LINK-NAME</a> more description.
 						</p>
-						<p>Thank to ELEXIS and all colleagues who accomplished such an amazing project!</p>
-						<p><a href="/docs/pictures/ELEXIS_last_meeting.jpg" target="_blank"><img src="/docs/pictures/ELEXIS_last_meeting.jpg" class="img-fluid img-thumbnail" alt="ELEXIS last meeting Florece 2022"></a></p>
+						<p>More text and then an image</p>
+						<p><a href="/docs/pictures/FILE.jpg" target="_blank"><img src="/docs/pictures/FILE.jpg" class="img-fluid img-thumbnail" alt="FILE Name"></a></p>
 					</td>
 			  </tr>
-		  	<tr>
-		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/Nexus-Linguarum_Web-Logo-head-08.png" class="img-fluid img-thumbnail" alt="NexusLinguarum logo">
-		      </td>
-		      <td><a href="https://nexuslinguarum.eu/" target="_blank">NexusLinguarum</a></td>
-		    </tr>
-		    <tr>
-			    <td>2021-2022</td>
-			 </tr>
-			  <tr>
-			    <td>I was a member of the WG1 focusing on cross-lingual data interlinking, access and retrieval in the Linguistic Linked Open Data (LLOD).</td>
-			  </tr>
-		  	<tr>
-		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/Kurdish_XeLaTeX_logo.png" class="img-fluid img-thumbnail" alt="Kurdish XeLaTeX logo">
-		      </td>
-		      <td><a href="https://kurdishxelatex.github.io/" target="_blank"><span class="latex">X<sub>Ǝ</sub>L<sup>A</sup>T<sub>E</sub>X</span> for Kurdish</a></td>
-		    </tr>
-		    <tr>
-			    <td>2019-2020</td>
-			 </tr>
-			  <tr>
-			    <td>This project started as a weekend project. Could you believe it was not possible to write a proper document in Kurdish in any of TeX engines without using the Persian or Arabic packages? Well, I spent quite a while adding Kurdish to <a href="https://github.com/reutenauer/polyglossia" target="_blank">Polyglossia</a> and <a href="https://github.com/latex3/babel/" target="_blank">Babel</a>. Find a bunch of sample documents <a href="https://github.com/KurdishXeLaTeX/Support" target="_blank">here</a>.</td>
-			  </tr>
-		    <tr>
-		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/kb_logo.png" class="img-fluid img-thumbnail" alt="Kurdish-BLARK logo">
-		      </td>
-		      <td><a href="https://kurdishblark.github.io/" target="_blank">Kurdish Basic Language Resource Kit (BLARK)</a></td>
-		    </tr>
-			<tr>
-			    <td>2017-2020</td>
-			</tr>
-			<tr>
-			<td>
-				The Kurdish BLARK (Basic Language Resource Kit) aims at providing resources for the Kurdish language. As a project leader, I was involved in the development of resources and technology for Kurdish language processing, including electronic lexicons based on Ontolex-Lemon, corpus of oral material and parallel corpora. A few particular examples are <a href="https://kurdishblark.github.io/KurdishLyricsCorpus/" target="_blank">the Kurdish Folkloric Lyrics Corpus</a> and <a href="https://github.com/KurdishBLARK/InterdialectCorpus" target="_blank">Kurdish parallel corpora</a>.</td>
-			</tr>
-		     <tr>
-		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/klpp.jpg" class="img-fluid img-thumbnail" alt="KLPP logo">
-		      </td>
-		      <td><a href="http://klpp.github.io/" target="_blank">Kurdish Language Processing Project (KLPP)</a></td>
-		    </tr>
-		    <tr>
-			    <td>2013</td>
-			</tr>
-			<tr>
-				<td>As a bachelor's student, I was a volunteer in this project mostly by providing <a href="https://wiki.apertium.org/wiki/Sorani" target="_blank">linguistic support</a> regarding the Sorani dialect of Kurdish for implementing fundamental tools for Kurdish processing and resources such as <a href="https://github.com/klpp/kurdnet" target="_blank">KurdNet–the Kurdish WordNet</a>. For the latter, I translated the Princeton WordNet synsets and definitions into Sorani. I believe this was a remarkable project as a pioneer in Kurdish language processing from 2009.</td>
-			</tr>
 		  </tbody>
 		</table>   
     </div>
   </div>
 </div>
- 
+
+Comment -->
 
 
 </body>

@@ -5,30 +5,34 @@ narrow: false
 title: Teaching
 ---
 
-### George Mason University (Instructor)
+### [University of Hamburg](https://www.uni-hamburg.de/en.html)
 
-#### 2023
+#### 2023 - 2024
 
-- Advanced Natural Language Processing ([CS 678](https://nlp.cs.gmu.edu/course/cs678-spring23/){:target="_blank"})
+As part of the "D³ Innovation Lab" project, an initiative to further student's data literacy, I held a workshop and worked in teaching. Lead by Stephan Leible and Dr. Maren Gierlich-Joas. (University of Hamburg, Faculty of Informatics)
 
-#### 2022
+- In a workshop I introduced students to a 3D-room planner software.
+Afterwards the students, in groups of 2-3, designed an exploration room and documented their process and decisions.
+Their designs are supposed to be the basis for an actual room at the University of Hamburg, providing students a place to work and study in groups or alone.
 
-- Kurdish Computational Linguistics Course -- completely free, online and in Kurdish ([Course page](https://sinaahmadi.github.io/KurdishCL/){:target="_blank"} / [Videos](https://www.youtube.com/watch?v=cBuT4O4V2bk&list=PLkLLH3XpCIcHf6G0ZeKsq6558aPPr3UeV){:target="_blank"})
+#### Autumn 2021
 
-### University of Galway (Tutor)
+- Grading exams of the university module Dialoguesystems (ger: Sprachdialogsysteme) by Dr. Timo Baumann. (University of Hamburg, Faculty of Informatics)
 
 #### Spring 2021
 
-- Linked Data ([DER5101](http://www.nuigalway.ie/courses/taught-postgraduate-courses/computer-science-artificial-intelligence.html#course_outline){:target="_blank"})
+- Tutoring students in exercise classes of Software development 2 (ger: Softwareentwicklung 2) by Univ.-Prof. Dr.-Ing. habil. Matthias Riebisch. (University of Hamburg, Faculty of Informatics)
+
+#### Autumn 2020 
+
+- Tutoring students in exercise classes of Software development 1 (ger: Softwareentwicklung 1) by Prof. Dr. Walid Maalej. (University of Hamburg, Faculty of Informatics)
 
 
-#### Spring 2020 
+### [Ida Ehre Schule](https://www.idaehreschule.de/){:target="_blank"}
 
-- Advanced Topics in Natural Language Processing ([CT5121](http://www.nuigalway.ie/courses/taught-postgraduate-courses/computer-science-artificial-intelligence.html#course_outline){:target="_blank"})
-- Linked Data ([DER5101](http://www.nuigalway.ie/engineering-informatics/information-technology/prospectivestudents/msccomputersciencedataanalytics/index.html/programmeinformation/){:target="_blank"})
+#### 2015 - 2021
 
-
-#### Spring 2019
-
-- Advanced Topics in Natural Language Processing ([CT5121](http://www.nuigalway.ie/courses/taught-postgraduate-courses/computer-science-artificial-intelligence.html#course_outline){:target="_blank"})
+- From 2015 until 2021, I actively supported teaching by helping children with learning disabilities and other challenges. 
+- Starting 2017 I additionally supported in the management of study and teaching materials. 
+- In 2021 I taught a summer course in math as part of the "Hamburger Lernferien". 
 

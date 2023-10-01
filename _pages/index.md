@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Sina Ahmadi's Personal Page
+title: Welcome to Christian Schuler's Personal Page
 ---
 
 {% include components/intro.md %}
@@ -19,11 +19,11 @@ title: Welcome to Sina Ahmadi's Personal Page
 
 <!-- ### News about me
 
-* [15/10/2019] I am an organiser of the 6th [Insight Student Conference](http://studentconference2020.insight-centre.org/){:target="_blank"}
-* [10/06/2019] Research visit to Denmark to explore Danish lexicographic data linking. [[Read more]](https://sinaahmadi.github.io/posts/research-visit-to-copenhagen.html)
-* [19/05/2019] Presented a poster in the [Language, Data and Knowledge](http://2019.ldk-conf.org/call-for-papers/){:target="_blank"} conference in Leipzig, Germany [[Poster]](../docs/posters/ahmadi2019lexical_poster.pdf) [[Paper]](https://aran.library.nuigalway.ie/bitstream/handle/10379/15214/LDK_2019_paper_51.pdf)
-* [17/05/2019] Participated in the [3rd Summer Datathon on Linguistic Linked Open Data](https://datathon2019.linguistic-lod.org/){:target="_blank"} in Dagstuhl. [[Read more]](http://sinaahmadi.github.io/posts/summer-datathon-in-dagstuhl.html)
-* [09/05/2019] Presented a summary of my Ph.D. progress in the Ph.D. day of our unit [[Slides]](../docs/PhD_Day2019_Sina_Ahmadi.pdf){:target="_blank"}
+* [15/10/2019] I am an organiser of the Xth [CONFERENCE-NAME](URL){:target="_blank"}
+* [10/06/2019] Research visit to COUNTRY to explore TOPIC. [[Read more]](URL)
+* [19/05/2019] Presented a poster in the [EVENT-NAME](URL){:target="_blank"} conference in CITY, COUNTRY [[Poster]](../docs/posters/POSTER-FILE.pdf) [[Paper]](URL)
+* [17/05/2019] Participated in the [Xth EVENT-NAME](URL){:target="_blank"} in LOCATION. [[Read more]](URL)
+* [09/05/2019] Presented a summary of my Ph.D. progress in the Ph.D. day of our unit [[Slides]](../docs/SLIDE-FILE.pdf){:target="_blank"}
 * [20/02/2019] I'll be a tutor in the [3rd Summer Datathon on Linguistic Linked Open Data](https://datathon2019.linguistic-lod.org/){:target="_blank"} in May.
 * [06/12/2018] Gave a talk and presented a poster at the [Workshop on eLexicography](https://lexdhai.insight-centre.org/){:target="_blank"} [[Poster]](../docs/elex_workshop.pdf) [[Abstract]](https://lexdhai.insight-centre.org/Lex_DH__AI_2018_paper_4.pdf){:target="_blank"}
 * [22/10/2018] Presented a summary of my Ph.D. progress in the Ph.D. day of our unit [[Slides]](https://nuig.insight-centre.org/unlp/wp-content/uploads/sites/18/2018/10/15th_PhD_DaySina_Ahmadi.pdf){:target="_blank"}

@@ -1,44 +1,53 @@
 - caption: GitHub
-  href: https://github.com/sinaahmadi
+  href: https://github.com/christianschuler8989
   icon: entypo/github-with-circle.svg
 
 - caption: Email
-  href: mailto:ahmadi.sina@outlook.com
+  href: mailto:christianschuler8989@gmail.com
   icon: entypo/email.svg
 
 - caption: ORCID
-  href: http://orcid.org/0000-0001-7904-6551
+  href: http://orcid.org/0000-0002-2686-6350
   icon: entypo/orcid_24x24.svg
 
 - caption: Google Scholar
-  href: https://scholar.google.fr/citations?user=adu3L94AAAAJ&hl=en
+  href: https://scholar.google.com/citations?user=fDRwBrEAAAAJ&hl=en
   icon: entypo/graduation-cap.svg
 
-- caption: Stack Overflow
-  href: https://tex.stackexchange.com/users/81967/sina-ahmadi
-  icon: entypo/stack-overflow.svg
+- caption: Research Gate
+  href: https://www.researchgate.net/profile/Christian-Schuler
+  icon: entypo/shield.svg
+
+- caption: LinkedIn
+  href: https://www.linkedin.com/in/christian-schuler-59090a177/
+  icon: entypo/linkedin-with-circle.svg
+
+
+#- caption: Stack Overflow
+#  href: https://tex.stackexchange.com/users/81967/sina-ahmadi
+#  icon: entypo/stack-overflow.svg
 #https://stackoverflow.com/story/sinaahm
 
-- caption: Twitter
-  href: https://www.twitter.com/sina_ahm
-  icon: entypo/twitter-with-circle.svg
+#- caption: Twitter
+#  href: https://www.twitter.com/sina_ahm
+#  icon: entypo/twitter-with-circle.svg
 
-- caption: YouTube
-  href: https://www.youtube.com/channel/UCEnbUkiYHKxTvAeNRTVhxIQ
-  icon: entypo/youtube.svg
+#- caption: YouTube
+#  href: https://www.youtube.com/channel/UCEnbUkiYHKxTvAeNRTVhxIQ
+#  icon: entypo/youtube.svg
 
 # - caption: Google Maps
 #
 #   icon: entypo/Google_Photos_icon.svg
 
-- caption: FOAF
-  href: foaf.rdf
-  icon: entypo/rdf.svg
+#- caption: FOAF
+#  href: foaf.rdf
+#  icon: entypo/rdf.svg
 
-- caption: Fairfax, Virginia
-  href: https://goo.gl/maps/m8xEeCHte4BJFQBJA
-  icon: entypo/location-pin.svg
+#- caption: Fairfax, Virginia
+#  href: https://goo.gl/maps/m8xEeCHte4BJFQBJA
+#  icon: entypo/location-pin.svg
 
-- caption: RSS
-  href: feed.xml
-  icon: entypo/rss.svg
+#- caption: RSS
+#  href: feed.xml
+#  icon: entypo/rss.svg

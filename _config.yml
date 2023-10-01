@@ -8,11 +8,11 @@ highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            Sina Ahmadi's Personal Page # Site title
-name:             Sina Ahmadi              # Your name
-affiliation:      Researcher & adjunct lecturer              # Your name
-avatar:           /docs/P_20180307_160121_BF.png   # Path to an avatar image
-author:           Sina Ahmadi
+title:            Christian Schuler's Personal Page # Site title
+name:             Christian Schuler              # Your name
+affiliation:      NLP-Enthusiast and Student at University of Hamburg              # Your name
+avatar:           /docs/pictures/profile-2023.png   # Path to an avatar image
+author:           Christian Schuler
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
 #baseurl: "/Users/sina/My_GitHub/sinaahmadi.github.io/"
@@ -26,7 +26,7 @@ plugins:
 
 # Disqus Comments
 disqus:
-    shortname: sinaahmadi
+    shortname: christianschuler
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_pages", "_portfolio"]
