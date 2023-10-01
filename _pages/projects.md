@@ -53,7 +53,7 @@ title: Projects
 			  <tr>
 			    <td>
 			    <p>
-			    		Towards a Complete Mapping of Kurdish Dialectology
+			    		Towards a Complete Mapping of Kurdish Dialectology.
 					</p>
 			    <p>
 			    		Together with my dear friend Raman, I have been working on creating an interactive map of the Kurdish dialects. This map is still very much work-in-progress, but it already seems quite promising! :D
@@ -73,7 +73,7 @@ title: Projects
 			  <tr>
 			    <td>
 			    <p>
-			    		Analysis of Phonology and Morphology in the Kobani Dialect
+			    		Analysis of Phonology and Morphology in the Kobani Dialect.
 					</p>
 			    <p>
 			    		Raman and I have been working on analysing the phonology and morphology in the Kobani dialect of the Kurdish language. It has been absolutely amazing, how much we have been learning from each other while working on this project! :D

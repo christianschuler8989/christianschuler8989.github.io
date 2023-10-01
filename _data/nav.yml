@@ -4,20 +4,23 @@
 - title: About
   href: about.html
 
+- title: Projects
+  href: projects.html
+
 - title: Publications
   href: publications.html
 
 - title: Teaching
   href: teaching.html
   
-- title: Posts
-  href: list/posts.html
-
-- title: Projects
-  href: projects.html
-
 - title: Talks
   href: talks.html
+  
+#- title: Events
+#  href: events.html
+  
+- title: Posts
+  href: list/posts.html
 
 #- title: Resources
 #  href: list/resources.html

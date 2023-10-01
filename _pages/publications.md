@@ -35,7 +35,7 @@ Shravan Nayak, <u>Christian Schuler</u>, Debjoy Saha and Timo Baumann
 
 1. **Lip-Synched**   
 Timo Baumann and <u>Christian Schuler</u>
-Linux Magazine Issue 267/2023
+*Linux Magazine Issue 267/2023*
 This is the English translated version of Timo's and my linux-article from 2022.
 [[Article]](https://www.linux-magazine.com/Issues/2023/267/Natural-Language-Processing){:target="_blank"}
 
@@ -45,7 +45,7 @@ This is the English translated version of Timo's and my linux-article from 2022.
 
 1. **Natural Language Processing mit Neuronalen Netzen**
 Timo Baumann and <u>Christian Schuler</u>
-Linux Magazine 10/2022
+*Linux Magazine 10/2022*
 This article is about natural language processing with neural networks and lip-synchrony in dubbing.
 [[Article]](https://www.linux-magazin.de/ausgaben/2022/10/nlp/){:target="_blank"}
 
