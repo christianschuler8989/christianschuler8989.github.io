@@ -5,7 +5,6 @@ narrow: false
 title: Events
 ---
 
-
 <html>
 <head>
 		<style>
@@ -22,7 +21,9 @@ title: Events
 
 <body>
 
-Always attending- sometimes presenting (⭐)
+<p>
+	Always attending- sometimes presenting (⭐)
+</p>
 
 <div class="container">
   <div class="row">
@@ -107,7 +108,8 @@ Always attending- sometimes presenting (⭐)
 
 				<tr>
 		      <td class="w-25" rowspan="8">
-			      <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
+				  <a href="/docs/pictures/event-2023-ICKL6-group.jpeg" target="_blank"><img src="/docs/pictures/event-2023-ICKL6-group.jpeg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
+				  <!-- <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a> -->
 		      </td>
 		      <td><b><a href="https://www.uni-frankfurt.de/141901385/ContentPage_141901385?" target="_blank">6th International Conference on Kurdish Linguistics</a></b></td>
 		    </tr>
