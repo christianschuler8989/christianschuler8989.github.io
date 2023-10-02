@@ -91,7 +91,7 @@ title: Events
 				    	Here I presented inside a "Pitch Session" our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas)
 		   			</p>
 						<p>
-	    				<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="300" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
+	    				<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="250" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
 		   			</p>
 						<p>
 							This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D

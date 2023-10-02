@@ -2,7 +2,7 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Christian Schuler's Personal Page
+title: Halli und Hallo and Welcome to Christian Schuler's Personal Page
 ---
 
 {% include components/intro.md %}
