@@ -49,31 +49,3 @@ Timo Baumann and <u>Christian Schuler</u>
 This article is about natural language processing with neural networks and lip-synchrony in dubbing.   
 [[Article]](https://www.linux-magazin.de/ausgaben/2022/10/nlp/){:target="_blank"}
 
-
-
-<!-- 
-
-<div align="center" style="background-color:lightblue">
-	<b>SUBCATEGORY</b>
-</div>
-
-1. **Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources**   
-(Thesis) <u>Sina Ahmadi</u>   
-*National University of Ireland Galway*   
-[[Thesis]](docs/Thesis_Sina_Ahmadi.pdf){:target="_blank"} [[Viva]](docs/slides/Viva.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2022thesis.txt){:target="_blank"}  
-
----
-
-### MAIN CATEGORY
-
-<div align="center" style="background-color:mediumseagreen" id="klp">
-		<b>SUBCATEGORY</b>
-</div>
-
-1. **Revisiting and Amending Central Kurdish Data on UniMorph 4.0**   
-<u>Sina Ahmadi</u> and Aso Mahmudi    
-(To appear) *The 20th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology at ACL2023*   
-[[Paper]](docs/articles/ahmadi2023sigmorphon.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023sigmorphon_slides.pdf){:target="_blank"} [[Resource]](https://github.com/unimorph/ckb){:target="_blank"} [[bib]](bibliography/ahmadi2023sigmorphon.txt){:target="_blank"}  
-
- -->
-
