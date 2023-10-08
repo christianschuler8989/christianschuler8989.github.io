@@ -30,7 +30,7 @@ title: Projects
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="/docs/pictures/proj-2023-ddlitlab-TextAsCorpusRep.jpg" class="img-fluid img-thumbnail" alt="TextAsCorpusRep">
+			      <img src="/docs/images/2023-Logo-TextAsCorpusRep.png" class="img-fluid img-thumbnail" alt="TextAsCorpusRep-Logo">
 		      </td>
 		      <td><a href="https://github.com/Low-ResourceDialectology/TextAsCorpusRep" target="_blank">TextAsCorpusRep</a></td>
 		    </tr>
@@ -38,12 +38,14 @@ title: Projects
 			    <td>Oct. 2023 - Apr. 2024</td>
 			  </tr>
 			  <tr>
-			    <td>Our student research project "TextAsCorpusRep", a corpus of text data to advance machine translations of low-resource languages. Mentored by Dr. Seid Muhie Yimam got funded by the DDLitLab for up to 10,000€ :D</td>
+			    <td>
+			    <img src="/docs/pictures/proj-2023-ddlitlab-TextAsCorpusRep.jpg" class="img-fluid img-thumbnail" alt="TextAsCorpusRep-DDLitLab">
+			    Our student research project "TextAsCorpusRep", a corpus of text data to advance machine translations of low-resource languages. Mentored by Dr. Seid Muhie Yimam got funded by the DDLitLab for up to 10,000€ :D</td>
 			  </tr>
 			  
 			  <tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="/docs/pictures/proj-2023-kurdish-dialectmapping-500x333.png" class="img-fluid img-thumbnail" alt="DialectMapping">
+			      <img src="/docs/images/2023-Logo-DialectMapping.png" class="img-fluid img-thumbnail" alt="DialectMapping-Logo">
 		      </td>
 		      <td><a href="https://github.com/Low-ResourceDialectology/DialectMapping" target="_blank">Dialect Mapping</a></td>
 		    </tr>
@@ -56,6 +58,7 @@ title: Projects
 			    		Towards a Complete Mapping of Kurdish Dialectology.
 					</p>
 			    <p>
+  			      <img src="/docs/pictures/proj-2023-kurdish-dialectmapping-500x333.png" class="img-fluid img-thumbnail" alt="DialectMapping">
 			    		Together with my dear friend Raman, I have been working on creating an interactive map of the Kurdish dialects. This map is still very much work-in-progress, but it already seems quite promising! :D
 					</p>
 			    </td>
@@ -63,7 +66,7 @@ title: Projects
 			  
 			  <tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="/docs/pictures/proj-2023-kurdish-kobanianalysis-500x333.png" class="img-fluid img-thumbnail" alt="KobaniAnalysis">
+			      <img src="/docs/images/2023-Logo-KobaniAnalysis.png" class="img-fluid img-thumbnail" alt="KobaniAnalysis-Logo">
 		      </td>
 		      <td><a href="https://github.com/Low-ResourceDialectology/KobaniAnalysis" target="_blank">Kobani Analysis</a></td>
 		    </tr>
@@ -76,7 +79,8 @@ title: Projects
 			    		Analysis of Phonology and Morphology in the Kobani Dialect.
 					</p>
 			    <p>
-			    		Raman and I have been working on analysing the phonology and morphology in the Kobani dialect of the Kurdish language. It has been absolutely amazing, how much we have been learning from each other while working on this project! :D
+			    	<img src="/docs/pictures/proj-2023-kurdish-kobanianalysis-500x333.png" class="img-fluid img-thumbnail" alt="KobaniAnalysis">
+		    		Raman and I have been working on analysing the phonology and morphology in the Kobani dialect of the Kurdish language. It has been absolutely amazing, how much we have been learning from each other while working on this project! :D
 					</p>
 			    </td>
 			  </tr>
@@ -91,7 +95,10 @@ title: Projects
 			    <td>Oct. 2022 - Oct. 2023</td>
 			  </tr>
 			  <tr>
-			    <td>Our student research project "StudyToolkitVid", a toolkit to study human perception of video material. Mentored by Prof. Dr. Timo Baumann got funded by the DDLitLab for 10,000€ :D</td>
+			    <td>
+			      <img src="/docs/images/2022-Logo-StudyToolkitVid.png" class="img-fluid img-thumbnail" alt="StudyToolkitVid">
+			    	Our student research project "StudyToolkitVid", a toolkit to study human perception of video material. Mentored by Prof. Dr. Timo Baumann got funded by the DDLitLab for 10,000€ :D
+		    	</td>
 			  </tr>
 			  
 			  <tr>
