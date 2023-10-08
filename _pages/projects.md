@@ -87,7 +87,7 @@ title: Projects
 			  			  
 			  <tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="/docs/pictures/proj-2022-ddlitlab-StudyToolkitVid.jpg" class="img-fluid img-thumbnail" alt="StudyToolkitVid">
+			      <img src="/docs/images/2022-Logo-StudyToolkitVid.png" class="img-fluid img-thumbnail" alt="StudyToolkitVid">
 		      </td>
 		      <td><a href="https://github.com/christianschuler8989/StudyToolkitVid" target="_blank">StudyToolkitVid</a></td>
 		    </tr>
@@ -96,7 +96,7 @@ title: Projects
 			  </tr>
 			  <tr>
 			    <td>
-			      <img src="/docs/images/2022-Logo-StudyToolkitVid.png" class="img-fluid img-thumbnail" alt="StudyToolkitVid">
+			      <img src="/docs/pictures/proj-2022-ddlitlab-StudyToolkitVid.jpg" class="img-fluid img-thumbnail" alt="StudyToolkitVid">
 			    	Our student research project "StudyToolkitVid", a toolkit to study human perception of video material. Mentored by Prof. Dr. Timo Baumann got funded by the DDLitLab for 10,000€ :D
 		    	</td>
 			  </tr>
