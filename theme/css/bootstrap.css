@@ -6181,7 +6181,7 @@ button.bg-dark:focus {
   border-radius: 0 !important;
 }
 
-/* Christian: Hexagon is Bestagon! */
+/* Christian: Hexagon is Bestagon! Approach A */
 .hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   background: url("{{ site.baseurl }}{{ site.avatar }}") no-repeat;
@@ -6190,6 +6190,31 @@ button.bg-dark:focus {
   margin: 10px auto;
   height: 200px;
   width: 200px;      
+}
+
+/* Christian: Hexagon is Bestagon! Approach B */
+svg{
+  width:30%;
+  margin:0 auto;
+}
+#hex{
+  stroke-width:2;
+  stroke: teal;
+  fill-opacity:0.6;
+  transition:fill-opacity .8s;
+}
+svg:hover #hex {
+  fill-opacity:1;
+}
+#text{
+  stroke-width:0.5;
+  stroke:teal;
+  fill-opacity:0.4;
+  fill:teal;
+  transition:fill-opacity .8s;
+}
+svg:hover #text{
+  fill-opacity:1;
 }
 
 .clearfix::after {
