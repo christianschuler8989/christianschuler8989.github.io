@@ -1,4 +1,4 @@
- .hll, .highlight pre { background-color: #333; border: 0; padding: 5px; border-radius: 3px; padding-left: 10px;}
+.hll, .highlight pre { background-color: #333; border: 0; padding: 5px; border-radius: 3px; padding-left: 10px;}
  .highlight pre code {font-size: 12px; color: #eee;}
  .c { color: #75715e } /* Comment */
  .err { color: #960050; background-color: #1e0010 } /* Error */
