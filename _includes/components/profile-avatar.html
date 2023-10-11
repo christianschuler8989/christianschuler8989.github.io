@@ -1,7 +1,31 @@
-<!-- Avatar in Hexagon Shape - Approach B --> 
+<!-- Avatar in Hexagon Shape - Approach C -->
 <p class="card-text d-none d-sm-block">
-    <!--<svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">--> 
-    <svg height="100%" width="100%" viewBox="0 0 100 100" preserveAspectRatio="none">    
+    <a href="{{site.baseurl}}{% link _pages/index.md %}">
+        <!-- <img class="profile-image rounded-circle w-75"  src="{{ site.baseurl }}{{ site.avatar }}" /> -->
+        <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="img" patternUnits="userSpaceOnUse" width="200" height="200">
+                    <image class="profile-image" xlink:href="{{ site.baseurl }}{{ site.avatar }}" x="-25" width="200" height="200" />
+                </pattern>
+            </defs>
+            <polygon id="hex" points="100,1 199,50 199,150 100,199 1,150 1,50" fill="url(#img)"/>
+        </svg>
+    </a>
+</p>
+<h3 class="card-title d-none d-sm-block">
+    <font color="#50C878">  <!-- Emerald -->
+        <b>
+            {{site.name}}
+        </b>
+    </font>
+</h3>
+<h4>{{site.affiliation}}</h4>
+
+<polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+
+<!-- Avatar in Hexagon Shape - Approach B 
+<p class="card-text d-none d-sm-block">
+    <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <pattern id="img" patternUnits="userSpaceOnUse" width="200" height="200">
                 <image class="profile-image" xlink:href="{{ site.baseurl }}{{ site.avatar }}" x="-25" width="200" height="200" />
@@ -11,13 +35,14 @@
     </svg>
 </p>
 <h2 class="card-title d-none d-sm-block">
-    <font color="#50C878">  <!-- Emerald -->
+    <font color="#50C878"> 
         <b>
             {{site.name}}
         </b>
     </font>
 </h2>
 <h4>{{site.affiliation}}</h4>
+--> 
 
 <!-- Avatar in Hexagon Shape - Approach A
 <p class="card-text d-none d-sm-block">
@@ -28,7 +53,8 @@
 </p>
 <h3 class="card-title d-none d-sm-block">{{site.name}}</h3>
 <h4>{{site.affiliation}}</h4>
- --> 
+--> 
+
 
 <!-- Avatar in Circle Shape
 <p class="card-text d-none d-sm-block">
