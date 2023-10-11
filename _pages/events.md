@@ -32,7 +32,7 @@ title: Events
 			<tbody>
 				<!-- 2023 Digital Total ##################################################### -->
 				<tr>
-					<td class="w-25" rowspan="3">
+					<td class="w-25" rowspan="2">
 						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
 					</td>
 					<td>
@@ -46,22 +46,23 @@ title: Events
 				</tr>
 				<tr>
 					<td>
-						⏱ 09.-10. October, 2023 📝 English <br>
-						📍 
-						<a href="https://www.hcds.uni-hamburg.de/en/hcds.html" target="_blank">
-							House of Computing & Data Science
-						</a>
-						, Hamburg, Germany
-					</td>
-				</tr>
-				<tr>
-					<td>
-						💡 Conference aimed at publicly highlight and consolidate the important data science/AI/computation themes in Hamburg's academic scene.
+						<p>
+							⏱ 09.-10. October, 2023 📝 English
+						</p>
+						<p>
+							📍 
+							<a href="https://www.hcds.uni-hamburg.de/en/hcds.html" target="_blank">
+								House of Computing & Data Science, Hamburg, Germany
+							</a>	
+						</p>
+						<p>
+							💡 Conference aimed at publicly highlight and consolidate the important data science/AI/computation themes in Hamburg's academic scene.	
+						</p>
 					</td>
 				</tr>
 				<!-- 2023 EASIER ##################################################### -->
 				<tr>
-					<td class="w-25" rowspan="5">
+					<td class="w-25" rowspan="3">
 						<a href="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" target="_blank"><img src="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
 					</td>
 					<td>
@@ -75,31 +76,30 @@ title: Events
 				</tr>
 				<tr>
 					<td>
-						⏱ 25.-26. September, 2023 📝 English & International Sign Language 
+						<p>
+							⏱ 25.-26. September, 2023 📝 English & International Sign Language
+						</p>
+						<p>
+							📍 
+							<a href="https://www.idgs.uni-hamburg.de/en.html" target="_blank">
+								Institute of German Sign Language and Communication of the Deaf, Hamburg, Germany
+							</a>
+						</p>
+						<p>
+							💡 Workshop aimed at bridging the gap between data scientists and sign language experts, advancing collaborative endevors.
+						</p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						📍 
-						<a href="https://www.idgs.uni-hamburg.de/en.html" target="_blank">
-							Institute of German Sign Language and Communication of the Deaf
-						</a>
-						, Hamburg, Germany
-					</td>
-				</tr>
-				<tr>
-					<td>
-						💡 Workshop aimed at bridging the gap between data scientists and sign language experts, advancing collaborative endevors.
-					</td>
-				</tr>
-				<tr>
-					<td>
-						I got to meet many amazingly kind people, learned a lot from the given talks by experts and saw very inspiring project-posters that left me with way too many ideas to follow up on :D
+						<p>
+							I got to meet many amazingly kind people, learned a lot from the given talks by experts and saw very inspiring project-posters that left me with way too many ideas to follow up on :D	
+						</p>
 					</td>
 				</tr>
 				<!-- 2023 TURN ##################################################### -->
 				<tr>
-					<td class="w-25" rowspan="7">
+					<td class="w-25" rowspan="3">
 						<a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
 					</td>
 					<td>
@@ -112,30 +112,25 @@ title: Events
 				</tr>
 				<tr>
 					<td>
-						⏱ 13.-15. September, 2023 📝 German
+						<p>
+							⏱ 13.-15. September, 2023 📝 German
+						</p>
+						<p>
+							📍 
+							<a href="https://www.th-koeln.de/en/" target="_blank">
+								TH Köln - University of Applied Sciences, Cologne, Germany
+							</a>
+						</p>
+						<p>
+							💡 Conference aimed at sharing and collectively developing innovative teaching concepts for the education of the future.
+						</p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						📍 
-						<a href="https://www.th-koeln.de/en/" target="_blank">
-							TH Köln - University of Applied Sciences
-						</a>
-						, Cologne, Germany
-					</td>
-				</tr>
-				<tr>
-					<td>
-						💡 Conference aimed at sharing and collectively developing innovative teaching concepts for the education of the future.
-					</td>
-				</tr>
-				<tr>
-					<td>
-						⭐ (Pitch Session) Data-driven Digital Innovation Lab
-					</td>		    	
-				</tr>
-				<tr>
-					<td>
+						<p>
+							⭐ (Pitch Session) Data-driven Digital Innovation Lab
+						</p>
 						<p>			    
 							Here I presented inside a "Pitch Session" our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas)
 						</p>
@@ -160,7 +155,7 @@ title: Events
 				</tr>
 				<!-- 2023 ICKL ##################################################### -->
 				<tr>
-					<td class="w-25" rowspan="8">
+					<td class="w-25" rowspan="6">
 						<a href="/docs/pictures/event-2023-ICKL6-group.jpeg" target="_blank"><img src="/docs/pictures/event-2023-ICKL6-group.jpeg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
 						<!-- <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a> -->
 					</td>
@@ -174,43 +169,46 @@ title: Events
 				</tr>
 				<tr>
 					<td>
-						⏱ 04.-05. September, 2023 📝 English
+						<p>
+							⏱ 04.-05. September, 2023 📝 English
+						</p>
+						<p>
+							📍 
+							<a href="https://www.goethe-university-frankfurt.de/en?locale=en" target="_blank">
+								Goethe Universität, Frankfurt am Main, Germany
+							</a>
+						</p>
+						<p>
+							💡 Conference aimed at the low-resource language Kurdish and any neighboring or contacting languages with a linguistic focus.
+						</p>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						📍 
-						<a href="https://www.goethe-university-frankfurt.de/en?locale=en" target="_blank">
-							Goethe Universität
-						</a>
-						, Frankfurt am Main, Germany
-					</td>
-				</tr>
-				<tr>
-					<td>
-						💡 Conference aimed at the low-resource language Kurdish and any neighboring or contacting languages with a linguistic focus.
-					</td>
-				</tr>
-				<tr>
-					<td>
-						⭐ (Poster Session) Analysis of Phonology and Morphology in the Kobani Dialect (Raman Ahmad, Christian Schuler) → 
-						<a href="https://github.com/Low-ResourceDialectology/KobaniAnalysis" target="_blank">
-							Kobani Analysis
-						</a>
+						<p>
+							⭐ (Poster Session) Analysis of Phonology and Morphology in the Kobani Dialect (Raman Ahmad, Christian Schuler) → 
+							<a href="https://github.com/Low-ResourceDialectology/KobaniAnalysis" target="_blank">
+								Kobani Analysis
+							</a>
+						</p>
 					</td>		
 				</tr>
 				<tr>
 					<td>
-					⭐ (Poster Session) Towards a Complete Mapping of Kurdish Dialectology (Christian Schuler, Raman Ahmad) → 
-					<a href="https://github.com/Low-ResourceDialectology/DialectMapping" target="_blank">
-						Dialect Mapping
-					</a>
+						<p>
+							⭐ (Poster Session) Towards a Complete Mapping of Kurdish Dialectology (Christian Schuler, Raman Ahmad) → 
+							<a href="https://github.com/Low-ResourceDialectology/DialectMapping" target="_blank">
+								Dialect Mapping
+							</a>
+						</p>
 					</td>		
 				</tr>
 				<tr>
 					<td>
-						Here, Raman and I presented our projects as part of the poster session.
-						We had an amazing time and got to meet so many awesome people that we can't wait to see again in two years at the 7th ICKL! :D
+						<p>
+							Here, Raman and I presented our projects as part of the poster session.
+							We had an amazing time and got to meet so many awesome people that we can't wait to see again in two years at the 7th ICKL! :D	
+						</p>
 					</td>
 				</tr>
 				<tr>
