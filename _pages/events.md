@@ -32,7 +32,7 @@ title: Events
 			<tbody>
 				<!-- 2023 Digital Total ##################################################### -->
 				<tr>
-					<td class="w-25" rowspan="5">
+					<td class="w-25" rowspan="3">
 						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
 					</td>
 					<td>
@@ -46,11 +46,7 @@ title: Events
 				</tr>
 				<tr>
 					<td>
-							⏱ 09.-10. October, 2023 📝 English
-					</td>
-				</tr>
-				<tr>
-					<td>
+						⏱ 09.-10. October, 2023 📝 English <br>
 						📍 
 						<a href="https://www.hcds.uni-hamburg.de/en/hcds.html" target="_blank">
 							House of Computing & Data Science
