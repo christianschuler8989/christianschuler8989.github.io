@@ -1,7 +1,7 @@
 <!-- Avatar in Hexagon Shape - Approach B --> 
 <svg viewbox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+      <pattern id="img" patternUnits="userSpaceOnUse" width="200" height="200">
         <image xlink:href="{{ site.baseurl }}{{ site.avatar }}" x="-25" width="150" height="100" />
       </pattern>
     </defs>
@@ -9,7 +9,9 @@
 </svg>
 <h2 class="card-title d-none d-sm-block">
     <font color="#50C878">  <!-- Emerald -->
-        {{site.name}}
+        <b>
+            {{site.name}}
+        </b>
     </font>
 </h2>
 <h4>{{site.affiliation}}</h4>
