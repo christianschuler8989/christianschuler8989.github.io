@@ -47,7 +47,7 @@ title: Events
 				<tr>
 					<td>
 						<p>
-							⏱ 09.-10. October, 2023 📝 English
+							⏱ 09.-10. October, 2023 📝 English & German
 						</p>
 						<p>
 							📍 
@@ -57,6 +57,9 @@ title: Events
 						</p>
 						<p>
 							💡 Conference aimed at publicly highlight and consolidate the important data science/AI/computation themes in Hamburg's academic scene.	
+						</p>
+						<p>
+							💬 Yet another fun event on which Domi and I attended many interesting talks inbetween our cake-breaks! :D
 						</p>
 					</td>
 				</tr>
@@ -88,12 +91,8 @@ title: Events
 						<p>
 							💡 Workshop aimed at bridging the gap between data scientists and sign language experts, advancing collaborative endevors.
 						</p>
-					</td>
-				</tr>
-				<tr>
-					<td>
 						<p>
-							I got to meet many amazingly kind people, learned a lot from the given talks by experts and saw very inspiring project-posters that left me with way too many ideas to follow up on :D	
+							💬 I got to meet many amazingly kind people, learned a lot from the given talks by experts and saw very inspiring project-posters that left me with way too many ideas to follow up on :)
 						</p>
 					</td>
 				</tr>
@@ -124,6 +123,9 @@ title: Events
 						<p>
 							💡 Conference aimed at sharing and collectively developing innovative teaching concepts for the education of the future.
 						</p>
+						<p>
+							💬 This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D
+						</p>
 					</td>
 				</tr>
 				<tr>
@@ -136,9 +138,6 @@ title: Events
 						</p>
 							<p>
 							<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="250" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
-						</p>
-						<p>
-							This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D
 						</p>
 					</td>
 				</tr>
@@ -155,7 +154,7 @@ title: Events
 				</tr>
 				<!-- 2023 ICKL ##################################################### -->
 				<tr>
-					<td class="w-25" rowspan="6">
+					<td class="w-25" rowspan="5">
 						<a href="/docs/pictures/event-2023-ICKL6-group.jpeg" target="_blank"><img src="/docs/pictures/event-2023-ICKL6-group.jpeg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
 						<!-- <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a> -->
 					</td>
@@ -181,6 +180,10 @@ title: Events
 						<p>
 							💡 Conference aimed at the low-resource language Kurdish and any neighboring or contacting languages with a linguistic focus.
 						</p>
+						<p>
+							💬 Here, Raman and I presented our projects as part of the poster session.
+							We had an amazing time and got to meet so many awesome people that we can't wait to see again in two years at the 7th ICKL! :D	
+						</p>
 					</td>
 				</tr>
 				<tr>
@@ -202,14 +205,6 @@ title: Events
 							</a>
 						</p>
 					</td>		
-				</tr>
-				<tr>
-					<td>
-						<p>
-							Here, Raman and I presented our projects as part of the poster session.
-							We had an amazing time and got to meet so many awesome people that we can't wait to see again in two years at the 7th ICKL! :D	
-						</p>
-					</td>
 				</tr>
 				<tr>
 					<td>
