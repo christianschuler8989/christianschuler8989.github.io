@@ -31,7 +31,7 @@ title: Events
 			<table class="table table-image table-responsive">
 			<tbody>
 				<!-- 2023 Digital Total ##################################################### -->
-				<tr>
+				<tr> <!-- #1 -->
 					<td class="w-25" rowspan="2">
 						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
 					</td>
@@ -43,7 +43,7 @@ title: Events
 							- Computing & Data Science an der Universität Hamburg und in der Wissenschaftsmetropole Hamburg
 						</b>
 					</td>
-				</tr>
+				</tr> <!-- #2 -->
 				<tr>
 					<td>
 						<p>
@@ -64,7 +64,7 @@ title: Events
 					</td>
 				</tr>
 				<!-- 2023 EASIER ##################################################### -->
-				<tr>
+				<tr> <!-- #1 -->
 					<td class="w-25" rowspan="2">
 						<a href="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" target="_blank"><img src="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
 					</td>
@@ -77,7 +77,7 @@ title: Events
 						</b>
 					</td>
 				</tr>
-				<tr>
+				<tr> <!-- #2 -->
 					<td>
 						<p>
 							⏱ 25.-26. September, 2023 📝 English & International Sign Language
@@ -97,8 +97,8 @@ title: Events
 					</td>
 				</tr>
 				<!-- 2023 TURN ##################################################### -->
-				<tr>
-					<td class="w-25" rowspan="3">
+				<tr> <!-- #1 -->
+					<td class="w-25" rowspan="4">
 						<a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
 					</td>
 					<td>
@@ -109,7 +109,7 @@ title: Events
 						</b>
 					</td>
 				</tr>
-				<tr>
+				<tr> <!-- #2 -->
 					<td>
 						<p>
 							⏱ 13.-15. September, 2023 📝 German
@@ -131,7 +131,7 @@ title: Events
 						</p>
 					</td>
 				</tr>
-				<tr>
+				<tr> <!-- #3 -->
 					<td>
 						<p>
 							⭐ (Pitch Session) Data-driven Digital Innovation Lab
@@ -144,7 +144,7 @@ title: Events
 						</p>
 					</td>
 				</tr>
-				<tr>
+				<tr> <!-- #4 -->
 					<td>
 						<a href="docs/slides/2023-TURN-D3InnovationLab-Pitch.pdf" target="_blank">
 							Slides
@@ -156,7 +156,7 @@ title: Events
 					</td>
 				</tr>
 				<!-- 2023 ICKL ##################################################### -->
-				<tr>
+				<tr> <!-- #1 -->
 					<td class="w-25" rowspan="5">
 						<a href="/docs/pictures/event-2023-ICKL6-group.jpeg" target="_blank"><img src="/docs/pictures/event-2023-ICKL6-group.jpeg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
 						<!-- <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a> -->
@@ -169,7 +169,7 @@ title: Events
 						</b>
 					</td>
 				</tr>
-				<tr>
+				<tr> <!-- #2 -->
 					<td>
 						<p>
 							⏱ 04.-05. September, 2023 📝 English
@@ -189,7 +189,7 @@ title: Events
 						</p>
 					</td>
 				</tr>
-				<tr>
+				<tr> <!-- #3 -->
 					<td>
 						<p>
 							⭐ (Poster Session) Analysis of Phonology and Morphology in the Kobani Dialect (Raman Ahmad, Christian Schuler) → 
@@ -199,7 +199,7 @@ title: Events
 						</p>
 					</td>		
 				</tr>
-				<tr>
+				<tr> <!-- #4 -->
 					<td>
 						<p>
 							⭐ (Poster Session) Towards a Complete Mapping of Kurdish Dialectology (Christian Schuler, Raman Ahmad) → 
@@ -209,7 +209,7 @@ title: Events
 						</p>
 					</td>		
 				</tr>
-				<tr>
+				<tr> <!-- #5 -->
 					<td>
 					<a href="docs/posters/2023_Ahmad_Schuler_ICKL_KobaniAnalysis_Poster.pdf" target="_blank">
 						Poster (Kobani Analysis)
