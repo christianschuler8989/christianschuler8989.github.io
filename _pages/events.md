@@ -98,7 +98,7 @@ title: Events
 				</tr>
 				<!-- 2023 TURN ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-25" rowspan="5">
+					<td class="w-25" rowspan="2">
 						<a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
 					</td>
 					<td>
@@ -126,7 +126,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #3 -->
-					<td>
+					<td class="w-25" rowspan="1">
 						<p>
 							<a href="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" width="150" class="img-fluid img-thumbnail" alt="Cologne Dom with Domi"></a>
 						</p>
@@ -138,7 +138,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #4 -->
-					<td>
+					<td class="w-25" rowspan="1">
 						<p>
 							<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
 						</p>
