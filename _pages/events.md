@@ -156,7 +156,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #5 -->
-					<td>
+					<td class="w-100">
 						<a href="docs/slides/2023-TURN-D3InnovationLab-Pitch.pdf" target="_blank">
 							Slides
 						</a>
@@ -221,7 +221,7 @@ title: Events
 					</td>		
 				</tr>
 				<tr> <!-- #5 -->
-					<td>
+					<td class="w-100">
 					<a href="docs/posters/2023_Ahmad_Schuler_ICKL_KobaniAnalysis_Poster.pdf" target="_blank">
 						Poster (Kobani Analysis)
 					</a>
