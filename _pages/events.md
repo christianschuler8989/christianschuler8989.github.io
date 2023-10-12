@@ -22,7 +22,7 @@ title: Events
 <body>
 
 <p>
-	Always attending- sometimes presenting (⭐)
+	Always attending (💡)- sometimes presenting (⭐)
 </p>
 
 <div class="container">
