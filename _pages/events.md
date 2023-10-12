@@ -35,7 +35,7 @@ title: Events
 					<td class="w-25" rowspan="2">
 						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
 					</td>
-					<td>
+					<td class="w-75">
 						<b>
 							<a href="https://www.conferences.uni-hamburg.de/event/387/" target="_blank">
 								Digital Total
