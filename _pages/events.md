@@ -47,7 +47,7 @@ title: Events
 				<tr>
 					<td>
 						<p>
-							⏱ 09.-10. October, 2023 📝 English & German
+							⏱ 09.-10. October, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English & German
 						</p>
 						<p>
 							📍 
@@ -80,7 +80,7 @@ title: Events
 				<tr> <!-- #2 -->
 					<td>
 						<p>
-							⏱ 25.-26. September, 2023 📝 English & International Sign Language
+							⏱ 25.-26. September, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English & International Sign Language
 						</p>
 						<p>
 							📍 
@@ -98,7 +98,7 @@ title: Events
 				</tr>
 				<!-- 2023 TURN ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-25" rowspan="4">
+					<td class="w-25" rowspan="5">
 						<a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
 					</td>
 					<td>
@@ -112,7 +112,7 @@ title: Events
 				<tr> <!-- #2 -->
 					<td>
 						<p>
-							⏱ 13.-15. September, 2023 📝 German
+							⏱ 13.-15. September, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 German
 						</p>
 						<p>
 							📍 
@@ -123,15 +123,26 @@ title: Events
 						<p>
 							💡 Conference aimed at sharing and collectively developing innovative teaching concepts for the education of the future.
 						</p>
-						<p>
-							💬 This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D
-						</p>
-						<p>
-							<a href="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" width="250" class="img-fluid img-thumbnail" alt="Cologne Dom with Domi"></a>
-						</p>
 					</td>
 				</tr>
 				<tr> <!-- #3 -->
+					<td>
+						<p>
+							<a href="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" width="150" class="img-fluid img-thumbnail" alt="Cologne Dom with Domi"></a>
+						</p>
+					</td>
+					<td>
+						<p>
+							💬 This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D
+						</p>
+					</td>
+				</tr>
+				<tr> <!-- #4 -->
+					<td>
+						<p>
+							<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
+						</p>
+					</td>
 					<td>
 						<p>
 							⭐ (Pitch Session) Data-driven Digital Innovation Lab
@@ -139,12 +150,9 @@ title: Events
 						<p>			    
 							Here I presented inside a "Pitch Session" our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas)
 						</p>
-						<p>
-							<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="250" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
-						</p>
 					</td>
 				</tr>
-				<tr> <!-- #4 -->
+				<tr> <!-- #5 -->
 					<td>
 						<a href="docs/slides/2023-TURN-D3InnovationLab-Pitch.pdf" target="_blank">
 							Slides
@@ -172,7 +180,7 @@ title: Events
 				<tr> <!-- #2 -->
 					<td>
 						<p>
-							⏱ 04.-05. September, 2023 📝 English
+							⏱ 04.-05. September, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English
 						</p>
 						<p>
 							📍 
