@@ -6191,6 +6191,17 @@ avatar {
   float: left;
 }
 */
+.hexagon-border {
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  /* background: url("{{ site.baseurl }}{{ site.avatar }}") no-repeat; */
+  /* background: url("https://i.imgur.com/waDgcnc.jpg") no-repeat; */
+  /* background-size: cover; */
+  margin: 10px auto;
+  height: 210px;
+  width: 210px;
+  background-color: rgba(80, 200, 120, 1.0);
+}
+
 .hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   /* background: url("{{ site.baseurl }}{{ site.avatar }}") no-repeat; */
@@ -6199,7 +6210,7 @@ avatar {
   margin: 10px auto;
   height: 200px;
   width: 200px;
-  border: 7px solid rgba(80, 200, 120, 1.0);
+  /* border: 7px solid rgba(80, 200, 120, 1.0); */
 }
 /* Christian: Hexagon is Bestagon! Approach A - End */
 

@@ -32,7 +32,7 @@ title: Events
 			<tbody>
 				<!-- 2023 Digital Total ##################################################### -->
 				<tr> <!-- #1 -->
-					<td>
+					<td class="w-100" colspan="2">
 						<b>
 							<a href="https://www.conferences.uni-hamburg.de/event/387/" target="_blank">
 								Digital Total
@@ -65,7 +65,7 @@ title: Events
 				</tr>
 				<!-- 2023 EASIER ##################################################### -->
 				<tr> <!-- #1 -->
-					<td>
+					<td class="w-100" colspan="2">
 						<b>
 							<a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">
 								EASIER Autumn School
@@ -98,7 +98,7 @@ title: Events
 				</tr>
 				<!-- 2023 TURN ##################################################### -->
 				<tr> <!-- #1 -->
-					<td>
+					<td class="w-100" colspan="2">
 						<b>
 							<a href="https://turn-conference.org/" target="_blank">
 								TURN Prototyp Zukunft
@@ -107,8 +107,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #2 -->
-					<td>
-						<td class="w-25" rowspan="1">
+					<td class="w-25" rowspan="1">
 						<a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
 					</td>
 					<td>
@@ -154,7 +153,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #5 -->
-					<td>
+					<td class="w-100" colspan="2">
 						<a href="docs/slides/2023-TURN-D3InnovationLab-Pitch.pdf" target="_blank">
 							Slides
 						</a>
@@ -166,11 +165,7 @@ title: Events
 				</tr>
 				<!-- 2023 ICKL ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-25" rowspan="1">
-						<a href="/docs/pictures/event-2023-ICKL6-group.jpeg" target="_blank"><img src="/docs/pictures/event-2023-ICKL6-group.jpeg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
-						<!-- <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a> -->
-					</td>
-					<td>
+					<td class="w-100" colspan="2">
 						<b>
 							<a href="https://www.uni-frankfurt.de/141901385/ContentPage_141901385?" target="_blank">
 								6th International Conference on Kurdish Linguistics
@@ -179,6 +174,10 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #2 -->
+					<td class="w-25" rowspan="1">
+						<a href="/docs/pictures/event-2023-ICKL6-group.jpeg" target="_blank"><img src="/docs/pictures/event-2023-ICKL6-group.jpeg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
+						<!-- <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a> -->
+					</td>
 					<td>
 						<p>
 							⏱ 04.-05. September, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English
@@ -198,7 +197,7 @@ title: Events
 						</p>
 					</td>
 				</tr>
-				<tr> <!-- #3 -->
+				<tr> <!-- #2 -->
 					<td>
 						<p>
 							⭐ (Poster Session) Analysis of Phonology and Morphology in the Kobani Dialect (Raman Ahmad, Christian Schuler) → 
