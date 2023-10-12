@@ -40,7 +40,8 @@ title: Events
 							- Computing & Data Science an der Universität Hamburg und in der Wissenschaftsmetropole Hamburg
 						</b>
 					</td>
-				</tr> <!-- #2 -->
+				</tr> 
+				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
 						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
 					</td>
