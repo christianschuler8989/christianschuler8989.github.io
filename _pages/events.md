@@ -32,10 +32,7 @@ title: Events
 			<tbody>
 				<!-- 2023 Digital Total ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-25" rowspan="2">
-						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
-					</td>
-					<td class="w-75">
+					<td class="w-100">
 						<b>
 							<a href="https://www.conferences.uni-hamburg.de/event/387/" target="_blank">
 								Digital Total
@@ -44,7 +41,9 @@ title: Events
 						</b>
 					</td>
 				</tr> <!-- #2 -->
-				<tr>
+					<td class="w-25" rowspan="1">
+						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
+					</td>
 					<td>
 						<p>
 							⏱ 09.-10. October, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English & German
@@ -65,16 +64,18 @@ title: Events
 				</tr>
 				<!-- 2023 EASIER ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-25" rowspan="2">
-						<a href="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" target="_blank"><img src="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
-					</td>
-					<td>
+					<td class="w-100">
 						<b>
 							<a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">
 								EASIER Autumn School
 							</a>
 							: Sign language data meets data science - data science meets sign linguistics 
 						</b>
+					</td>
+				</tr>
+				<tr> <!-- #2 -->	
+					<td class="w-25" rowspan="1">
+						<a href="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" target="_blank"><img src="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
 					</td>
 				</tr>
 				<tr> <!-- #2 -->
@@ -98,10 +99,7 @@ title: Events
 				</tr>
 				<!-- 2023 TURN ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-25" rowspan="2">
-						<a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
-					</td>
-					<td>
+					<td class="w-100">
 						<b>
 							<a href="https://turn-conference.org/" target="_blank">
 								TURN Prototyp Zukunft
@@ -110,6 +108,10 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #2 -->
+					<td>
+						<td class="w-25" rowspan="1">
+						<a href="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-ConferenceHall.jpg" class="img-fluid img-thumbnail" alt="TURN2023"></a>
+					</td>
 					<td>
 						<p>
 							⏱ 13.-15. September, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 German
@@ -138,7 +140,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #4 -->
-					<td class="w-25" rowspan="1">
+					<td class="w-25" rowspan="2">
 						<p>
 							<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
 						</p>
