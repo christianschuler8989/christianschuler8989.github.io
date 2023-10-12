@@ -32,7 +32,7 @@ title: Events
 			<tbody>
 				<!-- 2023 Digital Total ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-100">
+					<td>
 						<b>
 							<a href="https://www.conferences.uni-hamburg.de/event/387/" target="_blank">
 								Digital Total
@@ -65,7 +65,7 @@ title: Events
 				</tr>
 				<!-- 2023 EASIER ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-100">
+					<td>
 						<b>
 							<a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">
 								EASIER Autumn School
@@ -78,8 +78,6 @@ title: Events
 					<td class="w-25" rowspan="1">
 						<a href="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" target="_blank"><img src="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
 					</td>
-				</tr>
-				<tr> <!-- #2 -->
 					<td>
 						<p>
 							⏱ 25.-26. September, 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English & International Sign Language
@@ -100,7 +98,7 @@ title: Events
 				</tr>
 				<!-- 2023 TURN ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-100">
+					<td>
 						<b>
 							<a href="https://turn-conference.org/" target="_blank">
 								TURN Prototyp Zukunft
@@ -141,7 +139,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #4 -->
-					<td class="w-25" rowspan="2">
+					<td class="w-25" rowspan="1">
 						<p>
 							<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
 						</p>
@@ -156,7 +154,7 @@ title: Events
 					</td>
 				</tr>
 				<tr> <!-- #5 -->
-					<td class="w-100">
+					<td>
 						<a href="docs/slides/2023-TURN-D3InnovationLab-Pitch.pdf" target="_blank">
 							Slides
 						</a>
@@ -168,7 +166,7 @@ title: Events
 				</tr>
 				<!-- 2023 ICKL ##################################################### -->
 				<tr> <!-- #1 -->
-					<td class="w-25" rowspan="5">
+					<td class="w-25" rowspan="1">
 						<a href="/docs/pictures/event-2023-ICKL6-group.jpeg" target="_blank"><img src="/docs/pictures/event-2023-ICKL6-group.jpeg" class="img-fluid img-thumbnail" alt="ICKL6"></a>
 						<!-- <a href="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" target="_blank"><img src="/docs/pictures/event-ICKL6-Main_Raman_Christian-07.jpg" class="img-fluid img-thumbnail" alt="ICKL6"></a> -->
 					</td>
@@ -221,14 +219,14 @@ title: Events
 					</td>		
 				</tr>
 				<tr> <!-- #5 -->
-					<td class="w-100">
-					<a href="docs/posters/2023_Ahmad_Schuler_ICKL_KobaniAnalysis_Poster.pdf" target="_blank">
-						Poster (Kobani Analysis)
-					</a>
-					| 
-					<a href="docs/posters/2023_Schuler_Ahmad_ICKL_DialectMapping_Poster.pdf" target="_blank">
-						Poster (Dialect Mapping)
-					</a>
+					<td>
+						<a href="docs/posters/2023_Ahmad_Schuler_ICKL_KobaniAnalysis_Poster.pdf" target="_blank">
+							Poster (Kobani Analysis)
+						</a>
+						| 
+						<a href="docs/posters/2023_Schuler_Ahmad_ICKL_DialectMapping_Poster.pdf" target="_blank">
+							Poster (Dialect Mapping)
+						</a>
 					</td>
 				</tr>
 			</tbody>
