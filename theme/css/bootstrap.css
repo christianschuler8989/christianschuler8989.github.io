@@ -6191,7 +6191,7 @@ avatar {
   float: left;
 }
 */
-div.hexagon {
+.hexagon {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   /* background: url("{{ site.baseurl }}{{ site.avatar }}") no-repeat; */
   /* background: url("https://i.imgur.com/waDgcnc.jpg") no-repeat; */
