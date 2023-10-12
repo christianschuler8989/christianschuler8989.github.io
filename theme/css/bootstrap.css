@@ -6198,7 +6198,8 @@ avatar {
   /* background-size: cover; */
   margin: 10px auto;
   height: 200px;
-  width: 200px;      
+  width: 200px;
+  border: 7px solid rgba(80, 200, 120, 1.0);
 }
 /* Christian: Hexagon is Bestagon! Approach A - End */
 
