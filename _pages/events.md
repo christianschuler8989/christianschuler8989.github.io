@@ -65,17 +65,17 @@ title: Events
 				</tr>
 				<!-- 2023 EASIER ##################################################### -->
 				<tr>
-					<td class="w-25" rowspan="3">
+					<td class="w-25" rowspan="2">
 						<a href="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" target="_blank"><img src="/docs/pictures/event-2023-EASIER_Autumn_School.jpeg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
 					</td>
 					<td>
-					<b>
-						<a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">
-							EASIER Autumn School
-						</a>
-						: Sign language data meets data science - data science meets sign linguistics 
-					</b>
-				</td>
+						<b>
+							<a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">
+								EASIER Autumn School
+							</a>
+							: Sign language data meets data science - data science meets sign linguistics 
+						</b>
+					</td>
 				</tr>
 				<tr>
 					<td>
@@ -126,6 +126,9 @@ title: Events
 						<p>
 							💬 This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D
 						</p>
+						<p>
+							<a href="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-DomiAtDom.jpg" width="250" class="img-fluid img-thumbnail" alt="Cologne Dom with Domi"></a>
+						</p>
 					</td>
 				</tr>
 				<tr>
@@ -136,7 +139,7 @@ title: Events
 						<p>			    
 							Here I presented inside a "Pitch Session" our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas)
 						</p>
-							<p>
+						<p>
 							<a href="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" target="_blank"><img src="/docs/pictures/event-2023-TURN-PitchPresentation.jpg" width="250" class="img-fluid img-thumbnail" alt="TURN2023 Pitch Presentation"></a>
 						</p>
 					</td>
