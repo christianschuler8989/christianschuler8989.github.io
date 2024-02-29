@@ -21,8 +21,8 @@ Publications in reversed chronological order in two categories:
 		<b>2024</b>
 </div>
 
-**Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses.** (Accepted)
-<u>Christian Schuler</u>, Shravan Nayak, Debjoy Saha, Timo Baumann
+**Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses.** (Accepted)   
+<u>Christian Schuler</u>, Shravan Nayak, Debjoy Saha, Timo Baumann   
 *ESSV-2024: Conference on Electronic Speech Signal Processing.*   
 
 
@@ -65,8 +65,8 @@ This article is about natural language processing with neural networks and lip-s
 		<b>2023</b>
 </div>
 
-**When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data** (under review)
-<u>Christian Schuler</u>, Dominik Hauser, Christoph Zehendner, Maren Gierlich-Joas. 
+**When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data** (under review)   
+<u>Christian Schuler</u>, Dominik Hauser, Christoph Zehendner, Maren Gierlich-Joas.   
 Chapter in Digital Trace Data Research in Information Systems: Foundations, Methods, and Applications.
 
 ---
@@ -76,8 +76,8 @@ Chapter in Digital Trace Data Research in Information Systems: Foundations, Meth
 		<b>2024</b>
 </div>
 
-**Adaptive Course Enhancement Model - A Co-Creative Approach to Course Improvement** (under review)
-<u>Christian Schuler</u>, Stephan Leible, Hannes Klingler, Maren Gierlich-Joas 
+**Adaptive Course Enhancement Model - A Co-Creative Approach to Course Improvement** (under review)   
+<u>Christian Schuler</u>, Stephan Leible, Hannes Klingler, Maren Gierlich-Joas   
 A Lightning Talk presenting a teaching model at [[University:Future Festivals 2024 – Tales of Tomorrow]](https://festival.hfd.digital/de/){:target="_blank"}.
 
 
