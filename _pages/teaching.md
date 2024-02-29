@@ -14,6 +14,8 @@ As part of the "D³ Innovation Lab" project, an initiative to further student's 
 - In a workshop I introduced students to a 3D-room planner software.
 Afterwards the students, in groups of 2-3, designed an exploration room and documented their process and decisions.
 Their designs are supposed to be the basis for an actual room at the University of Hamburg, providing students a place to work and study in groups or alone.
+- As part of a seminar in the fall of 2023, I held a lecture and tutored groups of students. 
+The aim was to help them to define their own research question, explore related research and work towards a written elaboration of their topic.
 
 #### Autumn 2021 (Exams)
 

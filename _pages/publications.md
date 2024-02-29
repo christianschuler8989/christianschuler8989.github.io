@@ -18,10 +18,19 @@ Publications in reversed chronological order in two categories:
 ### Paper
 
 <div align="center" style="background-color:mediumseagreen" id="main">
+		<b>2024</b>
+</div>
+
+**Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses.** (Accepted)
+<u>Christian Schuler</u>, Shravan Nayak, Debjoy Saha, Timo Baumann
+*ESSV-2024: Conference on Electronic Speech Signal Processing.*   
+
+
+<div align="center" style="background-color:lightblue" id="main">
 		<b>2022</b>
 </div>
 
-1. **A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation**   
+**A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation**   
 Shravan Nayak, <u>Christian Schuler</u>, Debjoy Saha and Timo Baumann   
 *ICMI '22: Proceedings of the 2022 International Conference on Multimodal Interaction*   
 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3536221.3556621){:target="_blank"} [[Poster]](docs/posters/2022-Nayak_Schuler_Saha_Baumann-ICMI-A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation.pdf){:target="_blank"} [[bib]](bibliography/nayak2022deepdive.txt){:target="_blank"}  
@@ -29,11 +38,11 @@ Shravan Nayak, <u>Christian Schuler</u>, Debjoy Saha and Timo Baumann
 ---
 ### Article
 
-<div align="center" style="background-color:mediumseagreen" id="main">
+<div align="center" style="background-color:lightblue" id="main">
 		<b>2023</b>
 </div>
 
-1. **Lip-Synched**   
+**Lip-Synched**   
 Timo Baumann and <u>Christian Schuler</u>   
 *Linux Magazine Issue 267/2023*   
 This is the English translated version of Timo's and my linux-article from 2022.   
@@ -43,9 +52,32 @@ This is the English translated version of Timo's and my linux-article from 2022.
 		<b>2022</b>
 </div>
 
-1. **Natural Language Processing mit Neuronalen Netzen**   
+**Natural Language Processing mit Neuronalen Netzen**   
 Timo Baumann and <u>Christian Schuler</u>   
 *Linux Magazine 10/2022*   
 This article is about natural language processing with neural networks and lip-synchrony in dubbing.   
 [[Article]](https://www.linux-magazin.de/ausgaben/2022/10/nlp/){:target="_blank"}
+
+---
+### Book (Chapter)
+
+<div align="center" style="background-color:lightblue" id="main">
+		<b>2023</b>
+</div>
+
+**When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data** (under review)
+<u>Christian Schuler</u>, Dominik Hauser, Christoph Zehendner, Maren Gierlich-Joas. 
+Chapter in Digital Trace Data Research in Information Systems: Foundations, Methods, and Applications.
+
+---
+### Other
+
+<div align="center" style="background-color:mediumseagreen" id="main">
+		<b>2024</b>
+</div>
+
+**Adaptive Course Enhancement Model - A Co-Creative Approach to Course Improvement** (under review)
+<u>Christian Schuler</u>, Stephan Leible, Hannes Klingler, Maren Gierlich-Joas 
+A Lightning Talk presenting a teaching model at [[University:Future Festivals 2024 – Tales of Tomorrow]](https://festival.hfd.digital/de/){:target="_blank"}.
+
 
