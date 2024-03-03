@@ -38,7 +38,7 @@ Shravan Nayak, <u>Christian Schuler</u>, Debjoy Saha and Timo Baumann
 ---
 ### Article
 
-<div align="center" style="background-color:lightblue" id="main">
+<div align="center" style="background-color:mediumseagreen" id="main">
 		<b>2023</b>
 </div>
 
@@ -61,7 +61,7 @@ This article is about natural language processing with neural networks and lip-s
 ---
 ### Book (Chapter)
 
-<div align="center" style="background-color:lightblue" id="main">
+<div align="center" style="background-color:mediumseagreen" id="main">
 		<b>2023</b>
 </div>
 

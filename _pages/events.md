@@ -234,7 +234,4 @@ title: Events
 	</div>
 </div>
  
-
-
 </body>
-
