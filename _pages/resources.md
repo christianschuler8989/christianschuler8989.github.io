@@ -39,91 +39,91 @@ show_profile: false
 			<tbody>
 
 				<tr> <!-- #1 -->
-					<td class="w-100" colspan="2">
+					<td class="w-[100vw]" colspan="1">
 						<b>
 							Design #1
 						</b>
 					</td>
 				</tr> 
 				<tr> <!-- #2 -->
-					<td class="w-25" rowspan="1">
-						<video>
-							<source src="/docs/videos/design-01.webm">
+					<td class="w-[100vw]" rowspan="1">
+						<video autoplay loop>
+							<source src="/docs/videos/design-01.webm" type="video/webm">
 						</video>
 					</td>
 				</tr>
 
 				<tr> <!-- #1 -->
-					<td class="w-100" colspan="2">
+					<td class="w-[100vw]" colspan="1">
 						<b>
 							Design #2
 						</b>
 					</td>
 				</tr> 
 				<tr> <!-- #2 -->
-					<td class="w-25" rowspan="1">
-						<video>
-							<source src="/docs/videos/design-02.webm">
+					<td class="w-[100vw]" rowspan="1">
+						<video autoplay loop>
+							<source src="/docs/videos/design-02.webm type="video/webm"">
 						</video>
 					</td>
 				</tr>
 				
 				<tr> <!-- #1 -->
-					<td class="w-100" colspan="2">
+					<td class="w-100" colspan="1">
 						<b>
 							Design #3
 						</b>
 					</td>
 				</tr> 
 				<tr> <!-- #2 -->
-					<td class="w-25" rowspan="1">
-						<video>
-							<source src="/docs/videos/design-03.webm">
+					<td class="w-[100vw]" rowspan="1">
+						<video autoplay loop>
+							<source src="/docs/videos/design-03.webm type="video/webm"">
 						</video>
 					</td>
 				</tr>
 				
 				<tr> <!-- #1 -->
-					<td class="w-100" colspan="2">
+					<td class="w-[100vw]" colspan="1">
 						<b>
 							Design #4
 						</b>
 					</td>
 				</tr> 
 				<tr> <!-- #2 -->
-					<td class="w-25" rowspan="1">
-						<video>
-							<source src="/docs/videos/design-04.webm">
+					<td class="w-[100vw]" rowspan="1">
+						<video autoplay loop>
+							<source src="/docs/videos/design-04.webm type="video/webm"">
 						</video>
 					</td>
 				</tr>
 				
 				<tr> <!-- #1 -->
-					<td class="w-100" colspan="2">
+					<td class="w-[100vw]" colspan="1">
 						<b>
 							Design #5
 						</b>
 					</td>
 				</tr> 
 				<tr> <!-- #2 -->
-					<td class="w-25" rowspan="1">
-						<video>
-							<source src="/docs/videos/design-05.webm">
+					<td class="w-[100vw]" rowspan="1">
+						<video autoplay loop>
+							<source src="/docs/videos/design-05.webm type="video/webm"">
 						</video>
 					</td>
 				</tr>
 				
 				<tr> <!-- #1 -->
-					<td class="w-100" colspan="2">
+					<td class="w-[100vw]" colspan="1">
 						<b>
 							Design #6
 						</b>
 					</td>
 				</tr> 
 				<tr> <!-- #2 -->
-					<td class="w-25" rowspan="1">
-						<video>
-							<source src="/docs/videos/design-06.webm">
+					<td class="w-[100vw]" rowspan="1">
+						<video autoplay loop>
+							<source src="/docs/videos/design-06.webm type="video/webm"">
 						</video>
 					</td>
 				</tr>
