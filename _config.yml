@@ -29,7 +29,7 @@ disqus:
     shortname: christianschuler
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
-include: ["_pages", "_portfolio"]
+include: ["_pages", "_portfolio", "_resources"]
 
 exclude: 
   - hidden

@@ -3,6 +3,7 @@ layout: defaults/page
 permalink: resources.html
 narrow: false
 title: Resources
+show_profile: false
 ---
 
 <html>
@@ -47,7 +48,8 @@ title: Resources
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
 						<video>
-						<source src="/docs/videos/design-01.webm">
+							<source src="/docs/videos/design-01.webm">
+						</video>
 					</td>
 				</tr>
 
@@ -61,7 +63,8 @@ title: Resources
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
 						<video>
-						<source src="/docs/videos/design-02.webm">
+							<source src="/docs/videos/design-02.webm">
+						</video>
 					</td>
 				</tr>
 				
@@ -75,7 +78,8 @@ title: Resources
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
 						<video>
-						<source src="/docs/videos/design-03.webm">
+							<source src="/docs/videos/design-03.webm">
+						</video>
 					</td>
 				</tr>
 				
@@ -89,7 +93,8 @@ title: Resources
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
 						<video>
-						<source src="/docs/videos/design-04.webm">
+							<source src="/docs/videos/design-04.webm">
+						</video>
 					</td>
 				</tr>
 				
@@ -103,7 +108,8 @@ title: Resources
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
 						<video>
-						<source src="/docs/videos/design-05.webm">
+							<source src="/docs/videos/design-05.webm">
+						</video>
 					</td>
 				</tr>
 				
@@ -117,7 +123,8 @@ title: Resources
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
 						<video>
-						<source src="/docs/videos/design-06.webm">
+							<source src="/docs/videos/design-06.webm">
+						</video>
 					</td>
 				</tr>
 				
