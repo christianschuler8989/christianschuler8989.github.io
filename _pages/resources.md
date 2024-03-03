@@ -35,7 +35,7 @@ show_profile: false
 <div class="container w-[100vw]">
   	<div class="row w-[100vw]">
     	<div class="col-12 w-[100vw]">
-			<table class="table table-image table-responsive">
+			<table class="table table-image table-responsive w-[100vw]">
 			<tbody>
 
 				<tr> <!-- #1 -->
@@ -63,13 +63,13 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-02.webm" type="video/webm"">
+							<source src="/docs/videos/design-02.webm" type="video/webm">
 						</video>
 					</td>
 				</tr>
 				
 				<tr> <!-- #1 -->
-					<td class="w-100" colspan="1">
+					<td class="w-[100vw]" colspan="1">
 						<b>
 							Design #3
 						</b>
@@ -78,7 +78,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-03.webm" type="video/webm"">
+							<source src="/docs/videos/design-03.webm" type="video/webm">
 						</video>
 					</td>
 				</tr>
@@ -93,7 +93,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-04.webm" type="video/webm"">
+							<source src="/docs/videos/design-04.webm" type="video/webm">
 						</video>
 					</td>
 				</tr>
@@ -108,7 +108,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-05.webm" type="video/webm"">
+							<source src="/docs/videos/design-05.webm" type="video/webm">
 						</video>
 					</td>
 				</tr>
@@ -123,7 +123,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-06.webm" type="video/webm"">
+							<source src="/docs/videos/design-06.webm" type="video/webm">
 						</video>
 					</td>
 				</tr>
