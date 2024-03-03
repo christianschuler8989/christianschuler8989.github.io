@@ -1,5 +1,5 @@
 ---
-layout: defaults/page
+layout: defaults/resources_temp
 permalink: resources.html
 narrow: false
 title: Resources
@@ -32,9 +32,9 @@ show_profile: false
 	Results from the Co-Creation Workshop Designing a Exploration-Lab
 </p>
 
-<div class="container">
-  	<div class="row">
-    	<div class="col-12">
+<div class="container w-[100vw]">
+  	<div class="row w-[100vw]">
+    	<div class="col-12 w-[100vw]">
 			<table class="table table-image table-responsive">
 			<tbody>
 
