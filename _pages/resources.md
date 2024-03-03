@@ -63,7 +63,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-02.webm type="video/webm"">
+							<source src="/docs/videos/design-02.webm" type="video/webm"">
 						</video>
 					</td>
 				</tr>
@@ -78,7 +78,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-03.webm type="video/webm"">
+							<source src="/docs/videos/design-03.webm" type="video/webm"">
 						</video>
 					</td>
 				</tr>
@@ -93,7 +93,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-04.webm type="video/webm"">
+							<source src="/docs/videos/design-04.webm" type="video/webm"">
 						</video>
 					</td>
 				</tr>
@@ -108,7 +108,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-05.webm type="video/webm"">
+							<source src="/docs/videos/design-05.webm" type="video/webm"">
 						</video>
 					</td>
 				</tr>
@@ -123,7 +123,7 @@ show_profile: false
 				<tr> <!-- #2 -->
 					<td class="w-[100vw]" rowspan="1">
 						<video autoplay loop>
-							<source src="/docs/videos/design-06.webm type="video/webm"">
+							<source src="/docs/videos/design-06.webm" type="video/webm"">
 						</video>
 					</td>
 				</tr>
