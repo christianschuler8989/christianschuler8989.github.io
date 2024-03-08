@@ -30,6 +30,62 @@ title: Events
     	<div class="col-12">
 			<table class="table table-image table-responsive">
 			<tbody>
+				<!-- 2024 ESSV ##################################################### -->
+				<tr> <!-- #1 -->
+					<td class="w-100" colspan="2">
+						<b>
+							<a href="https://www.essv.de/essv2024/Main/HomePage?setlang=en" target="_blank">
+								ESSV-2024
+							</a>
+							- 35th. Conference on Electronic Speech Signal Processing
+						</b>
+					</td>
+				</tr> 
+				<tr> <!-- #2 -->
+					<td class="w-25" rowspan="1">
+						<img src="/docs/pictures/2024-ESSV-Christian.jpg" class="img-fluid img-thumbnail" alt="ESSV-2024">
+					</td>
+					<td>
+						<p>
+							⏱ 06.-08. March, 2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English & German
+						</p>
+						<p>
+							📍 
+							<a href="https://www.oth-regensburg.de/" target="_blank">
+								Eastern Bavarian Technical University of Applied Sciences Regensburg, Regensburg, Germany
+							</a>	
+						</p>
+						<p>
+							💡 Conference spanning a wide range of fields that concern the creation, analysis, and (digital) processing of speech signals, with a special focus on applied research, i.e. practical applications and technologies.
+						</p>
+					</td>
+				</tr>
+				<tr> <!-- #3 -->
+					<td class="w-25" rowspan="1">
+						<p>
+							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/2024-ESSV-PaperPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+						</p>
+					</td>
+					<td>
+						<p>
+							⭐ (Paper Presentation) Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses.
+						</p>
+						<p>			    
+							Here I presented the paper about processing pause contents that we (Christian Schuler, Shravan Nayak, Debjoy Saha, Timo Baumann) had submitted. 
+						</p>
+					</td>
+				</tr>
+				<tr> <!-- #4 -->
+					<td class="w-100" colspan="2">
+						<a href="https://christianschuler8989.github.io/PauseProcessing-Slides-ESSV/#/slide-1" target="_blank">
+							Slides
+						</a>
+						| 
+						<a href="https://www.essv.de/essv2024/uploads/Main/Program/essv2024_165.pdf" target="_blank">
+							Paper
+						</a>
+					</td>
+				</tr>
 				<!-- 2023 Digital Total ##################################################### -->
 				<tr> <!-- #1 -->
 					<td class="w-100" colspan="2">
@@ -197,7 +253,12 @@ title: Events
 						</p>
 					</td>
 				</tr>
-				<tr> <!-- #2 -->
+				<tr> <!-- #3 -->
+					<td class="w-25" rowspan="1">
+						<p>
+							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/2024-ESSV-PaperPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+						</p>
+					</td>
 					<td>
 						<p>
 							⭐ (Poster Session) Analysis of Phonology and Morphology in the Kobani Dialect (Raman Ahmad, Christian Schuler) → 
@@ -208,6 +269,11 @@ title: Events
 					</td>		
 				</tr>
 				<tr> <!-- #4 -->
+					<td class="w-25" rowspan="1">
+						<p>
+							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/2024-ESSV-PaperPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+						</p>
+					</td>
 					<td>
 						<p>
 							⭐ (Poster Session) Towards a Complete Mapping of Kurdish Dialectology (Christian Schuler, Raman Ahmad) → 
