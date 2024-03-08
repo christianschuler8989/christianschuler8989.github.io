@@ -43,7 +43,7 @@ title: Events
 				</tr> 
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
-						<img src="/docs/pictures/2024-ESSV-Christian.jpg" class="img-fluid img-thumbnail" alt="ESSV-2024">
+						<a href="/docs/pictures/2024-ESSV-Christian.jpg" target="_blank"><img src="/docs/pictures/2024-ESSV-Christian.jpg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
 					</td>
 					<td>
 						<p>
@@ -63,7 +63,7 @@ title: Events
 				<tr> <!-- #3 -->
 					<td class="w-25" rowspan="1">
 						<p>
-							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/2024-ESSV-PaperPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/construction-itsupport.png" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
 						</p>
 					</td>
 					<td>
@@ -256,7 +256,7 @@ title: Events
 				<tr> <!-- #3 -->
 					<td class="w-25" rowspan="1">
 						<p>
-							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/2024-ESSV-PaperPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/construction-itsupport.png" width="150" class="img-fluid img-thumbnail" alt="ICKL-6 Kobani Analysis Poster"></a>
 						</p>
 					</td>
 					<td>
@@ -271,7 +271,7 @@ title: Events
 				<tr> <!-- #4 -->
 					<td class="w-25" rowspan="1">
 						<p>
-							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/2024-ESSV-PaperPresentation.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/construction-itsupport.png" width="150" class="img-fluid img-thumbnail" alt="ICKL-6 Dialect Mapping Poster"></a>
 						</p>
 					</td>
 					<td>
