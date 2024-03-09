@@ -28,7 +28,7 @@ title: Projects
     <div class="col-12">
 		<table class="table table-image table-responsive">
 		  <tbody>
-		  	<tr>
+	  		<tr>
 		      <td class="w-25" rowspan="3">
 			      <img src="/docs/images/2023-Logo-TextAsCorpusRep.png" class="img-fluid img-thumbnail" alt="TextAsCorpusRep-Logo">
 		      </td>
@@ -114,7 +114,8 @@ title: Projects
 		      <td class="w-25" rowspan="3">
 			      <img src="/docs/pictures/proj-2018-games-cdprototype.jpg" class="img-fluid img-thumbnail" alt="CrazyDeck">
 		      </td>
-		      <td>Crazy Deck</td>
+		      <td><a href="https://github.com/christianschuler8989/CRAMT" target="_blank">Crazy Deck</a></td>
+		      
 		    </tr>
 		      <tr>
 			    <td>Nov. 2017 - ongoing</td>
