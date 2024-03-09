@@ -284,7 +284,7 @@ title: Events
 					</td>		
 				</tr>
 				<tr> <!-- #5 -->
-					<td>
+					<td class="w-100" colspan="2">
 						<a href="docs/posters/2023_Ahmad_Schuler_ICKL_KobaniAnalysis_Poster.pdf" target="_blank">
 							Poster (Kobani Analysis)
 						</a>

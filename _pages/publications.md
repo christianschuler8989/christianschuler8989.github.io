@@ -24,7 +24,8 @@ Publications in reversed chronological order in two categories:
 **Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses.**   
 <u>Christian Schuler</u>, Shravan Nayak, Debjoy Saha, Timo Baumann   
 *ESSV-2024: 35th. Conference on Electronic Speech Signal Processing.*   
-[[Paper]](https://www.essv.de/essv2024/uploads/Main/Program/essv2024_165.pdf) [[Slides]](https://christianschuler8989.github.io/PauseProcessing-Slides-ESSV/#/slide-1) 
+[[Paper]](https://www.essv.de/essv2024/uploads/Main/Program/essv2024_165.pdf){:target="_blank"} [[PDF]](docs/articles/2024-Schuler_Nayak_Saha_Baumann-ESSV-Can_We_See_Your_Response_Before_You_Speak_Exploring_Linguistic_Information_Found_In_Inter-Utterance_Pauses.pdf){:target="_blank"} [[Slides]](https://christianschuler8989.github.io/PauseProcessing-Slides-ESSV/#/slide-1){:target="_blank"}  
+
 
 
 <div align="center" style="background-color:lightblue" id="main">
