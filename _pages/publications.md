@@ -71,6 +71,7 @@ This article is about natural language processing with neural networks and lip-s
 <u>Christian Schuler</u>, Dominik Hauser, Christoph Zehendner, Maren Gierlich-Joas.   
 Chapter in Digital Trace Data Research in Information Systems: Foundations, Methods, and Applications.
 
+<!-- 
 ---
 ### Other
 
@@ -78,8 +79,9 @@ Chapter in Digital Trace Data Research in Information Systems: Foundations, Meth
 		<b>2024</b>
 </div>
 
+
 **Adaptive Course Enhancement Model - A Co-Creative Approach to Course Improvement** (under review)   
 <u>Christian Schuler</u>, Stephan Leible, Hannes Klingler, Maren Gierlich-Joas   
 A Lightning Talk presenting a teaching model at [[University:Future Festivals 2024 – Tales of Tomorrow]](https://festival.hfd.digital/de/){:target="_blank"}.
-
+-->
 
