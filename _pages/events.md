@@ -43,7 +43,7 @@ title: Events
 				</tr> 
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
-						<a href="/docs/pictures/event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG" target="_blank"><img src="/docs/pictures/event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG" class="img-fluid img-thumbnail" alt="EXPO 2024"></a>
+						<a href="/docs/pictures/event-2024-EXPO.JPG" target="_blank"><img src="/docs/pictures/event-2024-EXPO.JPG" class="img-fluid img-thumbnail" alt="EXPO 2024"></a>
 					</td>
 					<td>
 						<p>
@@ -108,7 +108,6 @@ title: Events
 							<a href="https://gdsc.community.dev/events/details/developer-student-clubs-hamburg-university-of-applied-sciences-haw-hamburg-presents-spring-hackathon-with-check24/" target="_blank">
 								Spring Hackathon with CHECK24
 							</a>
-							- 35th. Conference on Electronic Speech Signal Processing
 						</b>
 					</td>
 				</tr> 
