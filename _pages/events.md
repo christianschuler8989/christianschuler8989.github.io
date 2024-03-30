@@ -71,7 +71,7 @@ title: Events
 							⭐ (Poster Presentation) CRAMT: Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata
 						</p>
 						<p>			    
-							Here we presented the current state of our tool which grew out of the MTACR project that we (Deepesha Saurty, Tramy Thi Tran, Christian Schuler, Anran Wang, Raman Ahmad) are working on together. 
+							Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Anran, Raman) are working on together. 
 						</p>
 					</td>
 				</tr>
@@ -138,10 +138,10 @@ title: Events
 					</td>
 					<td>
 						<p>
-							⭐ (Second Place) "Crazy Teaching" at Spring Hackathon with CHECK24
+							⭐ (Third Place) "Crazy Teaching" at Spring Hackathon with CHECK24
 						</p>
 						<p>			    
-							We were awarded the second place of all presented projects and received some T-Shirts to serve as free advertisement ;)
+							We were awarded the third place for our spontaneous creation and received some T-Shirts to serve as free advertisement ;)
 						</p>
 						<p>
 							💬 Raman invited us (Tania, Anran, and me) to this event and it was a lot of fun to cluelessly jump into a short project, trying to merge different ideas and ways of working in a (partially) new and unknown group!
