@@ -43,6 +43,17 @@ title: Projects
 			    Our student research project "TextAsCorpusRep", a corpus of text data to advance machine translations of low-resource languages. Mentored by Dr. Seid Muhie Yimam got funded by the DDLitLab for up to 10,000€ :D</td>
 			  </tr>
 			  <tr>
+				<td class="w-100" colspan="2">
+					<a href="https://github.com/Low-ResourceDialectology/TextAsCorpusRep" target="_blank">
+						GitHub
+					</a>
+					| 
+					<a href="https://www.isa.uni-hamburg.de/ddlitlab/data-literacy-studierendenprojekte/dritte-foerderrunde/textcorpus.html" target="_blank">
+						Project Page (at DDLitLab)
+					</a>
+				</td>
+			</tr>
+			  <tr>
 		      <td class="w-25" rowspan="3">
 			      <img src="/docs/images/2023-Logo-DialectMapping.png" class="img-fluid img-thumbnail" alt="DialectMapping-Logo">
 		      </td>
@@ -98,6 +109,17 @@ title: Projects
 					Now Anran, Domi and I are working on expanding our work and hopefully soon be able to submit it to the KONVENS(?) :)
 		    	</td>
 			  </tr>
+			  <tr>
+				<td class="w-100" colspan="2">
+					<a href="https://github.com/christianschuler8989/StudyToolkitVid" target="_blank">
+						GitHub
+					</a>
+					| 
+					<a href="https://www.isa.uni-hamburg.de/ddlitlab/data-literacy-studierendenprojekte/erste-foerderrunde/studytoolkitvid.html" target="_blank">
+						Project Page (at DDLitLab)
+					</a>
+				</td>
+			</tr>
 			  <tr>
 		      <td class="w-25" rowspan="3">
 			      <img src="/docs/pictures/proj-2018-university-woodmath.jpg" class="img-fluid img-thumbnail" alt="WoodenMath">
