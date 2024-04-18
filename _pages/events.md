@@ -133,7 +133,7 @@ title: Events
 				<tr> <!-- #3 -->
 					<td class="w-25" rowspan="1">
 						<p>
-							<a href="/docs/pictures/event-2024-HackathonCHECK24-Secondplace-FabianForgotnameRamanChristianAnranTania.jpg" target="_blank"><img src="/docs/pictures/event-2024-HackathonCHECK24-Secondplace-FabianForgotnameRamanChristianAnranTania.jpg" width="150" class="img-fluid img-thumbnail" alt="Hackathon CHECK24 Second Place"></a>
+							<a href="/docs/pictures/event-2024-HackathonCHECK24-Secondplace-FabianAyrizRamanChristianAnranTania.jpg" target="_blank"><img src="/docs/pictures/event-2024-HackathonCHECK24-Secondplace-FabianAyrizRamanChristianAnranTania.jpg" width="150" class="img-fluid img-thumbnail" alt="Hackathon CHECK24 Second Place"></a>
 						</p>
 					</td>
 					<td>
