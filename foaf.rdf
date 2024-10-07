@@ -19,7 +19,7 @@
 		<foaf:givenname>Christian</foaf:givenname>
 		<foaf:family_name>Schuler</foaf:family_name>
 		<foaf:gender>male</foaf:gender>
-		<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-02-23</foaf:birthday>
+		<foaf:birthday rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1989-09-08</foaf:birthday>
 		<foaf:homepage rdf:resource="https://christianschuler8989.github.io" />
 		<foaf:depiction rdf:resource="https://christianschuler8989.github.io/docs/pictures/profile-2023-christian.png" />
 		<foaf:schoolHomepage rdf:resource="https://www.uni-hamburg.de/en.html" />

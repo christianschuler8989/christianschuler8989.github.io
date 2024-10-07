@@ -64,7 +64,7 @@ This article is about natural language processing with neural networks and lip-s
 ### Book (Chapter)
 
 <div align="center" style="background-color:mediumseagreen" id="main">
-		<b>2023</b>
+		<b>2024</b>
 </div>
 
 **When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data** (accepted)   

@@ -18,9 +18,9 @@
   href: https://www.researchgate.net/profile/Christian-Schuler
   icon: entypo/shield.svg
 
-- caption: LinkedIn
-  href: https://www.linkedin.com/in/christian-schuler-59090a177/
-  icon: entypo/linkedin-with-circle.svg
+#- caption: LinkedIn
+#  href: https://www.linkedin.com/in/christian-schuler-59090a177/
+#  icon: entypo/linkedin-with-circle.svg
 
 
 #- caption: Stack Overflow
@@ -28,9 +28,9 @@
 #  icon: entypo/stack-overflow.svg
 #https://stackoverflow.com/story/USERNAME
 
-- caption: Twitter
-  href: https://www.twitter.com/christians89898
-  icon: entypo/twitter-with-circle.svg
+#- caption: Twitter
+#  href: https://www.twitter.com/christians89898
+#  icon: entypo/twitter-with-circle.svg
 
 #- caption: YouTube
 #  href: https://www.youtube.com/channel/CHANNELID
@@ -40,13 +40,18 @@
 #
 #   icon: entypo/Google_Photos_icon.svg
 
-- caption: FOAF
-  href: foaf.rdf
-  icon: entypo/rdf.svg
+#- caption: FOAF
+#  href: foaf.rdf
+#  icon: entypo/rdf.svg
 
-- caption: Hamburg, Germany
-  href: https://maps.app.goo.gl/yq77gWnJt8jJeEZg7
+#- caption: Hamburg, Germany
+#  href: https://maps.app.goo.gl/yq77gWnJt8jJeEZg7
+#  icon: entypo/location-pin.svg
+
+- caption: Saarbrücken, Germany
+  href: https://maps.app.goo.gl/cfDJLw2fD2i2P7un6
   icon: entypo/location-pin.svg
+  
 
 #- caption: RSS
 #  href: feed.xml
