@@ -11,11 +11,14 @@ title: Halli und Hallo and Welcome to Christian Schuler's Personal Page
 
 <hr />
 
+<!--
 ### Recent Posts
 
 {% for post in site.posts limit:2 %}
 {% include components/post-card.html %}
 {% endfor %}
+
+-->
 
 <!-- ### News about me
 
