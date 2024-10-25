@@ -126,9 +126,6 @@ title: Events
 						<p>
 							💡 PhD school that crosses many disciplines with speakers from diverse research areas to deliver their stories on use of probability in computer science.
 						</p>
-						<p>
-							💬 I am glad that Anran invited me to stray a bit from my usual NLP-related activities and it was fun to meet so many people that actually do know "how to math" :)
-						</p>
 					</td>
 					<tr> <!-- #3 -->
 						<td class="w-25" rowspan="1">
@@ -151,6 +148,9 @@ title: Events
 						<td>
 							<p>
 								💡 The Spandauer (sweet pastry) alone are worth the travel to Denmark! :D
+							</p>
+							<p>
+								💬 I am glad that Anran invited me to stray a bit from my usual NLP-related activities and it was fun to meet so many people that actually do know "how to math" :)
 							</p>
 						</td>
 					</tr>
