@@ -30,6 +30,132 @@ title: Events
     	<div class="col-12">
 			<table class="table table-image table-responsive">
 			<tbody>
+			
+				<!-- Template for new event (START) -->
+				<!-- 2024 EVENT_NAME #####################################################
+				<tr>
+					<td class="w-100" colspan="2">
+						<b>
+							<a href="url_to_event_homepage" target="_blank">
+								EVENT-NAME
+							</a>
+							- SUB_TITLE_AND_INFO_OF_EVENT
+						</b>
+					</td>
+				</tr> 
+				<tr>
+					<td class="w-25" rowspan="1">
+						<a href="/docs/pictures/EVENT_IMAGE_FILE" target="_blank"><img src="/docs/pictures/EVENT_IMAGE_FILE" class="img-fluid img-thumbnail" alt="EVENT_NAME_INFO"></a>
+					</td>
+					<td>
+						<p>
+							⏱ 27. March, 2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 German & English
+						</p>
+						<p>
+							📍 
+							<a href="URL_OF_LOCATION" target="_blank">
+								LOCATION_NAME, LOCATION_CITY, LOCATION_COUNTRY
+							</a>	
+						</p>
+						<p>
+							💡 EVENT_DESCRIPTION.
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="w-25" rowspan="1">
+						<p>
+							<a href="/docs/pictures/event-2024-EXPO-Poster.jpg" target="_blank"><img src="/docs/pictures/event-2024-EXPO-Poster.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+						</p>
+					</td>
+					<td>
+						<p>
+							⭐ (Poster Presentation) CRAMT: Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata
+						</p>
+						<p>			    
+							Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Anran, Raman) are working on together. 
+						</p>
+					</td>
+				</tr>
+				<tr> 
+					<td class="w-25" rowspan="1">
+						<p>
+							<a href="/docs/pictures/event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG" target="_blank"><img src="/docs/pictures/event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td class="w-100" colspan="2">
+						<a href="https://github.com/christianschuler8989/CRAMT" target="_blank">
+							Code
+						</a>
+						| 
+						<a href="https://github.com/christianschuler8989/CRAMT/blob/main/images/2024-CRAMT_Poster_Expo-Schuler_Tran_Saurty_Wang_Ahmad_Yimam.pdf" target="_blank">
+							Poster
+						</a>
+					</td>
+				</tr>
+				-->
+				<!-- Template for new event (END) -->
+			
+				<!-- 2024 PICS ##################################################### -->
+				<tr> <!-- #1 -->
+					<td class="w-100" colspan="2">
+						<b>
+							<a href="https://etaps.org/about/fopss-schools/2024/" target="_blank">
+								PICS-2024
+							</a>
+							- 5th Ph.D. school in the series of Foundations of Programming and Software Systems.
+						</b>
+					</td>
+				</tr> 
+				<tr> <!-- #2 -->
+					<td class="w-25" rowspan="1">
+						<img src="/docs/pictures/event-2024-PICS_Copenhagen.jpeg" class="img-fluid img-thumbnail" alt="PICS 2024">
+					</td>
+					<td>
+						<p>
+							⏱ 14.-18. October, 2024 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📝 English
+						</p>
+						<p>
+							📍 
+							<a href="https://en.itu.dk/" target="_blank">
+								IT University of Copenhagen (Denmark)
+							</a>	
+						</p>
+						<p>
+							💡 PhD school that crosses many disciplines with speakers from diverse research areas to deliver their stories on use of probability in computer science.
+						</p>
+						<p>
+							💬 I am glad that Anran invited me to stray a bit from my usual NLP-related activities and it was fun to meet so many people that actually do know "how to math" :)
+						</p>
+					</td>
+					<tr> <!-- #3 -->
+						<td class="w-25" rowspan="1">
+							<p>
+								<a href="/docs/pictures/event-2024-PICS_LectureHallSign02.jpg" target="_blank"><img src="/docs/pictures/event-2024-PICS_LectureHallSign02.jpg" width="150" class="img-fluid img-thumbnail" alt="PICS-2024 Sign"></a>
+							</p>
+						</td>
+						<td>
+							<p>
+								💡 Admittedly, the budget could not cover posters or signs- but at least we did not have to starve during the breaks ;)
+							</p>
+						</td>
+					</tr>
+					<tr> <!-- #4 -->
+						<td class="w-25" rowspan="1">
+							<p>
+								<a href="/docs/pictures/event-2024-PICS-ITUniversity01.jpg" target="_blank"><img src="/docs/pictures/event-2024-PICS-ITUniversity01.jpg" width="150" class="img-fluid img-thumbnail" alt="PICS-2024 IT University"></a>
+							</p>
+						</td>
+						<td>
+							<p>
+								💡 The Spandauer (sweet pastry) alone are worth the travel to Denmark! :D
+							</p>
+						</td>
+					</tr>
+				</tr>
+			
 				<!-- 2024 EXPO ##################################################### -->
 				<tr> <!-- #1 -->
 					<td class="w-100" colspan="2">

@@ -2,19 +2,19 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Halli und Hallo and Welcome to Christian Schuler's Personal Page
+title: Halli und Hallo and Welcome to my Personal Page
 ---
 
 {% include components/intro.md %}
 
-[More about me.]({{ site.baseurl}}{% link _pages/about.md %})
+<!-- [More about me.]({{ site.baseurl}}{% link _pages/about.md %}) -->
 
 <hr />
 
 <!--
 ### Recent Posts
 
-{% for post in site.posts limit:2 %}
+{% for post in site.posts limit:0 %}
 {% include components/post-card.html %}
 {% endfor %}
 
