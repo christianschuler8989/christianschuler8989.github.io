@@ -111,7 +111,7 @@ title: Events
 				</tr> 
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
-						<img src="/docs/pictures/event-2024-PICS_Copenhagen.jpeg" class="img-fluid img-thumbnail" alt="PICS 2024">
+						<a href="/docs/pictures/event-2024-PICS_Copenhagen.jpeg" target="_blank"><img src="/docs/pictures/event-2024-PICS_Copenhagen.jpeg" width="150" class="img-fluid img-thumbnail" alt="PICS-2024 Group"></a>
 					</td>
 					<td>
 						<p>
@@ -343,7 +343,7 @@ title: Events
 				</tr> 
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
-						<img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total">
+						<a href="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" target="_blank"><img src="/docs/pictures/2023-DigitalTotal-DomiChristian-01.jpg" class="img-fluid img-thumbnail" alt="Digital Total with Domi"></a>
 					</td>
 					<td>
 						<p>
