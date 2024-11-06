@@ -73,7 +73,7 @@ title: Events
 							⭐ (Poster Presentation) CRAMT: Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata
 						</p>
 						<p>			    
-							Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Anran, Raman) are working on together. 
+							Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Ānrán, Raman) are working on together. 
 						</p>
 					</td>
 				</tr>
@@ -135,7 +135,7 @@ title: Events
 						</td>
 						<td>
 							<p>
-								💡 Admittedly, the budget could not cover posters or signs- but at least we did not have to starve during the breaks ;)
+								💡 Apparently, the budget could not cover printing event posters or signs- but credit where credit is due, once they started serving pastries during the breaks, everyone's spirit rose to the skies ;)
 							</p>
 						</td>
 					</tr>
@@ -150,7 +150,7 @@ title: Events
 								💡 The Spandauer (sweet pastry) alone are worth the travel to Denmark! :D
 							</p>
 							<p>
-								💬 I am glad that Anran invited me to stray a bit from my usual NLP-related activities and it was fun to meet so many people that actually do know "how to math" :)
+								💬 I am glad that Ānrán invited me to stray a bit from my usual NLP-related activities and it was fun to meet and talk with so many people that actually do know "how to math" :D
 							</p>
 						</td>
 					</tr>
@@ -160,7 +160,7 @@ title: Events
 				<tr> <!-- #1 -->
 					<td class="w-100" colspan="2">
 						<b>
-							<a href="https://www.inf.uni-hamburg.de/inst/basecamp/blog.html" target="_blank">
+							<a href="https://www.inf.uni-hamburg.de/inst/basecamp/blog/24-03-27-expo2024.html" target="_blank">
 								EXPO-2024
 							</a>
 							- Student's projects 
@@ -197,7 +197,7 @@ title: Events
 							⭐ (Poster Presentation) CRAMT: Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata
 						</p>
 						<p>			    
-							Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Anran, Raman) are working on together. 
+							Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Ānrán, Raman) are working on together. 
 						</p>
 					</td>
 				</tr>
@@ -270,7 +270,7 @@ title: Events
 							We were awarded the third place for our spontaneous creation and received some T-Shirts to serve as free advertisement ;)
 						</p>
 						<p>
-							💬 Raman invited us (Tania, Anran, and me) to this event and it was a lot of fun to cluelessly jump into a short project, trying to merge different ideas and ways of working in a (partially) new and unknown group!
+							💬 Raman invited us (Tania, Ānrán, and me) to this event and it was a lot of fun to cluelessly jump into a short project, trying to merge different ideas and ways of working in a (partially) new and unknown group!
 						</p>
 					</td>
 				</tr>
@@ -287,7 +287,7 @@ title: Events
 				</tr> 
 				<tr> <!-- #2 -->
 					<td class="w-25" rowspan="1">
-						<a href="/docs/pictures/2024-ESSV-Christian.jpg" target="_blank"><img src="/docs/pictures/2024-ESSV-Christian.jpg" class="img-fluid img-thumbnail" alt="EASIER Autumn School"></a>
+						<a href="/docs/pictures/event-2024-ESSV-group.jpg" target="_blank"><img src="/docs/pictures/event-2024-ESSV-group.jpg" class="img-fluid img-thumbnail" alt="ESSV Group Picture"></a>
 					</td>
 					<td>
 						<p>
@@ -307,7 +307,7 @@ title: Events
 				<tr> <!-- #3 -->
 					<td class="w-25" rowspan="1">
 						<p>
-							<a href="/docs/pictures/construction-itsupport.png" target="_blank"><img src="/docs/pictures/construction-itsupport.png" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
+							<a href="/docs/pictures/2024-ESSV-Christian.jpg" target="_blank"><img src="/docs/pictures/2024-ESSV-Christian.jpg" width="150" class="img-fluid img-thumbnail" alt="ESSV-2024 Paper Presentation"></a>
 						</p>
 					</td>
 					<td>
@@ -370,7 +370,7 @@ title: Events
 							<a href="https://www.project-easier.eu/event/easier-autumn-school/" target="_blank">
 								EASIER Autumn School
 							</a>
-							: Sign language data meets data science - data science meets sign linguistics 
+							- Sign language data meets data science - data science meets sign linguistics 
 						</b>
 					</td>
 				</tr>
@@ -402,7 +402,8 @@ title: Events
 						<b>
 							<a href="https://turn-conference.org/" target="_blank">
 								TURN Prototyp Zukunft
-							</a>
+							</a> 
+							- Politik und Praxis für innovative Lehre
 						</b>
 					</td>
 				</tr>
@@ -468,8 +469,9 @@ title: Events
 					<td class="w-100" colspan="2">
 						<b>
 							<a href="https://www.uni-frankfurt.de/141901385/ContentPage_141901385?" target="_blank">
-								6th International Conference on Kurdish Linguistics
-							</a>
+								ICKL-6
+							</a> 
+							- 6th International Conference on Kurdish Linguistics
 						</b>
 					</td>
 				</tr>

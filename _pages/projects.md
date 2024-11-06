@@ -106,7 +106,7 @@ title: Projects
 			    <td>
 			      <img src="/docs/pictures/proj-2022-ddlitlab-StudyToolkitVid.jpg" class="img-fluid img-thumbnail" alt="StudyToolkitVid">
 			    	Our student research project "StudyToolkitVid", a toolkit to study human perception of video material. Mentored by Prof. Dr. Timo Baumann got funded by the DDLitLab for 10,000€ :D   
-					Now Anran, Domi and I are working on expanding our work and hopefully soon be able to submit it to the KONVENS(?) :)
+					<!-- Now Ānrán, Domi and I are working on expanding our work and hopefully soon be able to submit it to the KONVENS(?) :) -->
 		    	</td>
 			  </tr>
 			  <tr>
@@ -143,7 +143,7 @@ title: Projects
 			    <td>Nov. 2017 - ongoing</td>
 			  </tr>
 			  <tr>
-			    <td>Together with a dear friend (Domi), I designed and created the card game Crazy Deck. This took place over the entire time of us studying computer science at the university of Hamburg and will hopefully continue at some point when we find some free time again! Especially now that Anran joined us in creating a digital version for online multiplayer! :D</td>
+			    <td>Together with a dear friend (Domi), I designed and created the card game Crazy Deck. This took place over the entire time of us studying computer science at the university of Hamburg and will hopefully continue at some point when we find some free time again! Especially now that Ānrán decided to join us in creating a digital version for online multiplayer! :D Hach... If only the day had more than 24 hours!</td>
 			  </tr>
 		  </tbody>
 		</table>   
