@@ -19,6 +19,8 @@ narrow: false
 			    <img src="/docs/images/Research-ContributionDendogram.png" class="img-fluid img-thumbnail" alt="Scientific Contributions and Interests">
 			    Scientific main contributions and interests.
 			    </td>
+			</tr>
+			<tr>
 				<td>
 				<img src="/docs/images/Research-InterestMap.png" class="img-fluid img-thumbnail" alt="Interests-Concept-Map">
 				Concept-map of my interests in general.
