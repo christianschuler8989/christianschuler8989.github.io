@@ -136,7 +136,7 @@ title: Projects
 		      <td class="w-25" rowspan="3">
 			      <img src="/docs/pictures/proj-2018-games-cdprototype.jpg" class="img-fluid img-thumbnail" alt="CrazyDeck">
 		      </td>
-		      <td><a href="https://github.com/christianschuler8989/CRAMT" target="_blank">Crazy Deck</a></td>
+		      <td><a href="https://github.com/christianschuler8989/CrazyDeck" target="_blank">Crazy Deck</a></td>
 		      
 		    </tr>
 		      <tr>
