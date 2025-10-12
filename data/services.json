@@ -1,0 +1,44 @@
+{
+    "title": "Service",
+    "subtitle": "Subtitle A",
+    "rootHexagon": {
+        "type": "profile",
+        "image": "images/construction-itsupport.png",
+        "title": "Title B",
+        "subtitle": "Subtitle B"
+    },
+    "contentHexagons": [
+        {
+            "type": "service",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Subtitle",
+            "status": "Active",
+            "position": { "row": 0, "col": 1 }
+        },
+        {
+            "type": "service",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Subtitle",
+            "status": "Active",
+            "position": { "row": 0, "col": 2 }
+        },
+        {
+            "type": "service",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Subtitle",
+            "status": "Active",
+            "position": { "row": 1, "col": 0 }
+        },
+        {
+            "type": "service",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Subtitle",
+            "status": "Active",
+            "position": { "row": 1, "col": 1 }
+        }
+    ]
+}

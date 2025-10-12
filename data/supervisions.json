@@ -1,0 +1,21 @@
+{
+    "title": "Supervision",
+    "subtitle": "Subtitle A",
+    "rootHexagon": {
+        "type": "profile",
+        "image": "images/construction-itsupport.png",
+        "title": "Title B",
+        "subtitle": "Subtitle B"
+    },
+    "contentHexagons": [
+        {
+            "type": "supervision",
+            "id": "2025AhmadBA",
+            "icon": "🤖",
+            "title": "Raman Ahmad (BA)",
+            "subtitle": "MT for low-resource Kobani variant of Kurdish.",
+            "status": "Active",
+            "position": { "row": 0, "col": 1 }
+        }
+    ]
+}

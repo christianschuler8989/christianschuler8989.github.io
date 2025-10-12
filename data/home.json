@@ -1,0 +1,68 @@
+{
+    "title": "Halli und Hallo and Welcome,",
+    "subtitle": "I’m Christian Schuler and work as a NLP researcher dedicated to advancing machine translation in low-resource scenarios.",
+    "rootHexagon": {
+        "type": "profile",
+        "image": "images/construction-itsupport.png",
+        "title": "Christian Schuler",
+        "subtitle": "PhD Student"
+    },
+    "contentHexagons": [
+        {
+            "type": "info",
+            "icon": "🎯",
+            "title": "Hexa 0 1",
+            "subtitle": "NLP & Low-Resource Languages",
+            "position": { "row": 0, "col": 1 }
+        },
+        {
+            "type": "info",
+            "icon": "🌍",
+            "title": "Hexa 0 2",
+            "subtitle": "Language Preservation",
+            "position": { "row": 0, "col": 2 }
+        },
+        {
+            "type": "info",
+            "icon": "📊",
+            "title": "Hexa 1 0",
+            "subtitle": "5+ Active Studies",
+            "position": { "row": 1, "col": 0 }
+        },
+        {
+            "type": "info",
+            "icon": "📊",
+            "title": "Hexa 1 1",
+            "subtitle": "5+ Active Studies",
+            "position": { "row": 1, "col": 1 }
+        },
+        {
+            "type": "info",
+            "icon": "📊",
+            "title": "Hexa 1 2",
+            "subtitle": "5+ Active Studies",
+            "position": { "row": 1, "col": 2 }
+        },
+        {
+            "type": "info",
+            "icon": "📊",
+            "title": "Hexa 2 0",
+            "subtitle": "5+ Active Studies",
+            "position": { "row": 2, "col": 0 }
+        },
+        {
+            "type": "info",
+            "icon": "📊",
+            "title": "Hexa 2 1",
+            "subtitle": "5+ Active Studies",
+            "position": { "row": 2, "col": 1 }
+        },
+        {
+            "type": "info",
+            "icon": "📊",
+            "title": "Hexa 2 2",
+            "subtitle": "5+ Active Studies",
+            "position": { "row": 2, "col": 2 }
+        }
+    ]
+}

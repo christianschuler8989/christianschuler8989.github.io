@@ -1,0 +1,40 @@
+{
+    "title": "About Me",
+    "subtitle": "Background, education, and philosophy",
+    "rootHexagon": {
+        "type": "profile",
+        "image": "images/construction-itsupport.png",
+        "title": "Christian",
+        "subtitle": "Background"
+    },
+    "contentHexagons": [
+        {
+            "type": "info",
+            "icon": "🎓",
+            "title": "Computer Linguistics Ph.D., Saarland University. Ongoing",
+            "subtitle": "Supervised by <a href=\"https://www.uni-saarland.de/lehrstuhl/genabith/van-genabith.html\" target=\"_blank\">Prof. Dr. Josef van Genabith</a>, <a href=\"https://timobaumann.de/work/Main/HomePage\" target=\"_blank\">Prof. Dr. Timo Baumann</a>, and <a href=\"https://simonost.github.io/home/\" target=\"_blank\">Dr. Simon Ostermann</a>.",
+            "position": { "row": 0, "col": 1 }
+        },
+        {
+            "type": "info",
+            "icon": "🌟",
+            "title": "Placeholder",
+            "subtitle": "Maybe for visiting another university/lab someday?",
+            "position": { "row": 0, "col": 2 }
+        },
+        {
+            "type": "info",
+            "icon": "🎓",
+            "title": "Informatics, M.Sc., University of Hamburg. 2024.09",
+            "subtitle": "\"Leveraging Morphological and Lexical Features in Synthetic Data Generation for Dialect-Specific Machine Translation\" supervised by <a href=\"https://sinaahmadi.github.io/\" target=\"_blank\">Dr. Sina Ahmadi</a>, <a href=\"https://seyyaw.github.io/\" target=\"_blank\">Dr. Seid Muhie Yimam</a>, and <a href=\"https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html\" target=\"_blank\">Prof. Dr. Chris Biemann</a>",
+            "position": { "row": 1, "col": 0 }
+        },
+        {
+            "type": "info",
+            "icon": "🎓",
+            "title": "Informatics, B.Sc., University of Hamburg. 2022.03",
+            "subtitle": "\"Perceptual Quality Assesment of Lip-Synchrony in Dubbing\" supervised by <a href=\"https://timobaumann.de/work/Main/HomePage\" target=\"_blank\">Prof. Dr. Timo Baumann</a> and <a href=\"https://www.inf.uni-hamburg.de/en/inst/ab/sp/people/gerkmann.html\" target=\"_blank\">Prof. Dr.-Ing Timo Gerkmann</a>",
+            "position": { "row": 1, "col": 1 }
+        }
+    ]
+}

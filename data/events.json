@@ -1,0 +1,52 @@
+{
+    "title": "Academic Events",
+    "subtitle": "Academic events",
+    "rootHexagon": {
+        "type": "profile",
+        "image": "images/construction-itsupport.png",
+        "title": "Past Events",
+        "subtitle": "5 Research Initiatives"
+    },
+    "contentHexagons": [
+        {
+            "type": "event",
+            "icon": "🗣️",
+            "title": "Placeholder",
+            "subtitle": "Language Documentation",
+            "status": "Active",
+            "position": { "row": 0, "col": 1 }
+        },
+        {
+            "type": "event",
+            "icon": "🌐",
+            "title": "Placeholder",
+            "subtitle": "Web-based Interface",
+            "status": "Development",
+            "position": { "row": 1, "col": 0 }
+        },
+        {
+            "type": "event",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Cross-lingual Transfer",
+            "status": "Research Phase",
+            "position": { "row": 1, "col": 1 }
+        },
+        {
+            "type": "event",
+            "icon": "📱",
+            "title": "Placeholder",
+            "subtitle": "Native Speaker Engagement",
+            "status": "Planning",
+            "position": { "row": 0, "col": 2 }
+        },
+        {
+            "type": "event",
+            "icon": "📈",
+            "title": "Placeholder",
+            "subtitle": "Benchmarking Tools",
+            "status": "Active",
+            "position": { "row": 1, "col": 2 }
+        }
+    ]
+}

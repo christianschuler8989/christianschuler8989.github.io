@@ -1,0 +1,516 @@
+/* ===== RESPONSIVE DESIGN SYSTEM ===== */
+
+/* Large Desktop (1400px+) */
+@media (min-width: 1400px) {
+    .hex-nav-container,
+    .page-container {
+        max-width: 1600px;
+    }
+    
+    .content-hexagon {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .content-hexagon.large {
+        width: 380px;
+        height: 380px;
+    }
+    
+    .content-hexagon.root {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* Desktop (1200px - 1399px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .main-content {
+        padding: 1.5rem;
+    }
+    
+    .content-hexagon {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .content-hexagon.large {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .content-hexagon.root {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+/* Large Tablet/Small Desktop (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hex-nav-header {
+        padding: 0.75rem 1.5rem;
+    }
+    
+    .main-content {
+        margin-top: 90px;
+        padding: 1.5rem;
+    }
+    
+    .nav-hexagon {
+        width: 70px;
+        height: 70px;
+        margin: 0 0.4rem;
+    }
+    
+    .content-hexagon {
+        width: 180px;
+        height: 180px;
+    }
+    
+    .content-hexagon.large {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .content-hexagon.root {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .page-title h1 {
+        font-size: 2.5rem;
+    }
+    
+    .page-title p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Tablet Portrait (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hex-nav-header {
+        padding: 0.75rem 1rem;
+    }
+    
+    .hex-nav-container {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .main-content {
+        margin-top: 140px;
+        padding: 1rem;
+    }
+    
+    .nav-hexagon {
+        width: 65px;
+        height: 65px;
+        margin: 0 0.3rem;
+    }
+    
+    .nav-hexagon .hexagon-content {
+        font-size: 0.75rem;
+    }
+    
+    .content-hexagon {
+        width: 160px;
+        height: 160px;
+    }
+    
+    .content-hexagon.large {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .content-hexagon.root {
+        width: 220px;
+        height: 220px;
+    }
+    
+    .page-title {
+        margin-bottom: 2rem;
+    }
+    
+    .page-title h1 {
+        font-size: 2.2rem;
+    }
+    
+    .page-title p {
+        font-size: 1rem;
+    }
+    
+    /* Adjust hexagon grid for tablet */
+    .hex-pattern-container {
+        min-height: 500px;
+    }
+}
+
+/* Large Mobile/Small Tablet (576px - 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hex-nav-header {
+        padding: 0.5rem;
+    }
+    
+    .hex-nav-container {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .logo-text {
+        font-size: 1.5rem;
+    }
+    
+    .main-content {
+        margin-top: 120px;
+        padding: 0.75rem;
+    }
+    
+    .nav-hexagon {
+        width: 55px;
+        height: 55px;
+        margin: 0 0.25rem;
+    }
+    
+    .nav-hexagon .hexagon-content {
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    
+    .content-hexagon {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .content-hexagon.large {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .content-hexagon.root {
+        width: 190px;
+        height: 190px;
+    }
+    
+    .page-title h1 {
+        font-size: 2rem;
+    }
+    
+    .page-title p {
+        font-size: 0.95rem;
+    }
+    
+    /* Mobile hexagon layout - switch to linear */
+    .mobile-layout .hex-pattern-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+    
+    .mobile-layout .content-hexagon {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        margin: 0;
+    }
+}
+
+/* Mobile (320px - 575px) */
+@media (max-width: 575px) {
+    .hex-nav-header {
+        padding: 0.5rem;
+    }
+    
+    .hex-nav-container {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .logo-text {
+        font-size: 1.3rem;
+    }
+    
+    .main-content {
+        margin-top: 110px;
+        padding: 0.5rem;
+    }
+    
+    .nav-hexagon {
+        width: 50px;
+        height: 50px;
+        margin: 0 0.2rem;
+    }
+    
+    .nav-hexagon .hexagon-content {
+        font-size: 0.65rem;
+        font-weight: 600;
+    }
+    
+    .content-hexagon {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .content-hexagon.large {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .content-hexagon.root {
+        width: 170px;
+        height: 170px;
+    }
+    
+    .page-title {
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .page-title h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+    
+    .page-title p {
+        font-size: 0.9rem;
+        padding: 0 0.5rem;
+    }
+    
+    /* Force mobile layout */
+    .hex-pattern-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem;
+        min-height: auto;
+    }
+    
+    .content-hexagon {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        margin: 0;
+    }
+    
+    /* Smaller text in mobile hexagons */
+    .content-hexagon .section-icon,
+    .content-hexagon .project-icon,
+    .content-hexagon .literature-icon {
+        font-size: 2rem;
+    }
+    
+    .content-hexagon .section-title,
+    .content-hexagon .project-title,
+    .content-hexagon .literature-title {
+        font-size: 0.9rem;
+    }
+    
+    .content-hexagon .section-count,
+    .content-hexagon .project-status,
+    .content-hexagon .literature-count {
+        font-size: 0.75rem;
+    }
+    
+    .root-image {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .root-title {
+        font-size: 1.1rem;
+    }
+    
+    .root-subtitle {
+        font-size: 0.85rem;
+    }
+}
+
+/* ===== ACCESSIBILITY & MOTION PREFERENCES ===== */
+@media (prefers-reduced-motion: reduce) {
+    .hexagon,
+    .hexagon-shape,
+    .loading-spinner,
+    .fade-in,
+    .fade-in-delayed {
+        animation: none !important;
+        transition: none !important;
+    }
+    
+    .hexagon:hover {
+        transform: none !important;
+    }
+    
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark mode adjustments if needed */
+    :root {
+        --background: #1a1a1a;
+        --background-alt: #2d2d2d;
+        --text-primary: #ffffff;
+        --text-secondary: #b0b0b0;
+        --neutral-light: #404040;
+        --shadow: rgba(0, 0, 0, 0.3);
+        --shadow-hover: rgba(0, 0, 0, 0.5);
+    }
+    
+    .hex-nav-header {
+        background: rgba(26, 26, 26, 0.95);
+        border-bottom-color: var(--neutral-light);
+    }
+}
+
+/* ===== HIGH CONTRAST MODE ===== */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-green: #00ff00;
+        --accent-blue: #0080ff;
+        --accent-orange: #ff8000;
+        --accent-purple: #ff00ff;
+        --neutral-dark: #000000;
+        --text-primary: #000000;
+        --background: #ffffff;
+        --shadow: rgba(0, 0, 0, 0.8);
+        --shadow-hover: rgba(0, 0, 0, 0.9);
+    }
+    
+    .hexagon-shape {
+        border: 2px solid #000000;
+    }
+    
+    .hexagon:focus {
+        outline: 4px solid #000000;
+        outline-offset: 4px;
+    }
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    .hex-nav-header,
+    .loading-overlay {
+        display: none !important;
+    }
+    
+    .main-content {
+        margin-top: 0;
+    }
+    
+    .hexagon {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    .page-title h1 {
+        color: #000000 !important;
+    }
+    
+    .hexagon-shape {
+        background: #f0f0f0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    
+    .hexagon-content {
+        color: #000000 !important;
+    }
+}
+
+/* ===== UTILITY CLASSES FOR RESPONSIVE BEHAVIOR ===== */
+.hide-mobile {
+    display: block;
+}
+
+.show-mobile {
+    display: none;
+}
+
+.hide-tablet {
+    display: block;
+}
+
+.show-tablet {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+    
+    .show-mobile {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .hide-tablet {
+        display: none;
+    }
+    
+    .show-tablet {
+        display: block;
+    }
+}
+
+/* ===== ANIMATION PAUSING FOR PERFORMANCE ===== */
+.pause-animations * {
+    animation-play-state: paused !important;
+    transition: none !important;
+}
+
+/* ===== ERROR NOTIFICATION STYLES ===== */
+.error-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ff5252;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 5000;
+    max-width: 400px;
+    animation: slideInRight 0.3s ease;
+}
+
+.error-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.error-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0;
+    margin-left: auto;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 575px) {
+    .error-notification {
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        max-width: none;
+    }
+}

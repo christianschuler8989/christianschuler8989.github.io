@@ -1,0 +1,46 @@
+{
+    "title": "Invited Talks",
+    "subtitle": "Subtitle A",
+    "rootHexagon": {
+        "type": "profile",
+        "image": "images/construction-itsupport.png",
+        "title": "Title B",
+        "subtitle": "Subtitle B"
+    },
+    "contentHexagons": [
+        {
+            "type": "talk",
+            "icon": "🤖",
+            "title": "MTACR: Multilingual Text As Corpus Repository - Improving Machine Translation of Low-Resource Languages",
+            "subtitle": "MLT lab - DFKI",
+            "date": "March 18, 2025",
+            "url": "https://www.dfki.de/en/web/research/research-departments/multilinguality-and-language-technology",
+            "status": "Active",
+            "position": { "row": 0, "col": 1 }
+        },
+        {
+            "type": "talk",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Subtitle",
+            "status": "Active",
+            "position": { "row": 0, "col": 2 }
+        },
+        {
+            "type": "talk",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Subtitle",
+            "status": "Active",
+            "position": { "row": 1, "col": 0 }
+        },
+        {
+            "type": "talk",
+            "icon": "🤖",
+            "title": "Placeholder",
+            "subtitle": "Subtitle",
+            "status": "Active",
+            "position": { "row": 1, "col": 1 }
+        }
+    ]
+}
