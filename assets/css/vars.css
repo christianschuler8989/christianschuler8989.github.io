@@ -1,0 +1,28 @@
+:root{
+   /* Fonts */
+   --font-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+   --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+ 
+   /* Sizes */
+   --nav-height: 92px;
+   --hex-size: 84px;    /* base hexagon diameter */
+   --hex-padding: 10px;
+ 
+   /* Color-blind-friendly palette (safe for many types of color blindness) */
+   --bg: #ffffff;
+   --surface: #f4f4f8;
+   --primary: #0072B2; /* blue */
+   --accent: #E69F00;  /* orange */
+   --muted: #6C757D;
+   --text: #111827;
+ 
+   /* semantic variables */
+   --nav-bg: linear-gradient(180deg, var(--surface), #eef2f6);
+   --nav-item-bg: var(--bg);
+   --nav-item-border: rgba(0,0,0,0.06);
+   --focus-ring: 3px solid rgba(0,114,178,0.18);
+ }
+ 
+ /* Provide a JS-readable fallback object via CSS custom properties for simple access
+    (JS should primarily read config/theme.json for full control) */
+ 

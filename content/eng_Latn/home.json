@@ -1,0 +1,21 @@
+{
+  "title": "Halli und Hallo and Welcome!",
+  "sections": [
+    {
+      "type": "paragraph",
+      "value": "My name is Christian and I am a PhD student at Saarland University."
+    },
+    {
+      "type": "paragraph",
+      "value": "I dedicated my research to advancing machine translation (MT) in low-resource scenarios, which leads me to investigate all kinds of low-resource natural language processing (NLP) besides machine translation."
+    },
+    {
+      "type": "paragraph",
+      "value": "Use the language selector at the top to switch locales and feel free to explore my work via the navigation bar on the left."
+    },
+    {
+      "type": "paragraph",
+      "value": "NOTE: This entire homepage is currently under massive (re-)construction, which is why you might find a few placeholders..."
+    }
+  ]
+}

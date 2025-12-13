@@ -1,0 +1,29 @@
+{
+  "title": "Projects",
+  "sections": [
+    {
+      "type": "html",
+      "value": "<div class='project-grid'></div>"
+    },
+    {
+      "type": "paragraph",
+      "value": "The project grid is populated dynamically from content/projects.json entries (see assets/js for renderer)."
+    }
+  ],
+  "items": [
+    {
+      "id": "proj1",
+      "title": "Low-Resource MT Toolkit",
+      "summary": "Toolkit for adapting neural MT to low-resource languages using data augmentation and backtranslation.",
+      "tags": ["NMT","low-resource","datasets"],
+      "links": [{"label": "Repo", "url":"https://example.com"}]
+    },
+    {
+      "id": "proj2",
+      "title": "Evaluation Suite",
+      "summary": "Lightweight evaluation suite for reproducible BLEU/chrF and human study interfaces.",
+      "tags": ["evaluation","reproducibility"],
+      "links": []
+    }
+  ]
+}

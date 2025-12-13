@@ -1,0 +1,23 @@
+/* theme.css
+   CSS variables are applied initially with reasonable defaults.
+   These variables will be overwritten at runtime from config/theme.json
+   by assets/js/loader.js -> main.js (applyTheme).
+*/
+:root {
+    --bg: #ffffff;
+    --surface: #f6f8fb;
+    --text: #0f1724;
+    --muted: #6b7280;
+    --primary: #0072B2;
+    --accent: #E69F00;
+    --nav-hex-bg: #ffffff;
+  
+    --nav-width: 128px;
+    --hex-size: 96px;
+    --content-max-width: 1000px;
+  
+    --focus-ring: 3px solid rgba(0,114,178,0.14);
+    --transition: 220ms ease;
+  }
+  body { background: var(--bg); color: var(--text); font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+  

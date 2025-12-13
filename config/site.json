@@ -1,0 +1,18 @@
+{
+  "siteTitle": "My Research Homepage",
+  "sections": [
+    { "id": "home", "labelKey": "nav.home", "kicker": "H", "icon": "🏠" },
+    { "id": "publications", "labelKey": "nav.publications", "kicker": "Pub", "icon": "📑" },
+    { "id": "projects", "labelKey": "nav.projects", "kicker": "P", "icon": "🔬" },
+    { "id": "events", "labelKey": "nav.events", "kicker": "E", "icon": "🎩" },
+    { "id": "talks", "labelKey": "nav.talks", "kicker": "T", "icon": "📣" },
+    { "id": "teaching", "labelKey": "nav.teaching", "kicker": "Teach", "icon": "🏫" },
+    { "id": "supervision", "labelKey": "nav.supervision", "kicker": "S", "icon": "⛳" },
+    { "id": "literature", "labelKey": "nav.literature", "kicker": "Lit", "icon": "📚" },
+    { "id": "service", "labelKey": "nav.service", "kicker": "Svc", "icon": "🎭" },
+    { "id": "research", "labelKey": "nav.research", "kicker": "R", "icon": "🔭" },
+    { "id": "about", "labelKey": "nav.about", "kicker": "A", "icon": "📗" },
+    { "id": "portfolio", "labelKey": "nav.portfolio", "kicker": "PF", "icon": "🎨" }
+  ],
+  "order": ["home","publications","projects","events","talks","teaching","supervision","literature","service","research","about","portfolio"]
+}

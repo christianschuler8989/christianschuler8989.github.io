@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "publications": "Publications",
+    "events": "Events",
+    "talks": "Talks",
+    "teaching": "Teaching",
+    "supervision": "Supervision",
+    "literature": "Literature",
+    "service": "Service",
+    "about": "About",
+    "research": "Research",
+    "portfolio": "Portfolio"
+  },
+
+  "sections": {
+    "home": {
+      "title": "Halli und Hallo und Willkommen!",
+      "body": "This is the home section."
+    },
+    "projects": {
+      "title": "Projects",
+      "body": "My research and technical projects."
+    },
+    "publications": {
+      "title": "Publications",
+      "body": "Scientific papers, preprints, and articles."
+    }
+  }
+}

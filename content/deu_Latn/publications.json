@@ -1,0 +1,29 @@
+{
+  "title": "Publications",
+  "sections": [
+    {
+      "type": "paragraph",
+      "value": "A data-driven list of publications. Items are listed in descending chronological order by 'date' if available."
+    }
+  ],
+  "items": [
+    {
+      "title": "Adapting NMT to Low-Resource Languages",
+      "authors": ["Your Name", "Colleague B"],
+      "venue": "ACL Demo Track",
+      "year": 2024,
+      "url": "https://doi.org/10.5555/example",
+      "date": "2024-08-01",
+      "type": "conference"
+    },
+    {
+      "title": "Data Augmentation for Neural MT",
+      "authors": ["Your Name"],
+      "venue": "Workshop on Low-Resource NLP",
+      "year": 2023,
+      "url": "https://arxiv.org/abs/example",
+      "date": "2023-05-10",
+      "type": "workshop"
+    }
+  ]
+}

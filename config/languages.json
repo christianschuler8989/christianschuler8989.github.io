@@ -1,0 +1,17 @@
+{
+  "defaultLanguage": "eng_Latn",
+  "available": [
+    {
+      "code": "eng_Latn",
+      "name": "English (L)",
+      "dir": "ltr",
+      "fallback": null
+    },
+    {
+      "code": "deu_Latn",
+      "name": "Deutsch (L)",
+      "dir": "ltr",
+      "fallback": "eng_Latn"
+    }
+  ]
+}

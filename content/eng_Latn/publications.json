@@ -1,0 +1,65 @@
+{
+  "title": "Publications",
+  "sections": [
+    {
+      "type": "paragraph",
+      "value": "A data-driven list of publications. Items are listed in descending chronological order by 'date' if available."
+    }
+  ],
+  "items": [
+    {
+      "title": "Dialectal Filtering: Synthesize Text Corpora for Kurdish Varieties by Enriching Datasets with Multi-Labels.",
+      "authors": ["Christian Schuler", "Raman Ahmad", "Ānrán Wáng"],
+      "venue": "ICKL-7: Seventh International Conference on Kurdish Linguistics.",
+      "year": 2025,
+      "url": "https://ickl-conference.org/",
+      "date": "2025",
+      "type": "conference"
+    },
+    {
+      "title": "Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses.",
+      "authors": ["Christian Schuler", "Shravan Nayak", "Debjoy Saha", "Timo Baumann"],
+      "venue": "ESSV-2024: 35th. Conference on Electronic Speech Signal Processing.",
+      "year": 2024,
+      "url": "https://www.essv.de/essv2024/uploads/Main/Program/essv2024_165.pdf",
+      "date": "2024",
+      "type": "conference"
+    },
+    {
+      "title": "A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation",
+      "authors": ["Shravan Nayak", "Christian Schuler", "Debjoy Saha", "Timo Baumann"],
+      "venue": "ICMI '22: Proceedings of the 2022 International Conference on Multimodal Interaction.",
+      "year": 2022,
+      "url": "https://dl.acm.org/doi/abs/10.1145/3536221.3556621",
+      "date": "2022",
+      "type": "conference"
+    },
+    {
+      "title": "(in print) When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data",
+      "authors": ["Christian Schuler", "Dominik Hauser", "Christoph Zehendner", "Maren Gierlich-Joas"],
+      "venue": "Chapter in Digital Trace Data Research in Information Systems: Foundations, Methods, and Applications.",
+      "year": 2025,
+      "url": "https://tracedata.ai.wu.ac.at/accepted-chapters/",
+      "date": "2025",
+      "type": "book chapter"
+    },
+    {
+      "title": "Lip-Synched",
+      "authors": ["Timo Baumann", "Christian Schuler"],
+      "venue": "Linux Magazine Issue 267/2023 - This is the English translated version of Timo's and my linux-article from 2022.",
+      "year": 2023,
+      "url": "https://www.linux-magazine.com/Issues/2023/267/Natural-Language-Processing",
+      "date": "2023",
+      "type": "magazine"
+    },
+    {
+      "title": "Natural Language Processing mit Neuronalen Netzen",
+      "authors": ["Timo Baumann", "Christian Schuler"],
+      "venue": "Linux Magazine 10/2022.",
+      "year": 2022,
+      "url": "https://www.linux-magazin.de/ausgaben/2022/10/nlp/",
+      "date": "2022",
+      "type": "magazine"
+    }
+  ]
+}

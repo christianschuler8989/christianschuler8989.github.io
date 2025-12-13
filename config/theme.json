@@ -1,0 +1,29 @@
+{
+  "comment": "Central source of truth for ALL CSS variables used across the site",
+  
+  "layout": {
+    "hex-size": "110px",
+    "hex-gap": "4px",
+    "content-max-width": "1600px"
+  },
+  
+  "colors": {
+    "primary": "#28942B",
+    "secondary": "#BA202A",
+    "bg": "#ffffff",
+    "surface": "#f3f4f6",
+    "text": "#111827",
+    "text-secondary": "#6b7280",
+    "accent": "#D55E00",
+    "border": "rgba(0,0,0,0.08)"
+  },
+  
+  "spacing": {
+    "section-padding": "28px",
+    "section-gap": "48px"
+  },
+  
+  "animation": {
+    "transition": "200ms ease-out"
+  }
+}

@@ -1,0 +1,154 @@
+/* hexagons.css */
+
+:root {
+  --transition: 200ms ease-out;
+}
+
+/* 1. THE CONTAINER: Force a vertical column */
+.hex-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Default alignment left */
+  padding-left: 5px;      /* Initial offset from screen edge */
+}
+
+/* 2. THE ITEM: The actual space the hex takes up */
+.hex-item {
+  width: var(--hex-width);
+  height: var(--hex-height);
+  position: relative;
+  z-index: 1;
+  
+  /* LAYOUT MAGIC:
+     Negative margin pulls the *next* item up by half height.
+     This creates the vertical overlap. 
+  */
+  margin-bottom: calc(var(--hex-height) * -0.5 + var(--hex-gap));
+  
+  /* Reset left margin */
+  margin-left: 0;
+  
+  transition: transform var(--transition), z-index 0s;
+}
+
+/* 3. THE ZIG-ZAG: Indent every second item */
+.hex-list .hex-item:nth-child(even) {
+  /* Push to the right by 75% of width (standard hex spacing) */
+  margin-left: calc(var(--hex-width) * 0.75 + var(--hex-gap));
+}
+
+/* 4. THE BUTTON: Visuals and Interaction */
+.hex-btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  display: grid;
+  place-items: center;
+  
+  /* IMPORTANT: Use filter instead of box-shadow.
+     Drop-shadow respects the clip-path/transparency of children! */
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+  transition: transform var(--transition), filter var(--transition);
+}
+
+/* Layers for the 3D Look */
+.hex-btn .layer {
+  position: absolute;
+  inset: 0;
+  /* The standard flat-topped hex polygon */
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.hex-btn .layer.bottom {
+  background: rgba(0,0,0,0.05);
+  transform: translateY(4px); /* Faux 3D depth */
+  z-index: 0;
+}
+
+.hex-btn .layer.mid {
+  background: var(--surface, #ffffff);
+  /* A nice subtle border effect */
+  background-clip: padding-box; 
+  z-index: 1;
+}
+
+.hex-btn .layer.top {
+  /* Gradient shine */
+  background: linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 50%);
+  z-index: 2;
+}
+
+/* Content Styling */
+.hex-btn .content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: var(--text-main, #333);
+  pointer-events: none; /* Let clicks pass through to button */
+}
+/* .kicker { font-size: 1.2rem; font-weight: 700; display: block; line-height: 1; } */
+.icon { font-size: 2.2rem; font-weight: 700; display: block; line-height: 1.0; margin-top: -20px;}
+.label { font-size: 0.80rem; font-weight: 600; text-transform: uppercase; opacity: 0.7; line-height: 1.0; margin-top: 4px; } /*; margin-top: 4px; }*/
+
+
+/* 5. INTERACTIONS: Hover & Active States */
+
+/* Hover */
+.hex-item:hover {
+  z-index: 10; /* Bring to front on hover */
+}
+.hex-item:hover .hex-btn {
+  transform: translateY(-4px) scale(1.05);
+  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
+}
+
+/* Active / Selected */
+.hex-item.active {
+  z-index: 10;
+}
+.hex-item.active .hex-btn {
+  transform: translateY(-2px) scale(1.1);
+  filter: drop-shadow(0 10px 20px rgba(32,186,62,0.3)); /* Colored shadow for active */
+}
+
+/* Color the active hex */
+.hex-item.active .layer.mid {
+  background: var(--primary, #0072B2); /* Use your theme primary color */
+}
+.hex-item.active .content {
+  color: #fff;
+}
+
+/* Shine Animation */
+.hex-btn .shine {
+  position: absolute; inset: 0; z-index: 4;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
+  transform: skewX(-20deg) translateX(-150%);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  pointer-events: none;
+}
+.hex-item:hover .shine {
+  transition: 0.5s;
+  transform: skewX(-20deg) translateX(150%);
+}
+
+/* Mobile Fallback */
+@media (max-width: 720px) {
+  .hex-list {
+    flex-direction: row;
+    padding: 1px;
+    align-items: center;
+    overflow-x: auto;
+  }
+  .hex-item {
+    margin-bottom: 0;
+    margin-left: 0 !important;
+    margin-right: -15px; /* Slight horizontal overlap */
+    width: 80px;
+    height: 80px; /* Smaller on mobile */
+  }
+}

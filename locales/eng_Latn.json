@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "publications": "Publications"
+  },
+  "home": {
+    "title": "Welcome!",
+    "intro": "I am a PhD student working on low-resource NLP and machine translation. This is a small demo site showing a data-driven, hexagonal navigation layout."
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Selected projects. Click through for details."
+  },
+  "publications": {
+    "title": "Publications",
+    "intro": "A data-driven list of publications."
+  }
+}
