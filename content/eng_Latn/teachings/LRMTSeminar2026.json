@@ -1,0 +1,241 @@
+{
+    "general": {
+        "title": "Low-Resource Machine Translation Seminar",
+        "subtitle": "When Machines Collide with Human Languages: Challenges of Cross-Lingual and Cross-Cultural Machine Translation",
+        "version": "2026-v0.1",
+        "last_updated": "2026",
+        "instructor": "Christian Schuler",
+        "affiliation": "Saarland University (UdS), German Research Center for Artificial Intelligence (DFKI)",
+        "firstsession": {
+            "title": "First Session",
+            "date": "14.04.2026",
+            "time":  "16:15 - 17:45",
+            "place": "Building C7 2 room 1.05"
+        },
+        "prerequisites": {
+                "title": "Prerequisites",
+                "info":"This seminar is primarily targeted at Master students, but is also open to advanced Bachelor students. We expect you to have a curious mind."
+        },
+        "coursecontent": {
+            "title": "Course Content",
+            "info": "Low-resource machine translation in all its beauty and all its horror! A preliminary syllabus and list of papers to choose from is found below."
+        },
+        "grading": {
+            "title": "Grading",
+            "info": "Some words on grading: This seminar is meant to be as interactive as possible. Final grades will be based on students' presentations, term papers (optional), but also on participation and discussion in class. The participants are expected to prepare for classes accordingly, by reading the relevant papers and also doing background reading, if necessary. Based on this preparation, the participants should be able to discuss the presented papers in depth and to understand relevant context during the discussion."
+        }
+    },
+    "sessions": [
+        {
+            "session": 1,
+            "date": "14.04.2026",
+            "id": "session_intro",
+            "title": "Introduction, Course Overview, and Foundations",
+            "type": "lecture",
+            "header_question": null,
+            "topic_summary": "Introductory lecture covering the course structure, foundational concepts in ML, NLP, and MT, and a high-level framing of why low-resource MT matters. Administrative session.",
+            "paper_ids": [],
+            "recommended_paper_ids": [
+                "koehn2005europarl",
+                "koehn2020neuralmachinetr",
+                "papineni2002bleu",
+                "vaswani2017attention"
+            ]
+        },
+        {
+            "session": 2,
+            "date": "21.04.2026",
+            "id": "session_ethics",
+            "title": "Ethics, Biases, and Responsibilities in Low-Resource NLP",
+            "type": "seminar",
+            "header_question": "Who decides which languages get translated - and who bears the cost when we get it wrong?",
+            "topic_summary": "Examines the ethical dimensions of NLP and MT research: whose languages are prioritized, what assumptions are embedded in our data and models, the risk of imposing external frameworks on language communities, and the responsibilities of researchers working with endangered or marginalized languages.",
+            "paper_ids": [
+                "bender2021stochastic",
+                "mager2018challenges",
+                "bird2022local",
+                "joshi2020state"
+            ],
+            "recommended_paper_ids": [
+                "kornai2013digital"
+            ]
+        },
+        {
+            "session": 3,
+            "date": "28.04.2026",
+            "id": "session_corpus",
+            "title": "Corpus Creation and Data Acquisition Challenges",
+            "type": "seminar",
+            "header_question": "Where does the data for low-resource MT come from?",
+            "topic_summary": "Explores strategies for building parallel and monolingual corpora for low-resource languages: web mining, language documentation standards, parallel sentence mining using multilingual embeddings, and the challenges of noisy or misaligned data.",
+            "paper_ids": [
+                "schwenk2021ccmatrix",
+                "koehn2018wmt_filtering",
+                "bird2003seven",
+                "artetxe2019laser",
+                "schwenk2025lowresource"
+            ],
+            "recommended_paper_ids": [
+                "tiedemann2012opus",
+                "tiedemann2023opusmt"
+            ]
+        },
+        {
+            "session": 4,
+            "date": "05.05.2026",
+            "id": "session_evaluation",
+            "title": "Evaluation in Low-Resource Settings",
+            "type": "seminar",
+            "header_question": "How do we know when a translation is good - and does *good* even mean?",
+            "topic_summary": "Examines automatic and human evaluation metrics for MT, their theoretical foundations, and their limitations and failure modes in low-resource settings. Covers BLEU, BLEURT, COMET, and low-resource benchmarks.",
+            "paper_ids": [
+                "reiter2018structured",
+                "sellam2020bleurt",
+                "rei2020comet"
+            ],
+            "recommended_paper_ids": []
+        },
+        {
+            "session": 5,
+            "date": "12.05.2026",
+            "id": "session_nlptools",
+            "title": "Fundamental NLP Tools and Preprocessing",
+            "type": "seminar",
+            "header_question": "What tools does NLP take for granted - and what happens when those tools simply do not exist for a language?",
+            "topic_summary": "Examines the foundational preprocessing tools required for MT pipelines: tokenization, morphological analysis, part-of-speech tagging, and cross-lingual representation methods. Focuses on the challenge of building or adapting these tools for languages where annotated data and linguistic resources are scarce or absent.",
+            "paper_ids": [
+                "kudo2018sentencepiece",
+                "snyder2008unsupervised",
+                "goldsmith2001unsupervised"
+            ],
+            "recommended_paper_ids": [
+                "sennrich2016subword"
+            ]
+        },
+        {
+            "session": 6,
+            "date": "19.05.2026",
+            "id": "session_dataaugmentation",
+            "title": "Data Augmentation and Synthetic Data",
+            "type": "seminar",
+            "header_question": "If we do not have enough data to train a good MT system, can we generate the data we need?",
+            "topic_summary": "Covers techniques for artificially expanding training data in low-resource MT, with a focus on back-translation: generating synthetic source-language text from target-language monolingual data using an existing MT system. Examines the conditions under which augmentation helps, the quality-diversity trade-off, and the bootstrapping problem inherent in these approaches.",
+            "paper_ids": [
+                "sennrich2016improving",
+                "edunov2018understanding",
+                "burchell2022exploring"
+            ],
+            "recommended_paper_ids": []
+        },
+        {
+            "session": 7,
+            "date": "26.05.2026",
+            "id": "session_transferlearning",
+            "title": "Transfer Learning and Multilingual Models",
+            "type": "seminar",
+            "header_question": "Can a model trained on many languages learn something useful for a language it has barely seen - or does scale just benefit the already-resourced?",
+            "topic_summary": "Examines how knowledge learned from high-resource languages can be transferred to low-resource ones, through multilingual training, cross-lingual pre-training, and large-scale multilingual systems. Covers the progression from Google's multilingual NMT to XLM-R and NLLB, and introduces the curse of multilinguality as a core tension.",
+            "paper_ids": [
+                "johnson2017googles",
+                "aharoni2019massively",
+                "conneau2020unsupervised",
+                "nllb2022",
+                "nguyen2017transfer"
+            ],
+            "recommended_paper_ids": [
+                "mimno2009polylingual",
+                "garmash2016ensemble"
+            ]
+        },
+        {
+            "session": 8,
+            "date": "02.06.2026",
+            "id": "session_zeroshot",
+            "title": "Zero/Few-Shot and Active Learning",
+            "type": "seminar",
+            "header_question": "When data is nearly absent, do we minimize human involvement - or do we make every human decision count?",
+            "topic_summary": "Examines three distinct strategies for the extreme low-data regime: zero-shot translation (no parallel data at all), few-shot approaches (minimal labeled examples), and active learning (strategic selection of which data to annotate). Foregrounds the philosophical tension between these paradigms: zero/few-shot minimizes human involvement, while active learning maximizes the value of each human decision.",
+            "paper_ids": [
+                "artetxe2018unsupervised",
+                "pendas2023neural",
+                "kholodna2024llms",
+                "lakew2021zeroshot"
+            ],
+            "recommended_paper_ids": [
+                "garmash2016ensemble"
+            ]
+        },
+        {
+            "session": 9,
+            "date": "09.06.2026",
+            "id": "session_scopemodality",
+            "title": "Scope Distinctions and Modalities",
+            "type": "seminar",
+            "header_question": "What happens to machine translation when the language was never primarily a text?",
+            "topic_summary": "Challenges the implicit assumption that MT operates on written text, examining translation scenarios where the source or target is speech, sign language, or otherwise non-textual. Considers what this means for low-resource languages that may have rich oral or signing traditions but little or no written form. Also examines the multilingual-versus-bilingual trade-off in system design.",
+            "paper_ids": [
+                "jia2022speech",
+                "camgoz2018neural",
+                "tiedemann2020tatoeba",
+                "bansal2019lowresource",
+                "liang2023sign"
+            ],
+            "recommended_paper_ids": [
+                "sperber2020speech"
+            ]
+        },
+        {
+            "session": 10,
+            "date": "16.06.2026",
+            "id": "session_domainadaptation",
+            "title": "Domain Adaptation",
+            "type": "seminar",
+            "header_question": "Even with a working MT system, does it translate the right things - and for whom?",
+            "topic_summary": "Examines domain adaptation: the challenge of making a general MT system perform well in a specific domain (medical, legal, religious) with limited in-domain data. Connects domain adaptation to broader ethical questions about whose needs are served by MT systems, who controls the framing of 'useful' translation, and the risks of deploying systems in high-stakes domains without adequate evaluation.",
+            "paper_ids": [
+                "chu2018survey",
+                "adams2022finding"
+            ],
+            "recommended_paper_ids": [
+                "bender2021stochastic"
+            ]
+        },
+        {
+            "session": 11,
+            "date": "23.06.2026",
+            "id": "session_linguisticfeatures",
+            "title": "Linguistic Features as Structured Solutions",
+            "type": "seminar",
+            "header_question": "When data is too scarce for a model to learn language structure implicitly, can we inject that structure explicitly?",
+            "topic_summary": "Explores how explicit linguistic knowledge - typological features, morphological structure, syntactic information, cross-lingual universals - can compensate for data scarcity in low-resource MT. Covers approaches ranging from typologically-informed model design to subword segmentation as a morphology proxy to multilingual probing tasks for evaluating what models have learned.",
+            "paper_ids": [
+                "ponti2019modeling",
+                "ding2019saliency",
+                "naseem2012selective",
+                "sennrich2016subword",
+                "sahin2020linspector",
+                "lakew2021zeroshot"
+            ],
+            "recommended_paper_ids": []
+        },
+        {
+            "session": 12,
+            "date": "30.06.2026",
+            "id": "session_futuredirections",
+            "title": "Future Directions and Synthesis",
+            "type": "seminar",
+            "header_question": "What are the most important unsolved problems in low-resource MT, and what would solving them require?",
+            "topic_summary": "Final session combining forward-looking papers on emerging directions (LLMs for low-resource, dialectal NLP, English-centric biases in cross-lingual systems) with structured synthesis across the full seminar arc. Students draw threads across weeks and articulate both what the field has achieved and where its most important open problems lie.",
+            "paper_ids": [
+                "anastasopoulos2020cross",
+                "joshi2025dialects",
+                "lupascu2025large"
+            ],
+            "recommended_paper_ids": [
+                "haddow2022survey",
+                "sperber2020speech",
+                "joshi2020state"
+            ]
+        }
+    ]
+}

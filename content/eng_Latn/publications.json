@@ -7,6 +7,16 @@
     }
   ],
   "items": [
+    
+    {
+      "title": "When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data",
+      "authors": ["Christian Schuler", "Dominik Hauser", "Christoph Zehendner", "Maren Gierlich-Joas"],
+      "venue": "Chapter in Digital Trace Data Research in Information Systems: Foundations, Methods, and Applications.",
+      "year": 2026,
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-05497-5_11",
+      "date": "2026",
+      "type": "book chapter"
+    },
     {
       "title": "Dialectal Filtering: Synthesize Text Corpora for Kurdish Varieties by Enriching Datasets with Multi-Labels.",
       "authors": ["Christian Schuler", "Raman Ahmad", "Ānrán Wáng"],
@@ -33,15 +43,6 @@
       "url": "https://dl.acm.org/doi/abs/10.1145/3536221.3556621",
       "date": "2022",
       "type": "conference"
-    },
-    {
-      "title": "(in print) When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data",
-      "authors": ["Christian Schuler", "Dominik Hauser", "Christoph Zehendner", "Maren Gierlich-Joas"],
-      "venue": "Chapter in Digital Trace Data Research in Information Systems: Foundations, Methods, and Applications.",
-      "year": 2025,
-      "url": "https://tracedata.ai.wu.ac.at/accepted-chapters/",
-      "date": "2025",
-      "type": "book chapter"
     },
     {
       "title": "Lip-Synched",

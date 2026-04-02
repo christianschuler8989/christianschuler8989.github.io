@@ -1,0 +1,721 @@
+{
+  "metadata": {
+    "title": "LRMT Seminar — Paper Repository",
+    "description": "Flat, tag-based repository of all papers considered for the Low-Resource Machine Translation seminar. Papers are not nested by week — weeks reference paper IDs. This separation keeps the paper list modular and reusable across seminar editions.",
+    "version": "2025-v0.1",
+    "last_updated": "2025",
+    "notes": "The 'id' field is permanent and should never be changed between versions — it is the stable cross-reference key. The 'citationkey' field is a suggested BibTeX key and can be adjusted by individual users (e.g. to match their Zotero setup). Tags use a controlled vocabulary: see tag_vocabulary below."
+  },
+  "tag_vocabulary": {
+    "topic": [
+      "corpus-creation", "evaluation", "data-augmentation", "back-translation",
+      "multilingual", "transfer-learning", "ethics", "low-resource", "zero-shot",
+      "few-shot", "active-learning", "preprocessing", "tokenization", "morphology",
+      "domain-adaptation", "speech-translation", "sign-language", "linguistic-features",
+      "bilingual-lexicon-induction", "pivot-language", "synthetic-data",
+      "language-documentation", "parallel-corpus-mining", "sentence-embeddings",
+      "language-diversity", "endangered-languages", "dialects", "llm",
+      "unsupervised-learning", "multimodal"
+    ],
+    "paper_type": [
+      "foundational", "survey", "empirical", "theoretical",
+      "benchmark", "critical-perspective", "system-description", "dataset-paper"
+    ],
+    "resource_context": [
+      "high-resource", "medium-resource", "low-resource", "zero-resource",
+      "multilingual", "cross-lingual"
+    ]
+  },
+  "papers": [
+
+    {
+      "id": "koehn2005europarl",
+      "citationkey": "koehn2005Europarl",
+      "header": "Foundational SMT corpus",
+      "title": "Europarl: A Parallel Corpus for Statistical Machine Translation",
+      "reference_short": "Koehn, 2005",
+      "reference_full": "Koehn, P. (2005). Europarl: A Parallel Corpus for Statistical Machine Translation. MT Summit.",
+      "year": 2005,
+      "venue": "MT Summit",
+      "url": "https://aclanthology.org/2005.mtsummit-papers.11/",
+      "tags": ["corpus-creation", "parallel-corpus-mining", "foundational", "high-resource", "multilingual"]
+    },
+
+    {
+      "id": "koehn2020neuralmachinetr",
+      "citationkey": "koehn2020NeuralMachineTranslation",
+      "header": "Introduction to NMT",
+      "title": "Neural Machine Translation",
+      "reference_short": "Koehn, 2020",
+      "reference_full": "Koehn, P. (2020). Neural Machine Translation. Cambridge University Press.",
+      "year": 2020,
+      "venue": "Cambridge University Press (Book)",
+      "url": "https://www.cambridge.org/core/books/neural-machine-translation/7AAA628F88ADD64124EA008C425C0197",
+      "tags": ["foundational", "survey", "multilingual", "low-resource"]
+    },
+
+    {
+      "id": "papineni2002bleu",
+      "citationkey": "papineni2002BLEU",
+      "header": "The original BLEU metric",
+      "title": "BLEU: A Method for Automatic Evaluation of Machine Translation",
+      "reference_short": "Papineni et al., 2002",
+      "reference_full": "Papineni, K., Roukos, S., Ward, T., & Zhu, W. J. (2002). BLEU: a Method for Automatic Evaluation of Machine Translation. ACL.",
+      "year": 2002,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/P02-1040/",
+      "tags": ["evaluation", "foundational", "high-resource"]
+    },
+
+    {
+      "id": "vaswani2017attention",
+      "citationkey": "vaswani2017AttentionAllYou",
+      "header": "The Transformer architecture",
+      "title": "Attention is All You Need",
+      "reference_short": "Vaswani et al., 2017",
+      "reference_full": "Vaswani, A., Shazeer, N., Parmar, N., et al. (2017). Attention is All You Need. NeurIPS.",
+      "year": 2017,
+      "venue": "NeurIPS",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "tags": ["foundational", "theoretical", "high-resource"]
+    },
+
+    {
+      "id": "bender2021stochastic",
+      "citationkey": "bender2021DangersStochasticParrots",
+      "header": "Risks and responsibilities in large language models",
+      "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?",
+      "reference_short": "Bender et al., 2021",
+      "reference_full": "Bender, E.M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? FAccT.",
+      "year": 2021,
+      "venue": "FAccT",
+      "url": "https://dl.acm.org/doi/10.1145/3442188.3445922",
+      "tags": ["ethics", "llm", "critical-perspective", "language-diversity", "low-resource"]
+    },
+
+    {
+      "id": "mager2018challenges",
+      "citationkey": "mager2018ChallengesLanguageTechnologies",
+      "header": "NLP challenges for indigenous languages of the Americas",
+      "title": "Challenges of Language Technologies for the Indigenous Languages of the Americas",
+      "reference_short": "Mager et al., 2018",
+      "reference_full": "Mager, M., Gutierrez-Vasques, X., Sierra, G., & Meza, I. (2018). Challenges of language technologies for the indigenous languages of the Americas. COLING.",
+      "year": 2018,
+      "venue": "COLING",
+      "url": "https://aclanthology.org/C18-1006/",
+      "tags": ["ethics", "low-resource", "endangered-languages", "empirical", "corpus-creation", "linguistic-features"]
+    },
+
+    {
+      "id": "bird2022local",
+      "citationkey": "bird2022LocalLanguagesThird",
+      "header": "Community-centered perspectives on language resources",
+      "title": "Local Languages, Third Spaces, and other High-Resource Scenarios",
+      "reference_short": "Bird, 2022",
+      "reference_full": "Bird, S. (2022). Local languages, third spaces, and other high-resource scenarios. ACL.",
+      "year": 2022,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2022.acl-long.539/",
+      "tags": ["ethics", "language-documentation", "endangered-languages", "low-resource", "critical-perspective"]
+    },
+
+    {
+      "id": "joshi2020state",
+      "citationkey": "joshi2020StateFateLinguistic",
+      "header": "The distribution of NLP resources across the world's languages",
+      "title": "The State and Fate of Linguistic Diversity and Inclusion in the NLP World",
+      "reference_short": "Joshi et al., 2020",
+      "reference_full": "Joshi, P., Santy, S., Budhiraja, A., et al. (2020). The State and Fate of Linguistic Diversity and Inclusion in the NLP World. ACL.",
+      "year": 2020,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2020.acl-main.560/",
+      "tags": ["ethics", "language-diversity", "low-resource", "survey", "benchmark", "multilingual"]
+    },
+
+    {
+      "id": "kornai2013digital",
+      "citationkey": "kornai2013DigitalLanguageDeath",
+      "header": "Digital language death",
+      "title": "Digital Language Death",
+      "reference_short": "Kornai, 2013",
+      "reference_full": "Kornai, A. (2013). Digital Language Death. PLOS ONE.",
+      "year": 2013,
+      "venue": "PLOS ONE",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0077056",
+      "tags": ["ethics", "language-diversity", "endangered-languages", "critical-perspective"]
+    },
+
+    {
+      "id": "schwenk2021ccmatrix",
+      "citationkey": "schwenk2021CCMatrixMiningBillions",
+      "header": "Mining billions of parallel sentences from the web",
+      "title": "CCMatrix: Mining Billions of High-Quality Parallel Sentences on the Web",
+      "reference_short": "Schwenk et al., 2021",
+      "reference_full": "Schwenk, H., Wenzek, G., Edunov, S., et al. (2021). CCMatrix: Mining Billions of High-Quality Parallel Sentences on the Web. ACL.",
+      "year": 2021,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2021.acl-long.507/",
+      "tags": ["corpus-creation", "parallel-corpus-mining", "multilingual", "sentence-embeddings", "empirical"]
+    },
+
+    {
+      "id": "koehn2018wmt_filtering",
+      "citationkey": "koehn2018FindingsWMT2018",
+      "header": "Shared task on parallel corpus filtering",
+      "title": "Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering",
+      "reference_short": "Koehn et al., 2018",
+      "reference_full": "Koehn, P., Khayrallah, H., Chaudhary, V., et al. (2018). Findings of the WMT 2018 Shared Task on Parallel Corpus Filtering. WMT.",
+      "year": 2018,
+      "venue": "WMT",
+      "url": "https://aclanthology.org/W18-6453/",
+      "tags": ["corpus-creation", "evaluation", "empirical", "benchmark", "low-resource"]
+    },
+
+    {
+      "id": "bird2003seven",
+      "citationkey": "bird2003SevenDimensionsPortability",
+      "header": "Standards for language documentation",
+      "title": "Seven Dimensions of Portability for Language Documentation and Description",
+      "reference_short": "Bird & Simons, 2003",
+      "reference_full": "Bird, S., & Simons, G. (2003). Seven dimensions of portability for language documentation and description. Language.",
+      "year": 2003,
+      "venue": "Language",
+      "url": "https://www.researchgate.net/publication/220486407_Seven_Dimensions_of_Portability_for_Language_Documentation_and_Description",
+      "tags": ["language-documentation", "corpus-creation", "endangered-languages", "foundational", "theoretical"]
+    },
+
+    {
+      "id": "artetxe2019laser",
+      "citationkey": "artetxe2019MassivelyMultilingualSentence",
+      "header": "Multilingual sentence embeddings for parallel corpus mining",
+      "title": "Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond",
+      "reference_short": "Artetxe & Schwenk, 2019",
+      "reference_full": "Artetxe, M., & Schwenk, H. (2019). Massively Multilingual Sentence Embeddings for Zero-Shot Cross-Lingual Transfer and Beyond. TACL.",
+      "year": 2019,
+      "venue": "TACL",
+      "url": "https://aclanthology.org/Q19-1038/",
+      "tags": ["corpus-creation", "parallel-corpus-mining", "sentence-embeddings", "multilingual", "zero-shot", "cross-lingual", "empirical"]
+    },
+
+    {
+      "id": "schwenk2025lowresource",
+      "citationkey": "schwenk2025ImprovingParallelSentence",
+      "header": "Recent advances in mining for low-resource and endangered languages",
+      "title": "Improving Parallel Sentence Mining for Low-Resource and Endangered Languages",
+      "reference_short": "Schwenk et al., 2025",
+      "reference_full": "Schwenk, H., et al. (2025). Improving Parallel Sentence Mining for Low-Resource and Endangered Languages. ACL.",
+      "year": 2025,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2025.acl-short.17/",
+      "tags": ["corpus-creation", "parallel-corpus-mining", "low-resource", "endangered-languages", "empirical"]
+    },
+
+    {
+      "id": "tiedemann2012opus",
+      "citationkey": "tiedemann2012ParallelDataTools",
+      "header": "OPUS: multilingual parallel data infrastructure",
+      "title": "Parallel Data, Tools and Interfaces in OPUS",
+      "reference_short": "Tiedemann, 2012",
+      "reference_full": "Tiedemann, J. (2012). Parallel Data, Tools and Interfaces in OPUS. LREC.",
+      "year": 2012,
+      "venue": "LREC",
+      "url": "http://www.lrec-conf.org/proceedings/lrec2012/pdf/463_Paper.pdf",
+      "tags": ["corpus-creation", "dataset-paper", "multilingual", "foundational"]
+    },
+
+    {
+      "id": "tiedemann2023opusmt",
+      "citationkey": "tiedemann2023OPUSMTDashboard",
+      "header": "Systematic evaluation of open MT models",
+      "title": "The OPUS-MT Dashboard: A Toolkit for a Systematic Evaluation of Open Machine Translation Models",
+      "reference_short": "Tiedemann & de Gibert, 2023",
+      "reference_full": "Tiedemann, J. and de Gibert, O. (2023). The OPUS-MT Dashboard – A Toolkit for a Systematic Evaluation of Open Machine Translation Models. ACL System Demonstrations.",
+      "year": 2023,
+      "venue": "ACL System Demonstrations",
+      "url": "https://aclanthology.org/2023.acl-demo.28/",
+      "tags": ["corpus-creation", "evaluation", "multilingual", "system-description", "benchmark"]
+    },
+
+    {
+      "id": "reiter2018structured",
+      "citationkey": "reiter2018StructuredReviewValidity",
+      "header": "A structured critique of BLEU",
+      "title": "A Structured Review of the Validity of BLEU",
+      "reference_short": "Reiter, 2018",
+      "reference_full": "Reiter, E. (2018). A Structured Review of the Validity of BLEU. Computational Linguistics.",
+      "year": 2018,
+      "venue": "Computational Linguistics",
+      "url": "https://aclanthology.org/J18-3002/",
+      "tags": ["evaluation", "critical-perspective", "low-resource", "theoretical"]
+    },
+
+    {
+      "id": "sellam2020bleurt",
+      "citationkey": "sellam2020BLEURTLearningRobust",
+      "header": "A learned metric for MT evaluation",
+      "title": "BLEURT: Learning Robust Metrics for Text Generation",
+      "reference_short": "Sellam et al., 2020",
+      "reference_full": "Sellam, T., Das, D., & Parikh, A. (2020). BLEURT: Learning Robust Metrics for Text Generation. ACL.",
+      "year": 2020,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2020.acl-main.704/",
+      "tags": ["evaluation", "empirical", "low-resource", "multilingual"]
+    },
+
+    {
+      "id": "rei2020comet",
+      "citationkey": "rei2020COMETNeuralFramework",
+      "header": "Neural MT evaluation framework",
+      "title": "COMET: A Neural Framework for MT Evaluation",
+      "reference_short": "Rei et al., 2020",
+      "reference_full": "Rei, R., Stewart, C., Farinha, A. C., & Lavie, A. (2020). COMET: A Neural Framework for MT Evaluation. EMNLP.",
+      "year": 2020,
+      "venue": "EMNLP",
+      "url": "https://aclanthology.org/2020.emnlp-main.213/",
+      "tags": ["evaluation", "empirical", "multilingual", "low-resource"]
+    },
+
+    {
+      "id": "kudo2018sentencepiece",
+      "citationkey": "kudo2018SentencePieceSimple",
+      "header": "Language-independent subword tokenization",
+      "title": "SentencePiece: A Simple and Language Independent Subword Tokenizer and Detokenizer for Neural Text Processing",
+      "reference_short": "Kudo & Richardson, 2018",
+      "reference_full": "Kudo, T., & Richardson, J. (2018). SentencePiece: A Simple and Language Independent Subword Tokenizer and Detokenizer for Neural Text Processing. EMNLP System Demonstrations.",
+      "year": 2018,
+      "venue": "EMNLP System Demonstrations",
+      "url": "https://aclanthology.org/D18-2012/",
+      "tags": ["preprocessing", "tokenization", "multilingual", "low-resource", "system-description"]
+    },
+
+    {
+      "id": "snyder2008unsupervised",
+      "citationkey": "snyder2008UnsupervisedMultilingualLearning",
+      "header": "Unsupervised multilingual POS tagging",
+      "title": "Unsupervised Multilingual Learning for POS Tagging",
+      "reference_short": "Snyder et al., 2008",
+      "reference_full": "Snyder, B., Naseem, T., Eisenstein, J., & Barzilay, R. (2008). Unsupervised Multilingual Learning for POS Tagging. EMNLP.",
+      "year": 2008,
+      "venue": "EMNLP",
+      "url": "https://aclanthology.org/D08-1109/",
+      "tags": ["preprocessing", "multilingual", "cross-lingual", "low-resource", "unsupervised-learning", "empirical"]
+    },
+
+    {
+      "id": "goldsmith2001unsupervised",
+      "citationkey": "goldsmith2001UnsupervisedLearningMorphology",
+      "header": "Unsupervised learning of natural language morphology",
+      "title": "Unsupervised Learning of the Morphology of a Natural Language",
+      "reference_short": "Goldsmith, 2001",
+      "reference_full": "Goldsmith, J. (2001). Unsupervised Learning of the Morphology of a Natural Language. Computational Linguistics.",
+      "year": 2001,
+      "venue": "Computational Linguistics",
+      "url": "https://aclanthology.org/J01-2001/",
+      "tags": ["preprocessing", "morphology", "linguistic-features", "low-resource", "unsupervised-learning", "foundational", "theoretical"]
+    },
+
+    {
+      "id": "mimno2009polylingual",
+      "citationkey": "mimno2009PolylingualTopicModels",
+      "header": "Polylingual topic models for cross-lingual analysis",
+      "title": "Polylingual Topic Models",
+      "reference_short": "Mimno et al., 2009",
+      "reference_full": "Mimno, D., Wallach, H. M., Naradowsky, J., Smith, D. A., & McCallum, A. (2009). Polylingual Topic Models. EMNLP.",
+      "year": 2009,
+      "venue": "EMNLP",
+      "url": "https://aclanthology.org/D09-1092/",
+      "tags": ["multilingual", "cross-lingual", "unsupervised-learning", "foundational", "theoretical"]
+    },
+
+    {
+      "id": "sennrich2016improving",
+      "citationkey": "sennrich2016ImprovingNeuralMachine",
+      "header": "Improving NMT with monolingual data via back-translation",
+      "title": "Improving Neural Machine Translation Models with Monolingual Data",
+      "reference_short": "Sennrich et al., 2016",
+      "reference_full": "Sennrich, R., Haddow, B., & Birch, A. (2016). Improving Neural Machine Translation Models with Monolingual Data. ACL.",
+      "year": 2016,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/P16-1009/",
+      "tags": ["back-translation", "data-augmentation", "synthetic-data", "low-resource", "foundational", "empirical"]
+    },
+
+    {
+      "id": "edunov2018understanding",
+      "citationkey": "edunov2018UnderstandingBackTranslation",
+      "header": "Back-translation at scale",
+      "title": "Understanding Back-Translation at Scale",
+      "reference_short": "Edunov et al., 2018",
+      "reference_full": "Edunov, S., Ott, M., Auli, M., & Grangier, D. (2018). Understanding Back-Translation at Scale. EMNLP.",
+      "year": 2018,
+      "venue": "EMNLP",
+      "url": "https://aclanthology.org/D18-1045/",
+      "tags": ["back-translation", "data-augmentation", "synthetic-data", "empirical"]
+    },
+
+    {
+      "id": "burchell2022exploring",
+      "citationkey": "burchell2022ExploringDiversityBack",
+      "header": "Diversity in back-translation for low-resource NMT",
+      "title": "Exploring Diversity in Back Translation for Low-Resource NMT",
+      "reference_short": "Burchell et al., 2022",
+      "reference_full": "Burchell, L., Birch, A., & Heafield, K. (2022). Exploring Diversity in Back Translation for Low-Resource NMT. EACL.",
+      "year": 2022,
+      "venue": "EACL",
+      "url": "https://arxiv.org/abs/2206.00564",
+      "tags": ["back-translation", "data-augmentation", "synthetic-data", "low-resource", "empirical"]
+    },
+
+    {
+      "id": "johnson2017googles",
+      "citationkey": "johnson2017GooglesMultilingualNeural",
+      "header": "Google's multilingual NMT system and zero-shot translation",
+      "title": "Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation",
+      "reference_short": "Johnson et al., 2017",
+      "reference_full": "Johnson, M., Schuster, M., Le, Q. V., et al. (2017). Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation. TACL.",
+      "year": 2017,
+      "venue": "TACL",
+      "url": "https://aclanthology.org/Q17-1024/",
+      "tags": ["multilingual", "zero-shot", "transfer-learning", "cross-lingual", "foundational", "empirical"]
+    },
+
+    {
+      "id": "aharoni2019massively",
+      "citationkey": "aharoni2019MassivelyMultilingualNeural",
+      "header": "Massively multilingual NMT at scale",
+      "title": "Massively Multilingual Neural Machine Translation",
+      "reference_short": "Aharoni et al., 2019",
+      "reference_full": "Aharoni, R., Johnson, M., & Firat, O. (2019). Massively Multilingual Neural Machine Translation. NAACL.",
+      "year": 2019,
+      "venue": "NAACL",
+      "url": "https://aclanthology.org/N19-1388/",
+      "tags": ["multilingual", "transfer-learning", "low-resource", "cross-lingual", "empirical"]
+    },
+
+    {
+      "id": "conneau2020unsupervised",
+      "citationkey": "conneau2020UnsupervisedCrossLingual",
+      "header": "Cross-lingual representation learning at scale (XLM-R)",
+      "title": "Unsupervised Cross-lingual Representation Learning at Scale",
+      "reference_short": "Conneau et al., 2020",
+      "reference_full": "Conneau, A., Khandelwal, K., Goyal, N., et al. (2020). Unsupervised Cross-lingual Representation Learning at Scale. ACL.",
+      "year": 2020,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2020.acl-main.747/",
+      "tags": ["transfer-learning", "multilingual", "cross-lingual", "sentence-embeddings", "unsupervised-learning", "foundational", "empirical"]
+    },
+
+    {
+      "id": "nllb2022",
+      "citationkey": "nllbteam2022NoLanguageLeft",
+      "header": "Scaling MT to 200+ languages",
+      "title": "No Language Left Behind: Scaling Human-Centered Machine Translation",
+      "reference_short": "NLLB Team et al., 2022",
+      "reference_full": "NLLB Team et al. (2022). No Language Left Behind: Scaling Human-Centered Machine Translation. arXiv.",
+      "year": 2022,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2207.04672",
+      "tags": ["multilingual", "low-resource", "transfer-learning", "endangered-languages", "foundational", "empirical"]
+    },
+
+    {
+      "id": "nguyen2017transfer",
+      "citationkey": "nguyen2017TransferLearningLow",
+      "header": "Transfer learning across related low-resource languages",
+      "title": "Transfer Learning across Low-Resource, Related Languages for Neural Machine Translation",
+      "reference_short": "Nguyen & Chiang, 2017",
+      "reference_full": "Nguyen, T. Q., & Chiang, D. (2017). Transfer Learning across Low-Resource, Related Languages for Neural Machine Translation. IJCNLP.",
+      "year": 2017,
+      "venue": "IJCNLP",
+      "url": "https://aclanthology.org/I17-2050/",
+      "tags": ["transfer-learning", "low-resource", "cross-lingual", "empirical"]
+    },
+
+    {
+      "id": "artetxe2018unsupervised",
+      "citationkey": "artetxe2018UnsupervisedNeuralMachine",
+      "header": "Unsupervised neural machine translation",
+      "title": "Unsupervised Neural Machine Translation",
+      "reference_short": "Artetxe et al., 2018",
+      "reference_full": "Artetxe, M., Labaka, G., & Agirre, E. (2018). Unsupervised Neural Machine Translation. ICLR.",
+      "year": 2018,
+      "venue": "ICLR",
+      "url": "https://arxiv.org/abs/1710.11041",
+      "tags": ["zero-shot", "zero-resource", "unsupervised-learning", "synthetic-data", "foundational", "empirical"]
+    },
+
+    {
+      "id": "garmash2016ensemble",
+      "citationkey": "garmash2016EnsembleLearningMulti",
+      "header": "Ensemble learning for multi-source NMT",
+      "title": "Ensemble Learning for Multi-source Neural Machine Translation",
+      "reference_short": "Garmash & Monz, 2016",
+      "reference_full": "Garmash, E., & Monz, C. (2016). Ensemble Learning for Multi-source Neural Machine Translation. COLING.",
+      "year": 2016,
+      "venue": "COLING",
+      "url": "https://aclanthology.org/C16-1133/",
+      "tags": ["multilingual", "pivot-language", "transfer-learning", "low-resource", "empirical"]
+    },
+
+    {
+      "id": "pendas2023neural",
+      "citationkey": "pendas2023NeuralMachineTranslation",
+      "header": "Active learning for low-resource NMT: Spanish to Mapudungun",
+      "title": "Neural Machine Translation through Active Learning on Low-Resource Languages: The Case of Spanish to Mapudungun",
+      "reference_short": "Pendas et al., 2023",
+      "reference_full": "Pendas, B., Carvallo, A., & Aspillaga, C. (2023). Neural Machine Translation through Active Learning on low-resource languages: The case of Spanish to Mapudungun. AmericasNLP.",
+      "year": 2023,
+      "venue": "AmericasNLP",
+      "url": "https://aclanthology.org/2023.americasnlp-1.2/",
+      "tags": ["active-learning", "low-resource", "endangered-languages", "few-shot", "empirical"]
+    },
+
+    {
+      "id": "kholodna2024llms",
+      "citationkey": "kholodna2024LLMsLoopLeveraging",
+      "header": "LLM annotations for active learning in low-resource languages",
+      "title": "LLMs in the Loop: Leveraging Large Language Model Annotations for Active Learning in Low-Resource Languages",
+      "reference_short": "Kholodna et al., 2024",
+      "reference_full": "Kholodna, A., et al. (2024). LLMs in the Loop: Leveraging Large Language Model Annotations for Active Learning in Low-Resource Languages. arXiv.",
+      "year": 2024,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2404.02261",
+      "tags": ["active-learning", "llm", "low-resource", "few-shot", "empirical"]
+    },
+
+    {
+      "id": "lakew2021zeroshot",
+      "citationkey": "lakew2021ZeroShotNeural",
+      "header": "Zero-shot NMT with self-learning cycle",
+      "title": "Zero-Shot Neural Machine Translation with Self-Learning Cycle",
+      "reference_short": "Lakew et al., 2021",
+      "reference_full": "Lakew, S. M., Erofeeva, A., & Federico, M. (2021). Zero-Shot Neural Machine Translation with Self-Learning Cycle. MTSummit LoResMT.",
+      "year": 2021,
+      "venue": "MTSummit LoResMT",
+      "url": "https://aclanthology.org/2021.mtsummit-loresmt.10/",
+      "tags": ["zero-shot", "low-resource", "transfer-learning", "synthetic-data", "empirical"]
+    },
+
+    {
+      "id": "jia2022speech",
+      "citationkey": "jia2022SpeechTranslationEndangered",
+      "header": "Speech translation for endangered languages",
+      "title": "Speech Translation for Endangered Languages",
+      "reference_short": "Jia et al., 2022",
+      "reference_full": "Jia, Z., Qian, Y., Tian, Z., et al. (2022). Speech Translation for Endangered Languages. Interspeech.",
+      "year": 2022,
+      "venue": "Interspeech",
+      "url": "https://www.isca-archive.org/interspeech_2022/jia22_interspeech.html",
+      "tags": ["speech-translation", "multimodal", "low-resource", "endangered-languages", "empirical"]
+    },
+
+    {
+      "id": "camgoz2018neural",
+      "citationkey": "camgoz2018NeuralSignLanguage",
+      "header": "Neural sign language translation",
+      "title": "Neural Sign Language Translation",
+      "reference_short": "Camgoz et al., 2018",
+      "reference_full": "Camgoz, N. C., Koller, O., Hadfield, S., & Bowden, R. (2018). Neural Sign Language Translation. CVPR.",
+      "year": 2018,
+      "venue": "CVPR",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Camgoz_Neural_Sign_Language_CVPR_2018_paper.html",
+      "tags": ["sign-language", "multimodal", "foundational", "empirical"]
+    },
+
+    {
+      "id": "tiedemann2020tatoeba",
+      "citationkey": "tiedemann2020TatoebaTranslationChallenge",
+      "header": "Realistic low-resource MT benchmarks via Tatoeba",
+      "title": "The Tatoeba Translation Challenge — Realistic Data Sets for Low Resource and Multilingual MT",
+      "reference_short": "Tiedemann, 2020",
+      "reference_full": "Tiedemann, J. (2020). The Tatoeba Translation Challenge – Realistic Data Sets for Low Resource and Multilingual MT. WMT.",
+      "year": 2020,
+      "venue": "WMT",
+      "url": "https://aclanthology.org/2020.wmt-1.139/",
+      "tags": ["benchmark", "dataset-paper", "multilingual", "low-resource", "evaluation"]
+    },
+
+    {
+      "id": "bansal2019lowresource",
+      "citationkey": "bansal2019LowResourceSpeech",
+      "header": "Direct speech-to-text translation for low-resource languages",
+      "title": "Low-Resource Speech Translation",
+      "reference_short": "Bansal, 2019",
+      "reference_full": "Bansal, S. (2019). Low-Resource Speech Translation. PhD Thesis, University of Edinburgh.",
+      "year": 2019,
+      "venue": "PhD Thesis, University of Edinburgh",
+      "url": "https://era.ed.ac.uk/handle/1842/36781",
+      "tags": ["speech-translation", "multimodal", "low-resource", "zero-resource"]
+    },
+
+    {
+      "id": "liang2023sign",
+      "citationkey": "liang2023SignLanguageTranslation",
+      "header": "Survey of sign language translation approaches",
+      "title": "Sign Language Translation: A Survey of Approaches and Techniques",
+      "reference_short": "Liang et al., 2023",
+      "reference_full": "Liang, Z., Li, H., et al. (2023). Sign Language Translation: A Survey of Approaches and Techniques. Electronics.",
+      "year": 2023,
+      "venue": "Electronics (MDPI)",
+      "url": "https://www.mdpi.com/2079-9292/12/12/2678",
+      "tags": ["sign-language", "multimodal", "survey"]
+    },
+
+    {
+      "id": "chu2018survey",
+      "citationkey": "chu2018SurveyDomainAdaptation",
+      "header": "Survey of domain adaptation for NMT",
+      "title": "A Survey of Domain Adaptation for Neural Machine Translation",
+      "reference_short": "Chu & Wang, 2018",
+      "reference_full": "Chu, C., & Wang, R. (2018). A Survey of Domain Adaptation for Neural Machine Translation. COLING.",
+      "year": 2018,
+      "venue": "COLING",
+      "url": "https://aclanthology.org/C18-1111/",
+      "tags": ["domain-adaptation", "survey", "multilingual", "low-resource"]
+    },
+
+    {
+      "id": "adams2022finding",
+      "citationkey": "adams2022FindingRightRecipe",
+      "header": "Domain adaptation recipes for low-resource NMT",
+      "title": "Finding the Right Recipe for Low Resource Domain Adaptation in Neural Machine Translation",
+      "reference_short": "Adams et al., 2022",
+      "reference_full": "Adams, O., Makarucha, A., Neubig, G., et al. (2022). Finding the Right Recipe for Low Resource Domain Adaptation in Neural Machine Translation. arXiv.",
+      "year": 2022,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2206.01137",
+      "tags": ["domain-adaptation", "low-resource", "empirical"]
+    },
+
+    {
+      "id": "ponti2019modeling",
+      "citationkey": "ponti2019ModelingLanguageVariation",
+      "header": "Typological linguistics for NLP: a survey",
+      "title": "Modeling Language Variation and Universals: A Survey on Typological Linguistics for Natural Language Processing",
+      "reference_short": "Ponti et al., 2019",
+      "reference_full": "Ponti, E. M., O'Horan, H., Berzak, Y., Vulić, I., Reichart, R., Poibeau, T., Shutova, E., & Korhonen, A. (2019). Modeling Language Variation and Universals: A Survey on Typological Linguistics for Natural Language Processing. Computational Linguistics.",
+      "year": 2019,
+      "venue": "Computational Linguistics",
+      "url": "https://aclanthology.org/J19-3005/",
+      "tags": ["linguistic-features", "multilingual", "cross-lingual", "survey", "foundational"]
+    },
+
+    {
+      "id": "ding2019saliency",
+      "citationkey": "ding2019SaliencyDrivenWord",
+      "header": "Saliency-driven word alignment interpretation for NMT",
+      "title": "Saliency-driven Word Alignment Interpretation for Neural Machine Translation",
+      "reference_short": "Ding et al., 2019",
+      "reference_full": "Ding, S., Xu, H., & Koehn, P. (2019). Saliency-driven Word Alignment Interpretation for Neural Machine Translation. WMT.",
+      "year": 2019,
+      "venue": "WMT",
+      "url": "https://aclanthology.org/W19-5201/",
+      "tags": ["linguistic-features", "multilingual", "empirical"]
+    },
+
+    {
+      "id": "naseem2012selective",
+      "citationkey": "naseem2012SelectiveSharingMultilingual",
+      "header": "Selective sharing for multilingual dependency parsing",
+      "title": "Selective Sharing for Multilingual Dependency Parsing",
+      "reference_short": "Naseem et al., 2012",
+      "reference_full": "Naseem, T., Barzilay, R., & Globerson, A. (2012). Selective Sharing for Multilingual Dependency Parsing. ACL.",
+      "year": 2012,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/P12-1066/",
+      "tags": ["linguistic-features", "multilingual", "cross-lingual", "empirical"]
+    },
+
+    {
+      "id": "sennrich2016subword",
+      "citationkey": "sennrich2016NeuralMachineTranslation",
+      "header": "Subword units (BPE) for handling rare words in NMT",
+      "title": "Neural Machine Translation of Rare Words with Subword Units",
+      "reference_short": "Sennrich et al., 2016",
+      "reference_full": "Sennrich, R., Haddow, B., & Birch, A. (2016). Neural Machine Translation of Rare Words with Subword Units. ACL.",
+      "year": 2016,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/P16-1162/",
+      "tags": ["preprocessing", "tokenization", "morphology", "low-resource", "foundational", "empirical"]
+    },
+
+    {
+      "id": "sahin2020linspector",
+      "citationkey": "sahin2020LINSPECTORMultilingualProbing",
+      "header": "Multilingual probing tasks for word representations",
+      "title": "LINSPECTOR: Multilingual Probing Tasks for Word Representations",
+      "reference_short": "Şahin et al., 2020",
+      "reference_full": "Şahin, G. G., Vania, C., Kuznetsov, I., & Gurevych, I. (2020). LINSPECTOR: Multilingual Probing Tasks for Word Representations. Computational Linguistics.",
+      "year": 2020,
+      "venue": "Computational Linguistics",
+      "url": "https://aclanthology.org/2020.cl-2.4/",
+      "tags": ["linguistic-features", "multilingual", "evaluation", "benchmark", "cross-lingual"]
+    },
+
+    {
+      "id": "sperber2020speech",
+      "citationkey": "sperber2020SpeechTranslationEnd",
+      "header": "Taking stock of end-to-end speech translation",
+      "title": "Speech Translation and the End-to-End Promise: Taking Stock of Where We Are",
+      "reference_short": "Sperber & Paulik, 2020",
+      "reference_full": "Sperber, M., & Paulik, M. (2020). Speech Translation and the End-to-End Promise: Taking Stock of Where We Are. ACL.",
+      "year": 2020,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2020.acl-main.661/",
+      "tags": ["speech-translation", "multimodal", "survey", "multilingual", "low-resource"]
+    },
+
+    {
+      "id": "anastasopoulos2020cross",
+      "citationkey": "anastasopoulos2020ShouldAllCross",
+      "header": "Critical view on English-centric cross-lingual embeddings",
+      "title": "Should All Cross-Lingual Embeddings Speak English?",
+      "reference_short": "Anastasopoulos & Neubig, 2020",
+      "reference_full": "Anastasopoulos, A., & Neubig, G. (2020). Should All Cross-Lingual Embeddings Speak English? ACL.",
+      "year": 2020,
+      "venue": "ACL",
+      "url": "https://aclanthology.org/2020.acl-main.766/",
+      "tags": ["multilingual", "cross-lingual", "transfer-learning", "critical-perspective", "empirical"]
+    },
+
+    {
+      "id": "joshi2025dialects",
+      "citationkey": "joshi2025NaturalLanguageProcessing",
+      "header": "Survey of NLP for language dialects",
+      "title": "Natural Language Processing for Dialects of a Language: A Survey",
+      "reference_short": "Joshi et al., 2025",
+      "reference_full": "Joshi, A., Dabre, R., Kanojia, D., Li, Z., Zhan, H., Haffari, G., & Dippold, D. (2025). Natural Language Processing for Dialects of a Language: A Survey. ACM Computing Surveys.",
+      "year": 2025,
+      "venue": "ACM Computing Surveys",
+      "url": "https://dl.acm.org/doi/10.1145/3712060",
+      "tags": ["dialects", "multilingual", "low-resource", "survey"]
+    },
+
+    {
+      "id": "lupascu2025large",
+      "citationkey": "lupascu2025LargeMultimodalModels",
+      "header": "Survey of large multimodal models for low-resource languages",
+      "title": "Large Multimodal Models for Low-Resource Languages: A Survey",
+      "reference_short": "Lupascu et al., 2025",
+      "reference_full": "Lupascu, M., Rogoz, A.-C., Stupariu, M. S., & Ionescu, R. T. (2025). Large Multimodal Models for Low-Resource Languages: A Survey. arXiv.",
+      "year": 2025,
+      "venue": "arXiv",
+      "url": "https://arxiv.org/abs/2502.05568v1",
+      "tags": ["llm", "multimodal", "low-resource", "multilingual", "survey"]
+    },
+
+    {
+      "id": "haddow2022survey",
+      "citationkey": "haddow2022SurveyLowResource",
+      "header": "Comprehensive survey of low-resource MT",
+      "title": "Survey of Low-Resource Machine Translation",
+      "reference_short": "Haddow et al., 2022",
+      "reference_full": "Haddow, B., Bawden, R., Barone, A. V. M., Helcl, J., & Birch, A. (2022). Survey of Low-Resource Machine Translation. Computational Linguistics.",
+      "year": 2022,
+      "venue": "Computational Linguistics",
+      "url": "https://direct.mit.edu/coli/article/48/3/673/111880/Survey-of-Low-Resource-Machine-Translation",
+      "tags": ["low-resource", "survey", "multilingual", "foundational"]
+    }
+
+  ]
+}

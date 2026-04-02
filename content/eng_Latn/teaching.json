@@ -6,8 +6,8 @@
       "value": "Saarland University → https://www.uni-saarland.de/en/home.html"
     },
     {
-      "type": "paragraph",
-      "value": "2026 (Seminar) Low-Resource Machine Translation"
+      "type": "html",
+      "value": "2026 (Seminar) <a href='#teachings/LRMTSeminar2026'>Low-Resource Machine Translation</a>"
     },
     {
       "type": "paragraph",
