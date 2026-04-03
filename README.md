@@ -1,6 +1,5 @@
 Visit Christian Schuler's [Personal GitHub Pages](https://christianschuler8989.github.io/).
 
-
 ## A Researcher's Personal Homepage
 
 ### Requirements and Features
@@ -10,51 +9,62 @@ Visit Christian Schuler's [Personal GitHub Pages](https://christianschuler8989.g
 - Vertical 3D layered hexagons for navigation with subtle animation; the active hex becomes slightly bigger and “shiny”.
 - The hexagonal buttons of the navigation bar are tiled like honeycombs with specific offsets.
 - Scrollspy: navigation highlights based on scroll position; clicking hexes smooth-scrolls to section.
+- Some content is located at separate pages, such as course contents, which can be accessed directly via adding to the URL: `#teachings/LRMTSeminar2026`
 - Theme JSON → CSS variables (mix of CSS variables + JS-readable theme.json).
 - Internationalization with language switcher (switches labels in navigation and sections), which reads from language-specific files.
 - Accessibility: keyboard focus, aria-labels, focus ring, aria-current when active, colorblind-friendly color palette.
 
 ### File Hierarchy
+```
 /root
-│   index.html
-│
-├── /assets
-│     ├── /css
-│     │     base.css
-│     │     theme.css
-│     │     layout.css
-│     │     hexagons.css
-│     │     reset.css
-│     │     vars.css
-│     │
-│     └── /js
-│           main.js
-│           loader.js
-│           navigation.js
-│           scrollspy.js
-│           utils.js
-│           i18n.js
-│           theme.js
-│
-├── /config
-│     theme.json
-│     languages.json
-│     site.json
-│
-└── /content
-      /eng_Latn
-      │    locale.json
-      │    home.json
-      │    projects.json
-      │    publications.json
-      │    ...many more...
-      │
-      /deu_Latn
-           locale.json
-           home.json
-           projects.json
-           publications.json
-           ...many more...
+├── assets
+│   ├── css
+│   │   ├── base.css
+│   │   ├── hexagons.css
+│   │   ├── layout.css
+│   │   ├── reset.css
+│   │   ├── theme.css
+│   │   └── vars.css
+│   └── js
+│       ├── i18n.js
+│       ├── loader.js
+│       ├── main.js
+│       ├── navigation.js
+│       ├── scrollspy.js
+│       ├── sitenavigation.js
+│       ├── theme.js
+│       └── utils.js
+├── config
+│   ├── languages.json
+│   ├── site.json
+│   └── theme.json
+├── content
+│   ├── deu_Latn
+│   │   ├── home.json
+│   │   ├── locale.json
+│   │   ├── projects.json
+│   │   └── publications.json
+│   └── eng_Latn
+│       ├── about.json
+│       ├── events.json
+│       ├── home.json
+│       ├── literature.json
+│       ├── locale.json
+│       ├── portfolio.json
+│       ├── projects.json
+│       ├── publications.json
+│       ├── research.json
+│       ├── service.json
+│       ├── supervision.json
+│       ├── talks.json
+│       ├── teaching.json
+│       └── teachings
+│           ├── LRMTSeminar2026.json
+│           └── LRMTSeminarPapers.json
+├── favicon.ico
+├── index.html
+└── README.md
+```
 
 
 ## Script and File Guide
@@ -186,12 +196,5 @@ Visit Christian Schuler's [Personal GitHub Pages](https://christianschuler8989.g
 - Buttons are focusable and keyboard-navigable
 - Arrow key traversal with wrap-around
 - `title` attribute fallback for tooltips
-
-
-
-
-
-
-
 
 

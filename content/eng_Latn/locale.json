@@ -12,20 +12,5 @@
     "about": "About",
     "research": "Research",
     "portfolio": "Portfolio"
-  },
-
-  "sections": {
-    "home": {
-      "title": "Halli und Hallo and Welcome!",
-      "body": "This is the home section."
-    },
-    "projects": {
-      "title": "Projects",
-      "body": "My research and technical projects."
-    },
-    "publications": {
-      "title": "Publications",
-      "body": "Scientific papers, preprints, and articles."
-    }
   }
 }

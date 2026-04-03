@@ -1,9 +1,9 @@
 {
-  "title": "Publications",
+  "title": "Publikationen",
   "sections": [
     {
       "type": "paragraph",
-      "value": "A data-driven list of publications. Items are listed in descending chronological order by 'date' if available."
+      "value": "Eine Daten-getriebene Liste von Publikationen."
     }
   ],
   "items": [

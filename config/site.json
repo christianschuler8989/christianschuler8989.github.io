@@ -1,5 +1,5 @@
 {
-  "siteTitle": "My Research Homepage",
+  "siteTitle": "Christian's Research",
   "sections": [
     { "id": "home", "labelKey": "nav.home", "kicker": "H", "icon": "🏠" },
     { "id": "publications", "labelKey": "nav.publications", "kicker": "Pub", "icon": "📑" },
