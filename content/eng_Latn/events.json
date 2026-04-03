@@ -3,35 +3,417 @@
   "sections": [
     {
       "type": "paragraph",
-      "value": "(2024) PICS-2024 - 5th Ph.D. school in the series of Foundations of Programming and Software Systems. 💡 PhD school that crosses many disciplines with speakers from diverse research areas to deliver their stories on use of probability in computer science. ⏱ 14.-18. October, 2024 📝 English 📍 IT University of Copenhagen (Denmark) 💡 Apparently, the budget could not cover printing event posters or signs- but credit where credit is due, once they started serving pastries during the breaks, everyone's spirit rose to the skies ;) 💡 The Spandauer (sweet pastry) alone are worth the travel to Denmark! :D 💬 I am glad that Ānrán invited me to stray a bit from my usual NLP-related activities and it was fun to meet and talk with so many people that actually do know 'how to math' :D"
-    },
-    {
-      "type": "paragraph",
-      "value": "(2024) EXPO-2024 - Student's projects 💡 A yearly event for students to display and discuss the outcomes of their projects and thesises. ⏱ 27. March, 2024 📝 German & English 📍 BASE.CAMP creative lab at Informatikum, Hamburg, Germany ⭐ (Poster Presentation) CRAMT: Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Ānrán, Raman) are working on together. ⭐ (Second Place) CRAMT at EXPO 2024 We were awarded the second place of all presented projects and even received a price of 200€ :D"
-    },
-    {
-      "type": "paragraph",
-      "value": "(2024) Spring Hackathon with CHECK24 💡 A reoccurring Hackathon in which you are meant to 'Unleash your creativity. Work in a team. Learn from industry experts.' ⏱ 26. March, 2024 📝 German 📍 Hamburg University of Applied Sciences (HAW Hamburg), Hamburg, Germany ⭐ (Third Place) 'Crazy Teaching' at Spring Hackathon with CHECK24 We were awarded the third place for our spontaneous creation and received some T-Shirts to serve as free advertisement ;) 💬 Raman invited us (Tania, Ānrán, and me) to this event and it was a lot of fun to cluelessly jump into a short project, trying to merge different ideas and ways of working in a (partially) new and unknown group!"
-    },
-    {
-      "type": "paragraph",
-      "value": "(2024) ESSV-2024 - 35th. Conference on Electronic Speech Signal Processing 💡 Conference spanning a wide range of fields that concern the creation, analysis, and (digital) processing of speech signals, with a special focus on applied research, i.e. practical applications and technologies. ⏱ 06.-08. March, 2024 📝 English & German 📍 Eastern Bavarian Technical University of Applied Sciences Regensburg, Regensburg, Germany ⭐ (Paper Presentation) Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses. Here I presented the paper about processing pause contents that we (Christian Schuler, Shravan Nayak, Debjoy Saha, Timo Baumann) had submitted."
-    },
-    {
-      "type": "paragraph",
-      "value": "(2023) Digital Total - Computing & Data Science an der Universität Hamburg und in der Wissenschaftsmetropole Hamburg 💡 Conference aimed at publicly highlight and consolidate the important data science/AI/computation themes in Hamburg's academic scene. ⏱ 09.-10. October, 2023 📝 English & German 📍 House of Computing & Data Science, Hamburg, Germany 💬 Yet another fun event on which Domi and I attended many interesting talks inbetween our cake-breaks! :D"
-    },
-    {
-      "type": "paragraph",
-      "value": "(2023) EASIER Autumn School - Sign language data meets data science - data science meets sign linguistics 💡 Workshop aimed at bridging the gap between data scientists and sign language experts, advancing collaborative endevors. ⏱ 25.-26. September, 2023 📝 English & International Sign Language 📍 Institute of German Sign Language and Communication of the Deaf, Hamburg, Germany 💬 I got to meet many amazingly kind people, learned a lot from the given talks by experts and saw very inspiring project-posters that left me with way too many ideas to follow up on :)"
-    },
-    {
-      "type": "paragraph",
-      "value": "(2023) TURN Prototyp Zukunft - Politik und Praxis für innovative Lehre 💡 Conference aimed at sharing and collectively developing innovative teaching concepts for the education of the future. ⏱ 13.-15. September, 2023 📝 German 📍 TH Köln - University of Applied Sciences, Cologne, Germany 💬 This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D ⭐ (Pitch Session) Data-driven Digital Innovation Lab Here I presented inside a 'Pitch Session' our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas)"
-    },
-    {
-      "type": "paragraph",
-      "value": "(2023) 6th International Conference on Kurdish Linguistics 💡 Conference aimed at the low-resource language Kurdish and any neighboring or contacting languages with a linguistic focus. ⏱ 04.-05. September, 2023 📝 English 📍 Goethe Universität, Frankfurt am Main, Germany 💬 Here, Raman and I presented our projects as part of the poster session. We had an amazing time and got to meet so many awesome people that we can't wait to see again in two years at the 7th ICKL! :D ⭐ (Poster Session) Towards a Complete Mapping of Kurdish Dialectology (Christian Schuler, Raman Ahmad) → https://github.com/Low-ResourceDialectology/DialectMapping ⭐ (Poster Session) Analysis of Phonology and Morphology in the Kobani Dialect (Raman Ahmad, Christian Schuler) → https://github.com/Low-ResourceDialectology/KobaniAnalysis"
+      "value": ""
     }
+  ],
+  "items": [
+
+    {
+      "id": "ickl-7-2025",
+      "title": "ICKL-7",
+      "subtitle": "7th International Conference on Kurdish Linguistics",
+      "url": "https://ickl-conference.org/ickl-7/",
+      "date_start": "2025-08-28",
+      "date_end": "2025-08-29",
+      "languages": ["English"],
+      "roles": ["Presenter"],
+      "location": {
+        "name": "University of Bamberg",
+        "city": "Bamberg",
+        "country": "Germany",
+        "url": "https://www.uni-bamberg.de/"
+      },
+      "description": null,
+      "personal_note": "Here, Raman and I presented our ongoing research efforts that grew and evolved from our stunt at the ICKL-6 2 years prior. We had a fantastic time and met even more great people than the first time! We can't wait to to attent the 8th ICKL in two years! :D",
+      "images": [
+        {
+          "file": "event-ICKL7-group.jpg",
+          "alt": "ICKL-7 Group Photo",
+          "caption": "Conference aimed at the low-resource language Kurdish and any neighboring or contacting languages, with a linguistic focus."
+        }
+      ],
+      "presentations": [
+        {
+          "type": "Oral Presentation",
+          "title": "Dialectal Filtering: Synthesize Text Corpora for Kurdish Varieties by Enriching Datasets with Multi-Labels",
+          "description": "Kurdish, a low-resource language with extensive dialectal variation, faces significant challenges in NLP due to noisy, mixed-dialect text corpora. This research introduces a dialect-aware text filtering framework to preprocess and enrich Kurdish datasets, synthesizing variety-specific sub-corpora for underrepresented dialects (see Figure 1). By leveraging lexicographic features, this approach generates over 100 sub-corpora from Northern Kurdish data, offering resources for dialect-specific NLP tasks but has currently limitations in precision.",
+          "related_project_ids": [],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-ICKL7-group3.jpg",
+            "alt": "Dialectal Filtering",
+            "caption": "(Placeholder picture) Christian Schuler, Raman Ahmad, Ānrán Wáng"
+          },
+          "resources": [
+          ]
+        },
+        {
+          "type": "Poster Session",
+          "title": "The Ezafe as an Aspectual Marker in Copular Constructions of the Kobani Variety: Stage-Level vs. Individual-Level Predicates",
+          "description": "This work investigates the use of tense ezafe (î for masculine singular, e for feminine singular/plural) in copula constructions of Kobani, a Southwestern Kurmanji variety spoken in Rojava. Aligning with other Western Kurmanji dialects like Maraş, Kobani’s tense ezafe encodes stage-level predicates and subject agreement. Unlike standard Kurmanji, which lacks tense ezafe or some dialects like Afrini, where ezafe reportedly marks verbal predicates (e.g., ez-î derim ‘I am going’), Kobani restricts this to copular phrases, contributing to our understanding of morphosyntactic diversity within Kurmanji dialects.",
+          "related_project_ids": [],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-ICKL7-posterpresentation.png",
+            "alt": "ICKL-7 Ezafe in Copular Constructions of Kobani",
+            "caption": "Due to visa-difficulties, Raman and I had the entire poster-session just for us, which kept us excitingly busy with discussions!"
+          },
+          "resources": [
+          ]
+        }
+      ],
+      "resources": []
+    },
+
+    {
+      "id": "pics-2024",
+      "title": "PICS-2024",
+      "subtitle": "5th Ph.D. school in the series of Foundations of Programming and Software Systems",
+      "url": "https://etaps.org/about/fopss-schools/2024/",
+      "date_start": "2024-10-14",
+      "date_end": "2024-10-18",
+      "languages": ["English"],
+      "roles": ["Attendee"],
+      "location": {
+        "name": "IT University of Copenhagen",
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "url": "https://en.itu.dk/"
+      },
+      "description": null,
+      "personal_note": "I am glad that Ānrán invited me to stray a bit from my usual NLP-related activities and it was fun to meet and talk with so many people that actually do know \"how to math\" :D",
+      "images": [
+        {
+          "file": "event-2024-PICS_Copenhagen.jpeg",
+          "alt": "PICS-2024 Group Photo",
+          "caption": "PhD school that crosses many disciplines with speakers from diverse research areas to deliver their stories on use of probability in computer science."
+        },
+        {
+          "file": "event-2024-PICS_LectureHallSign02.jpg",
+          "alt": "PICS-2024 Lecture Hall Sign",
+          "caption": "Apparently, the budget could not cover printing event posters or signs — but credit where credit is due, once they started serving pastries during the breaks, everyone's spirit rose to the skies ;)"
+        },
+        {
+          "file": "event-2024-PICS-ITUniversity01.jpg",
+          "alt": "PICS-2024 IT University",
+          "caption": "The Spandauer (sweet pastry) alone are worth the travel to Denmark! :D"
+        }
+      ],
+      "presentations": [],
+      "resources": []
+    },
+
+    {
+      "id": "expo-2024",
+      "title": "EXPO-2024",
+      "subtitle": "Student's projects exposition",
+      "url": "https://www.inf.uni-hamburg.de/inst/basecamp/blog/24-03-27-expo2024.html",
+      "date_start": "2024-03-27",
+      "date_end": "2024-03-27",
+      "languages": ["German", "English"],
+      "roles": ["Presenter"],
+      "location": {
+        "name": "BASE.CAMP creative lab at Informatikum",
+        "city": "Hamburg",
+        "country": "Germany",
+        "url": "https://www.inf.uni-hamburg.de/inst/basecamp/home.html"
+      },
+      "description": null,
+      "personal_note": null,
+      "images": [
+        {
+          "file": "event-2024-EXPO.JPG",
+          "alt": "EXPO 2024",
+          "caption": "A yearly event for students to display and discuss the outcomes of their projects and theses."
+        }
+      ],
+      "presentations": [
+        {
+          "type": "Poster Presentation",
+          "title": "CRAMT: Cross-Lingual Resource Aggregation of Low-Resource Machine Translation and Metadata",
+          "description": "Here we presented the current state of our tool which grew out of the MTACR project that we (Tania, Myy, Me, Ānrán, Raman) are working on together.",
+          "related_project_ids": [],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-2024-EXPO-Poster.jpg",
+            "alt": "CRAMT Poster at EXPO 2024",
+            "caption": null
+          },
+          "resources": [
+            { "label": "Code",   "url": "https://github.com/christianschuler8989/CRAMT" },
+            { "label": "Poster", "url": "https://github.com/christianschuler8989/CRAMT/blob/main/images/2024-CRAMT_Poster_Expo-Schuler_Tran_Saurty_Wang_Ahmad_Yimam.pdf" }
+          ]
+        },
+        {
+          "type": "Award",
+          "title": "Second Place — CRAMT at EXPO 2024",
+          "description": "We were awarded the second place of all presented projects and even received a prize of 200€ :D",
+          "related_project_ids": [],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG",
+            "alt": "CRAMT Second Place — Tania, Raman, Christian, Myy, Ānrán",
+            "caption": null
+          },
+          "resources": []
+        }
+      ],
+      "resources": []
+    },
+
+    {
+      "id": "hackathon-check24-2024",
+      "title": "Spring Hackathon with CHECK24",
+      "subtitle": null,
+      "url": "https://gdsc.community.dev/events/details/developer-student-clubs-hamburg-university-of-applied-sciences-haw-hamburg-presents-spring-hackathon-with-check24/",
+      "date_start": "2024-03-26",
+      "date_end": "2024-03-26",
+      "languages": ["German"],
+      "roles": ["Presenter"],
+      "location": {
+        "name": "Hamburg University of Applied Sciences (HAW Hamburg)",
+        "city": "Hamburg",
+        "country": "Germany",
+        "url": "https://gdsc.community.dev/hamburg-university-of-applied-sciences-haw-hamburg/"
+      },
+      "description": null,
+      "personal_note": "Raman invited us (Tania, Ānrán, and me) to this event and it was a lot of fun to cluelessly jump into a short project, trying to merge different ideas and ways of working in a (partially) new and unknown group!",
+      "images": [
+        {
+          "file": "event-2024-HackathonCHECK24.jpg",
+          "alt": "Hackathon CHECK24",
+          "caption": "A recurring Hackathon in which participants \"unleash their creativity, work in a team, and learn from industry experts.\""
+        }
+      ],
+      "presentations": [
+        {
+          "type": "Award",
+          "title": "Third Place — \"Crazy Teaching\" at Spring Hackathon with CHECK24",
+          "description": "We were awarded the third place for our spontaneous creation and received some T-Shirts to serve as free advertisement ;)",
+          "related_project_ids": [],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-2024-HackathonCHECK24-Secondplace-FabianAyrizRamanChristianAnranTania.jpg",
+            "alt": "Hackathon CHECK24 Third Place — Fabian, Ayriz, Raman, Christian, Ānrán, Tania",
+            "caption": "Fabian, Ayriz, Raman, Christian, Ānrán, Tania"
+          },
+          "resources": []
+        }
+      ],
+      "resources": []
+    },
+
+    {
+      "id": "essv-2024",
+      "title": "ESSV-2024",
+      "subtitle": "35th Conference on Electronic Speech Signal Processing",
+      "url": "https://www.essv.de/essv2024/Main/HomePage?setlang=en",
+      "date_start": "2024-03-06",
+      "date_end": "2024-03-08",
+      "languages": ["English", "German"],
+      "roles": ["Presenter"],
+      "location": {
+        "name": "Eastern Bavarian Technical University of Applied Sciences Regensburg",
+        "city": "Regensburg",
+        "country": "Germany",
+        "url": "https://www.oth-regensburg.de/"
+      },
+      "description": null,
+      "personal_note": null,
+      "images": [
+        {
+          "file": "event-2024-ESSV-group.jpg",
+          "alt": "ESSV Group Picture",
+          "caption": "Conference spanning a wide range of fields concerning the creation, analysis, and digital processing of speech signals, with a special focus on applied research and practical technologies."
+        }
+      ],
+      "presentations": [
+        {
+          "type": "Oral Presentation",
+          "title": "Can We See Your Response Before You Speak? Exploring Linguistic Information Found In Inter-Utterance Pauses.",
+          "description": "Here I presented the paper about processing pause contents that we (Christian Schuler, Shravan Nayak, Debjoy Saha, Timo Baumann) had submitted.",
+          "related_project_ids": [],
+          "related_publication_ids": [],
+          "image": {
+            "file": "2024-ESSV-Christian.jpg",
+            "alt": "ESSV-2024 Paper Presentation",
+            "caption": null
+          },
+          "resources": [
+            { "label": "Slides", "url": "https://christianschuler8989.github.io/PauseProcessing-Slides-ESSV/#/slide-1" },
+            { "label": "Paper",  "url": "https://www.essv.de/essv2024/uploads/Main/Program/essv2024_165.pdf" }
+          ]
+        }
+      ],
+      "resources": []
+    },
+
+    {
+      "id": "digital-total-2023",
+      "title": "Digital Total",
+      "subtitle": "Computing & Data Science an der Universität Hamburg und in der Wissenschaftsmetropole Hamburg",
+      "url": "https://www.conferences.uni-hamburg.de/event/387/",
+      "date_start": "2023-10-09",
+      "date_end": "2023-10-10",
+      "languages": ["English", "German"],
+      "roles": ["Attendee"],
+      "location": {
+        "name": "House of Computing & Data Science",
+        "city": "Hamburg",
+        "country": "Germany",
+        "url": "https://www.hcds.uni-hamburg.de/en/hcds.html"
+      },
+      "description": null,
+      "personal_note": "Yet another fun event on which Domi and I attended many interesting talks in between our cake-breaks! :D",
+      "images": [
+        {
+          "file": "2023-DigitalTotal-DomiChristian-01.jpg",
+          "alt": "Digital Total with Domi",
+          "caption": "Conference aimed at publicly highlighting and consolidating the important data science, AI, and computation themes in Hamburg's academic scene."
+        }
+      ],
+      "presentations": [],
+      "resources": []
+    },
+
+    {
+      "id": "easier-autumn-school-2023",
+      "title": "EASIER Autumn School",
+      "subtitle": "Sign language data meets data science — data science meets sign linguistics",
+      "url": "https://www.project-easier.eu/event/easier-autumn-school/",
+      "date_start": "2023-09-25",
+      "date_end": "2023-09-26",
+      "languages": ["English", "International Sign Language"],
+      "roles": ["Attendee"],
+      "location": {
+        "name": "Institute of German Sign Language and Communication of the Deaf",
+        "city": "Hamburg",
+        "country": "Germany",
+        "url": "https://www.idgs.uni-hamburg.de/en.html"
+      },
+      "description": null,
+      "personal_note": "I got to meet many amazingly kind people, learned a lot from the given talks by experts and saw very inspiring project-posters that left me with way too many ideas to follow up on :)",
+      "images": [
+        {
+          "file": "event-2023-EASIER_Autumn_School.jpeg",
+          "alt": "EASIER Autumn School",
+          "caption": "Workshop aimed at bridging the gap between data scientists and sign language experts, advancing collaborative endeavors."
+        }
+      ],
+      "presentations": [],
+      "resources": []
+    },
+
+    {
+      "id": "turn-2023",
+      "title": "TURN Prototyp Zukunft",
+      "subtitle": "Politik und Praxis für innovative Lehre",
+      "url": "https://turn-conference.org/",
+      "date_start": "2023-09-13",
+      "date_end": "2023-09-15",
+      "languages": ["German"],
+      "roles": ["Presenter"],
+      "location": {
+        "name": "TH Köln — University of Applied Sciences",
+        "city": "Cologne",
+        "country": "Germany",
+        "url": "https://www.th-koeln.de/en/"
+      },
+      "description": null,
+      "personal_note": "This was the first time for Dominik and me visiting Cologne and attending a conference together and just the cake alone would have been worth the travel! :D",
+      "images": [
+        {
+          "file": "event-2023-TURN-ConferenceHall.jpg",
+          "alt": "TURN 2023 Conference Hall",
+          "caption": "Conference aimed at sharing and collectively developing innovative teaching concepts for the education of the future."
+        },
+        {
+          "file": "event-2023-TURN-DomiAtDom.jpg",
+          "alt": "Cologne Dom with Domi",
+          "caption": "Cologne Dom with Domi."
+        }
+      ],
+      "presentations": [
+        {
+          "type": "Pitch Session",
+          "title": "Data-driven Digital Innovation Lab",
+          "description": "Here I presented inside a \"Pitch Session\" our research project Data-driven Digital Innovation Lab (Christian Schuler, Dominik Hauser, Stephan Leible, Maren Gierlich-Joas).",
+          "related_project_ids": [],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-2023-TURN-PitchPresentation.jpg",
+            "alt": "TURN 2023 Pitch Presentation",
+            "caption": null
+          },
+          "resources": [
+            { "label": "Slides",                        "url": "documents/2023-TURN-D3InnovationLab-Pitch.pdf" },
+            { "label": "Outcome of workshop discussion", "url": "documents/2023-TURN-Pitch-Upload-D3InnovationLab.png" }
+          ]
+        }
+      ],
+      "resources": []
+    },
+
+    {
+      "id": "ickl-6-2023",
+      "title": "ICKL-6",
+      "subtitle": "6th International Conference on Kurdish Linguistics",
+      "url": "https://www.uni-frankfurt.de/141901385/ContentPage_141901385?",
+      "date_start": "2023-09-04",
+      "date_end": "2023-09-05",
+      "languages": ["English"],
+      "roles": ["Presenter"],
+      "location": {
+        "name": "Goethe Universität Frankfurt am Main",
+        "city": "Frankfurt am Main",
+        "country": "Germany",
+        "url": "https://www.goethe-university-frankfurt.de/en?locale=en"
+      },
+      "description": null,
+      "personal_note": "Here, Raman and I presented our projects as part of the poster session. We had an amazing time and got to meet so many awesome people that we can't wait to see again in two years at the 7th ICKL! :D",
+      "images": [
+        {
+          "file": "event-2023-ICKL6-group.jpeg",
+          "alt": "ICKL-6 Group Photo",
+          "caption": "Conference aimed at the low-resource language Kurdish and any neighboring or contacting languages, with a linguistic focus."
+        }
+      ],
+      "presentations": [
+        {
+          "type": "Poster Session",
+          "title": "Analysis of Phonology and Morphology in the Kobani Dialect",
+          "description": "Kobanî is a Kurdish dialect spoken in and around Kobani (Ain al-Arab), which is the capital city of the district 'Ain al-'Arab in the governement Aleppo in Syria. The Kobanî dialect can be considered to be part of the Southern Kurmanji dialect-group and has approximately 200,000 native speakers. This is a computer-aided analysis of the Kurdish dialect Kobani, based on speech data collected from dozens of native speakers from various villages of that region.",
+          "related_project_ids": ["Kobani Analysis"],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-ICKL-poster-kobanianalysis-ChristianRaman.jpg",
+            "alt": "ICKL-6 Kobani Analysis Poster",
+            "caption": "Raman Ahmad, Christian Schuler"
+          },
+          "resources": [
+            { "label": "Kobani Analysis", "url": "https://github.com/Low-ResourceDialectology/KobaniAnalysis" },
+            { "label": "Poster",          "url": "documents/2023_Ahmad_Schuler_ICKL_KobaniAnalysis_Poster.pdf" }
+          ]
+        },
+        {
+          "type": "Poster Session",
+          "title": "Towards a Complete Mapping of Kurdish Dialectology",
+          "description": "There exist a plathora of Kurdish dialects that are often unintelligible to the native speakers of each other. However, Kurdish is considered to be a dialect continuum with at times sudden language shifts and sometimes smooth transitions from one dialect to the neighboring one. At first it might seem confusing and counter intuitive that it has been found, that Central Kurdish is considered to be very understandable by speakers of Northern Kurdish and Southern Kurdish to be understandable by speakers of Central Kurdish- but speakers of Northern Kurdish hardly being able to understand Southern Kurdish. An explanation for this can be found in the prior mentioned dialect continuum- where 'Central Kurdish' is not necessarily 'Central Kurdish', since there exist many differen subdialects of Central Kurdish. Which are there, where can they be found, is what we try to figure out here.",
+          "related_project_ids": ["Dialect Mapping"],
+          "related_publication_ids": [],
+          "image": {
+            "file": "event-ICKL-poster-dialectmapping-ChristianRaman.jpg",
+            "alt": "ICKL-6 Dialect Mapping Poster",
+            "caption": "Christian Schuler, Raman Ahmad"
+          },
+          "resources": [
+            { "label": "Dialect Mapping", "url": "https://github.com/Low-ResourceDialectology/DialectMapping" },
+            { "label": "Poster",          "url": "documents/2023_Schuler_Ahmad_ICKL_DialectMapping_Poster.pdf" }
+          ]
+        }
+      ],
+      "resources": []
+    }
+
   ]
 }

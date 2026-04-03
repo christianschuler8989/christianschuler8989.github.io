@@ -74,6 +74,7 @@
     global.i18n = {
       init,
       setLanguage,
+      getLanguage: () => currentLang,
       t,
       applyTranslations
     };

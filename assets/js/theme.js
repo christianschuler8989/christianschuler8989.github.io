@@ -13,7 +13,7 @@
    */
   async function loadTheme() {
     try {
-      const response = await fetch('/config/theme.json');
+      const response = await fetch('config/theme.json');
       if (!response.ok) throw new Error('Theme config not found');
       return await response.json();
     } catch (e) {
