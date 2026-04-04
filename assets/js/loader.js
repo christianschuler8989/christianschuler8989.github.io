@@ -39,7 +39,7 @@
 
       return data;
     } catch (err) {
-      // Do not catch or swallow errors — let callers (e.g., main.js) handle fallbacks gracefully
+      // Do not catch or swallow errors - let callers (e.g., main.js) handle fallbacks gracefully
       // This allows specific recovery strategies per file type
       throw err;
     }

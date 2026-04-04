@@ -19,8 +19,8 @@
   },
   
   "spacing": {
-    "section-padding": "28px",
-    "section-gap": "48px"
+    "section-padding": "1px",
+    "section-gap": "1px"
   },
   
   "animation": {

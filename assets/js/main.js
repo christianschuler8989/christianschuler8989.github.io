@@ -2,21 +2,21 @@
    Orchestrates the entire site's initialization in a single async IIFE.
 
    Structure:
-     Steps 1–5  — Config, theme, i18n, navigation (setup; order matters)
-     Renderer registry — One named function per structured section type,
+     Steps 1–5  - Config, theme, i18n, navigation (setup; order matters)
+     Renderer registry - One named function per structured section type,
                          looked up by section ID inside populateSections().
                          Adding a new section type = write a render*() function
                          and register it in the `renderers` map. Nothing else changes.
-     populateSections(lang) — Clears #content, iterates siteConfig.order,
+     populateSections(lang) - Clears #content, iterates siteConfig.order,
                               runs generic block renderer then registry renderer per section.
-     Steps 7+   — Language switcher (attached to document.body)
+     Steps 7+   - Language switcher (attached to document.body)
 */
 
 (async function() {
   try {
 
     // =========================================================================
-    // STEP 1 — Core configuration
+    // STEP 1 - Core configuration
     // =========================================================================
     const siteConfig = await loader.loadConfig('site');
     const languagesConfig = await loader.loadConfig('languages').catch(() => ({
@@ -25,23 +25,23 @@
     }));
 
     // =========================================================================
-    // STEP 2 — Theme
+    // STEP 2 - Theme
     // =========================================================================
     const themeCfg = await theme.loadTheme().catch(() => ({}));
     theme.applyTheme(themeCfg);
 
     // =========================================================================
-    // STEP 3 — Default language
+    // STEP 3 - Default language
     // =========================================================================
     const defaultLang = languagesConfig.defaultLanguage || 'eng_Latn';
 
     // =========================================================================
-    // STEP 4 — Internationalization
+    // STEP 4 - Internationalization
     // =========================================================================
     await i18n.init(defaultLang);
 
     // =========================================================================
-    // STEP 5 — Navigation
+    // STEP 5 - Navigation
     // i18n.init() calls applyTranslations() before nav elements exist in the DOM,
     // so labels would be empty on first load. Calling it again after buildNavigation()
     // ensures all data-i18n attributes are resolved immediately.
@@ -63,7 +63,7 @@
     // To add a new section type:
     //   1. Write a render*() function below.
     //   2. Add one line to the `renderers` map at the bottom of this block.
-    //   That's it — populateSections() picks it up automatically.
+    //   That's it - populateSections() picks it up automatically.
     // =========================================================================
 
     // --- Publications --------------------------------------------------------
@@ -94,7 +94,7 @@
         const meta = document.createElement('div');
         meta.className = 'pub-meta';
         meta.textContent =
-          `${(p.authors || []).join(', ')} — (${p.year || ''}) — ${p.venue || ''}`;
+          `${(p.authors || []).join(', ')} - (${p.year || ''}) - ${p.venue || ''}`;
         item.appendChild(meta);
 
         list.appendChild(item);
@@ -104,9 +104,22 @@
     }
 
     // --- Projects ------------------------------------------------------------
-    // Grid of cards: title, summary paragraph, tag pills.
-    // (Will gain a detail-page link in a future step once the two-tier
-    //  project architecture is in place.)
+    // Grid of index cards. Each card shows: optional thumbnail, status badge,
+    // title, short summary, tag pills, and a "View project →" CTA for cards
+    // that have a detail page.
+    //
+    // Cards with has_detail_page: true are rendered as <a href="#projects/<id>">
+    // so they are keyboard-navigable, support right-click-open-in-new-tab, and
+    // trigger sitenavigation.js to render the project detail JSON.
+    //
+    // Expected fields per item in projects.json:
+    //   id             - stable identifier matching the detail JSON filename
+    //   title          - display name
+    //   summary        - short (1–2 sentence) card description
+    //   tags           - array of keyword strings
+    //   image          - optional { file, alt } for a card thumbnail
+    //   status         - "ongoing" | "completed" | "on-hold" | "pending"
+    //   has_detail_page - boolean; if true, card links to #projects/<id>
     function renderProjects(data, container) {
       if (!Array.isArray(data.items) || data.items.length === 0) return;
 
@@ -114,18 +127,55 @@
       grid.className = 'project-grid';
 
       data.items.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'project-card';
+        // Linked cards are <a> elements - fully keyboard-navigable and semantic.
+        // Non-linked cards are plain <div> so there are no dead href="#" links.
+        const card = item.has_detail_page
+          ? Object.assign(document.createElement('a'), {
+              href: `#projects/${item.id}`,
+              className: 'project-card project-card--linked'
+            })
+          : Object.assign(document.createElement('div'), {
+              className: 'project-card'
+            });
 
-        const title = document.createElement('strong');
-        title.textContent = item.title;
-        card.appendChild(title);
+        // - Optional thumbnail image -
+        if (item.image) {
+          const img = document.createElement('img');
+          img.src = `pictures/${item.image}`;
+          img.alt = item.title || "";
+          img.className = 'project-card-image';
+          img.loading = 'lazy';
+          card.appendChild(img);
+        }
 
-        const summary = document.createElement('div');
+        // - Card body -
+        const body = document.createElement('div');
+        body.className = 'project-card-body';
+
+        // Status badge + title on the same row
+        const titleRow = document.createElement('div');
+        titleRow.className = 'project-card-title-row';
+
+        if (item.status) {
+          const badge = document.createElement('span');
+          badge.className = `project-status project-status--${item.status}`;
+          badge.textContent = item.status;
+          titleRow.appendChild(badge);
+        }
+
+        const titleEl = document.createElement('strong');
+        titleEl.className = 'project-card-title';
+        titleEl.textContent = item.title;
+        titleRow.appendChild(titleEl);
+        body.appendChild(titleRow);
+
+        // Summary
+        const summary = document.createElement('p');
         summary.className = 'project-summary';
         summary.textContent = item.summary;
-        card.appendChild(summary);
+        body.appendChild(summary);
 
+        // Tags
         if (item.tags && item.tags.length) {
           const tagRow = document.createElement('div');
           tagRow.className = 'tags';
@@ -135,9 +185,18 @@
             span.textContent = tag;
             tagRow.appendChild(span);
           });
-          card.appendChild(tagRow);
+          body.appendChild(tagRow);
         }
 
+        // "View project →" affordance - only on linked cards
+        if (item.has_detail_page) {
+          const cta = document.createElement('span');
+          cta.className = 'project-card-cta';
+          cta.textContent = 'View project →';
+          body.appendChild(cta);
+        }
+
+        card.appendChild(body);
         grid.appendChild(card);
       });
 
@@ -147,35 +206,35 @@
 // --- Events --------------------------------------------------------------
 // Renders a chronological (descending) list of event entries.
 //
-// Expected structure per item in events.json — all fields optional unless marked (required):
+// Expected structure per item in events.json - all fields optional unless marked (required):
 //
-//   id          (required) — stable string identifier
-//   title       (required) — display name of the event
-//   subtitle              — short descriptive sub-title
-//   url                   — link to the event's homepage
-//   date_start  (required) — ISO date string "YYYY-MM-DD"
-//   date_end              — ISO date string; if absent or equal to date_start → single day
-//   languages             — array of spoken language strings, e.g. ["English", "German"]
-//   roles       (required) — array of role strings, e.g. ["Presenter"], ["Attendee"]
+//   id          (required) - stable string identifier
+//   title       (required) - display name of the event
+//   subtitle              - short descriptive sub-title
+//   url                   - link to the event's homepage
+//   date_start  (required) - ISO date string "YYYY-MM-DD"
+//   date_end              - ISO date string; if absent or equal to date_start → single day
+//   languages             - array of spoken language strings, e.g. ["English", "German"]
+//   roles       (required) - array of role strings, e.g. ["Presenter"], ["Attendee"], ["Organizer"], ["Assistant"]
 //                            Drives the colour-coded role badges via CSS class role-<slug>.
 //                            See layout.css for supported variants; add new rows freely.
-//   location              — object { name, city, country, url }
-//   description           — factual overview paragraph
-//   personal_note         — informal/personal comment (rendered distinctly)
-//   images                — array of { file, alt, caption }
+//   location              - object { name, city, country, url }
+//   description           - factual overview paragraph
+//   personal_note         - informal/personal comment (rendered distinctly)
+//   images                - array of { file, alt, caption }
 //                           file is relative to assets/images/events/ on the server.
 //                           caption may be null.
-//   presentations         — array of presentation sub-entries (see below)
-//   resources             — array of { label, url } — event-level links (e.g. proceedings)
+//   presentations         - array of presentation sub-entries (see below)
+//   resources             - array of { label, url } - event-level links (e.g. proceedings)
 //
 // Per presentation object:
-//   type         — e.g. "Poster Presentation", "Paper Presentation", "Pitch Session", "Award"
+//   type         - e.g. "Poster Presentation", "Paper Presentation", "Pitch Session", "Award"
 //   title
 //   description
-//   related_project_ids      — array of project IDs (for future cross-linking)
-//   related_publication_ids  — array of publication IDs (for future cross-linking)
-//   image        — optional { file, alt, caption }
-//   resources    — array of { label, url }
+//   related_project_ids      - array of project IDs (for future cross-linking)
+//   related_publication_ids  - array of publication IDs (for future cross-linking)
+//   image        - optional { file, alt, caption }
+//   resources    - array of { label, url }
 
 function renderEvents(data, container) {
   if (!Array.isArray(data.items) || data.items.length === 0) return;
@@ -219,7 +278,7 @@ function renderEvents(data, container) {
     const meta = document.createElement('div');
     meta.className = 'event-meta';
 
-    // Date — single day vs. range
+    // Date - single day vs. range
     if (ev.date_start) {
       const fmt = d => new Date(d).toLocaleDateString('en-GB', {
         day: 'numeric', month: 'short', year: 'numeric'
@@ -263,7 +322,7 @@ function renderEvents(data, container) {
       ev.roles.forEach(role => {
         const slug = role.toLowerCase().replace(/\s+/g, '-');
         const badge = document.createElement('span');
-        badge.className = `event-role role-${slug}`;
+        badge.className = `event-role event-role--${slug}`;
         badge.textContent = role;
         badgeGroup.appendChild(badge);
       });
@@ -412,7 +471,7 @@ function buildResourceLinks(resources) {
   return row;
 }
 
-    // Registry map — the only place that needs editing when adding a new section type.
+    // Registry map - the only place that needs editing when adding a new section type.
     const renderers = {
       publications: renderPublications,
       projects:     renderProjects,
@@ -445,7 +504,7 @@ function buildResourceLinks(resources) {
         secEl.id = secId;
         secEl.className = 'page-section';
 
-        // Section heading — prefer locale.json key, fall back to JSON title or raw ID
+        // Section heading - prefer locale.json key, fall back to JSON title or raw ID
         const h1 = document.createElement('h1');
         const localizedTitle = i18n.t(`sections.${secId}.title`);
         h1.textContent =
@@ -457,7 +516,7 @@ function buildResourceLinks(resources) {
         const body = document.createElement('div');
         body.className = 'section-body';
 
-        // 1. Generic block renderer — paragraph / list / html from contentData.sections
+        // 1. Generic block renderer - paragraph / list / html from contentData.sections
         (contentData.sections || []).forEach(block => {
           if (block.type === 'paragraph') {
             const p = document.createElement('p');
@@ -478,7 +537,7 @@ function buildResourceLinks(resources) {
           }
         });
 
-        // 2. Registry renderer — handles structured contentData.items
+        // 2. Registry renderer - handles structured contentData.items
         const renderer = renderers[secId];
         if (renderer) renderer(contentData, body);
 
@@ -488,14 +547,27 @@ function buildResourceLinks(resources) {
 
       // Reinitialise scrollspy so it observes the freshly rebuilt section elements
       scrollspy.initScrollSpy();
+
+      // If a hex-button was clicked while on a sub-page, it stored the desired
+      // scroll target in sessionStorage before triggering a reload. Consume it now.
+      const scrollTarget = sessionStorage.getItem('scrollTarget');
+      if (scrollTarget) {
+        sessionStorage.removeItem('scrollTarget');
+        const el = document.getElementById(scrollTarget);
+        if (el) {
+          requestAnimationFrame(() =>
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+          );
+        }
+      }
     }
 
     // Initial render
     await populateSections(defaultLang);
 
     // =========================================================================
-    // STEP 7 — Language switcher
-    // Attached to document.body (not #navigation) — it is positioned fixed in
+    // STEP 7 - Language switcher
+    // Attached to document.body (not #navigation) - it is positioned fixed in
     // the top-right corner via layout.css and is independent of the sidebar.
     // =========================================================================
     let languagesCfg = { available: [{ code: 'eng_Latn' }], defaultLanguage: defaultLang };
@@ -519,12 +591,15 @@ function buildResourceLinks(resources) {
       langBox.appendChild(btn);
     });
 
-    document.body.appendChild(langBox);
+    // Inject into #navigation as the very first child (above the hex-list).
+    // CSS positions it statically within the sidebar's flex layout.
+    const navRoot = document.getElementById('navigation');
+    navRoot.insertBefore(langBox, navRoot.firstChild);
 
   } catch (err) {
     console.error('Fatal error during site initialization:', err);
     const c = document.getElementById('content');
     if (c) c.innerHTML =
-      '<p style="color:tomato">Failed to initialize site — see console for details.</p>';
+      '<p style="color:tomato">Failed to initialize site - see console for details.</p>';
   }
 })();

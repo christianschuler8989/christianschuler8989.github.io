@@ -1,0 +1,45 @@
+{
+  "id": "dialectmapping",
+  "title": "Towards a Complete Mapping of Kurdish Dialectology",
+  "subtitle": "A comprehensive geographic and typological survey of Kurdish dialect variation",
+  "status": "active",
+  "period": "2023 – ongoing",
+  "tags": ["dialectgeography", "dialectgeometry", "Kurdish", "typology", "fieldwork"],
+  "collaborators": [
+    { "name": "Raman Ahmad", "role": "Co-investigator" },
+    { "name": "Ānrán Wáng", "role": "Co-investigator" }
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/Low-ResourceDialectology/DialectMapping" }
+  ],
+  "related_publication_ids": [],
+  "related_event_ids": ["ickl-6-2023"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "Kurdish is often treated as a single language in NLP resources, but in reality it is a dialect continuum - or more accurately, several overlapping continua - spanning a vast geographic area across Turkey, Iraq, Iran, Syria, and diaspora communities worldwide. This project works towards a complete, systematic mapping of this variation: where are the boundaries, how sharp or gradual are they, and what linguistic features mark them?"
+    },
+    {
+      "heading": "The Continuum Problem",
+      "type": "paragraph",
+      "value": "One of the most interesting puzzles in Kurdish dialectology is the asymmetry of mutual intelligibility: speakers of Central Kurdish (Sorani) report understanding Northern Kurdish (Kurmanji) relatively well, while the reverse is far less true. This counter-intuitive finding can be partly explained by the dialect continuum - 'Central Kurdish' is not a uniform block but a gradient of sub-varieties, some of which are geographically and linguistically close to Northern Kurdish. Mapping these sub-varieties is essential to understanding both the linguistics and the NLP challenges they pose."
+    },
+    {
+      "heading": "Methodology",
+      "type": "list",
+      "items": [
+        "Collection and synthesis of existing dialect atlases, fieldwork reports, and linguistic databases.",
+        "Systematic coding of phonological, morphological, and lexical features per variety.",
+        "Geographic visualisation of isoglosses and transition zones.",
+        "Presented as a poster at ICKL-6 (Frankfurt am Main, 2023).",
+        "[TODO: describe fieldwork and data collection plans in detail]"
+      ]
+    },
+    {
+      "heading": "Current Status",
+      "type": "paragraph",
+      "value": "The project is ongoing. Initial results were presented at ICKL-6 in 2023. Work continues on expanding the variety coverage and refining the geographic representations. [TODO: add links to updated maps and publications as they become available]"
+    }
+  ]
+}

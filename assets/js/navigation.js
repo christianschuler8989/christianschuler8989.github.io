@@ -29,7 +29,7 @@
     }
     root.innerHTML = '';  // Clear any previous content
 
-    // Container for the honeycomb layout — styled in hexagons.css
+    // Container for the honeycomb layout - styled in hexagons.css
     const list = document.createElement('div');
     list.className = 'hex-list';
 
@@ -39,7 +39,7 @@
       : siteConfig.sections || [];
 
     ordered.forEach(sec => {
-      // Main wrapper for each hex — used for positioning and keyboard focus logic
+      // Main wrapper for each hex - used for positioning and keyboard focus logic
       const item = document.createElement('div');
       item.className = 'hex-item';
       item.dataset.target = sec.id;  // Useful for potential scrollspy highlighting
@@ -50,7 +50,7 @@
       btn.type = 'button';
       btn.title = sec.labelKey || sec.id;  // Tooltip fallback
 
-      // 3D layered structure — purely stylistic, defined in hexagons.css
+      // 3D layered structure - purely stylistic, defined in hexagons.css
       const layerBottom = document.createElement('div');
       layerBottom.className = 'layer bottom';
       const layerMid = document.createElement('div');
@@ -75,7 +75,7 @@
       // kicker.className = 'kicker';
       // kicker.textContent = sec.kicker || sec.id[0].toUpperCase();
 
-      // Main label — marked with data-i18n for dynamic translation updates
+      // Main label - marked with data-i18n for dynamic translation updates
       const label = document.createElement('div');
       label.className = 'label';
       label.setAttribute('data-i18n', sec.labelKey || sec.id);  // Key for i18n.t()
@@ -85,16 +85,37 @@
       content.appendChild(label);
       btn.appendChild(content);
 
-      // Shine effect overlay — used for active state animation in hexagons.css
+      // Shine effect overlay - used for active state animation in hexagons.css
       const shine = document.createElement('div');
       shine.className = 'shine';
       btn.appendChild(shine);
 
-      // Click: Smooth scroll to corresponding section
+      // Click handler - behaviour differs depending on whether we are on the
+      // main landing page or a sub-page (e.g. #projects/TextAsCorpusRep).
+      //
+      // Landing page: smooth-scroll directly to the target section (existing behaviour).
+      //
+      // Sub-page: the target section doesn't exist in the DOM. Instead:
+      //   1. Store the desired scroll target in sessionStorage.
+      //   2. Clear the hash - this triggers a hashchange event that
+      //      sitenavigation.handleRoute() handles, sees no subpage route,
+      //      and calls location.reload() to rebuild the landing page.
+      //   3. After reload, main.js / populateSections() reads sessionStorage
+      //      and scrolls to the stored target.
       btn.addEventListener('click', () => {
-        const target = document.getElementById(sec.id);
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const hash = window.location.hash;
+        const isSubpage = hash.length > 1 && hash.includes('/');
+
+        if (isSubpage) {
+          sessionStorage.setItem('scrollTarget', sec.id);
+          // Navigating to an empty hash triggers sitenavigation's hashchange
+          // listener, which detects the transition subpage → landing and reloads.
+          window.location.hash = '';
+        } else {
+          const target = document.getElementById(sec.id);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
         }
       });
 

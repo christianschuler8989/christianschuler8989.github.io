@@ -91,7 +91,7 @@
         {
           "file": "event-2024-PICS_LectureHallSign02.jpg",
           "alt": "PICS-2024 Lecture Hall Sign",
-          "caption": "Apparently, the budget could not cover printing event posters or signs — but credit where credit is due, once they started serving pastries during the breaks, everyone's spirit rose to the skies ;)"
+          "caption": "Apparently, the budget could not cover printing event posters or signs - but credit where credit is due, once they started serving pastries during the breaks, everyone's spirit rose to the skies ;)"
         },
         {
           "file": "event-2024-PICS-ITUniversity01.jpg",
@@ -146,13 +146,13 @@
         },
         {
           "type": "Award",
-          "title": "Second Place — CRAMT at EXPO 2024",
+          "title": "Second Place - CRAMT at EXPO 2024",
           "description": "We were awarded the second place of all presented projects and even received a prize of 200€ :D",
           "related_project_ids": [],
           "related_publication_ids": [],
           "image": {
             "file": "event-2024-EXPO-CRAMT-SecondPlace-TaniaRamanChristianMyyAnran.JPG",
-            "alt": "CRAMT Second Place — Tania, Raman, Christian, Myy, Ānrán",
+            "alt": "CRAMT Second Place - Tania, Raman, Christian, Myy, Ānrán",
             "caption": null
           },
           "resources": []
@@ -188,13 +188,13 @@
       "presentations": [
         {
           "type": "Award",
-          "title": "Third Place — \"Crazy Teaching\" at Spring Hackathon with CHECK24",
+          "title": "Third Place - \"Crazy Teaching\" at Spring Hackathon with CHECK24",
           "description": "We were awarded the third place for our spontaneous creation and received some T-Shirts to serve as free advertisement ;)",
           "related_project_ids": [],
           "related_publication_ids": [],
           "image": {
             "file": "event-2024-HackathonCHECK24-Secondplace-FabianAyrizRamanChristianAnranTania.jpg",
-            "alt": "Hackathon CHECK24 Third Place — Fabian, Ayriz, Raman, Christian, Ānrán, Tania",
+            "alt": "Hackathon CHECK24 Third Place - Fabian, Ayriz, Raman, Christian, Ānrán, Tania",
             "caption": "Fabian, Ayriz, Raman, Christian, Ānrán, Tania"
           },
           "resources": []
@@ -256,7 +256,7 @@
       "date_start": "2023-10-09",
       "date_end": "2023-10-10",
       "languages": ["English", "German"],
-      "roles": ["Attendee"],
+      "roles": ["Assistant"],
       "location": {
         "name": "House of Computing & Data Science",
         "city": "Hamburg",
@@ -279,7 +279,7 @@
     {
       "id": "easier-autumn-school-2023",
       "title": "EASIER Autumn School",
-      "subtitle": "Sign language data meets data science — data science meets sign linguistics",
+      "subtitle": "Sign language data meets data science - data science meets sign linguistics",
       "url": "https://www.project-easier.eu/event/easier-autumn-school/",
       "date_start": "2023-09-25",
       "date_end": "2023-09-26",
@@ -314,7 +314,7 @@
       "languages": ["German"],
       "roles": ["Presenter"],
       "location": {
-        "name": "TH Köln — University of Applied Sciences",
+        "name": "TH Köln - University of Applied Sciences",
         "city": "Cologne",
         "country": "Germany",
         "url": "https://www.th-koeln.de/en/"

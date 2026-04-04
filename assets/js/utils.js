@@ -38,7 +38,7 @@
       }
     }
 
-    // Append children — flatten arrays and skip null/undefined
+    // Append children - flatten arrays and skip null/undefined
     children.flat().forEach(c => {
       if (c == null) return;
       if (typeof c === 'string') {
@@ -54,7 +54,7 @@
   /**
    * Fetches a JSON file with explicit no-cache header.
    * Used primarily during development and to avoid stale GitHub Pages caching.
-   * Throws on network or HTTP errors — callers handle fallbacks.
+   * Throws on network or HTTP errors - callers handle fallbacks.
    *
    * @param {string} path - Relative path to the JSON file (e.g., 'config/theme.json')
    * @returns {Promise<Object>} Parsed JSON data

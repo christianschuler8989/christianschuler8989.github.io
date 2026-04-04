@@ -1,0 +1,48 @@
+{
+  "id": "dialectawarenlp",
+  "title": "Dialect-Aware NLP",
+  "subtitle": "Developing NLP solutions for Kurdish dialectal variation - and beyond",
+  "status": "active",
+  "period": "2024 – ongoing",
+  "tags": ["PhD project", "dialectal NLP", "low-resource", "Kurdish", "transfer learning"],
+  "collaborators": [
+    { "name": "Raman Ahmad",   "role": "Collaborator" },
+    { "name": "Ānrán Wáng",   "role": "Collaborator" }
+  ],
+  "links": [],
+  "related_publication_ids": [],
+  "related_event_ids": ["ickl-7-2025"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "Dialect-Aware NLP is the working title for my PhD research at Saarland University. The core question is: how do we build NLP systems that do not merely tolerate dialectal variation but actively account for it? The project takes Kurdish as its primary testbed - a language family with extensive, well-documented dialectal diversity and very limited digital resources - and develops modular, transferable solutions intended to generalise to other dialect-rich, low-resource language situations."
+    },
+    {
+      "heading": "Why Kurdish?",
+      "type": "paragraph",
+      "value": "Kurdish is an ideal research language for dialect-aware NLP for several reasons. It has a large number of speakers across multiple countries, yet is severely underrepresented in NLP benchmarks and tools. Its dialects - Kurmanji, Sorani, Zazaki, Gorani, and many sub-varieties within each - are sometimes mutually unintelligible, yet existing NLP resources conflate them into a single 'Kurdish' label. This makes Kurdish a challenging and scientifically interesting case study, and any improvements directly benefit a real community of speakers."
+    },
+    {
+      "heading": "Research Threads",
+      "type": "list",
+      "items": [
+        "Dialectal Filtering: deriving dialect-specific sub-corpora from large noisy, mixed-dialect text collections.",
+        "Kurdish Voices: dialect-aware fine-tuning of ASR models for spoken Kurdish varieties.",
+        "Kurdish Interpretability: using mechanistic interpretability to understand what language models learn about Kurdish dialects.",
+        "Dialect Mapping: building a comprehensive geographic and typological map of Kurdish dialectal variation.",
+        "Kobani Analysis: in-depth phonological and morphological study of the Kobani variety as a case study."
+      ]
+    },
+    {
+      "heading": "Long-Term Vision",
+      "type": "paragraph",
+      "value": "The methods developed for Kurdish are designed to be language-agnostic wherever possible. The long-term goal is a transferable methodology for dialect-aware NLP that can be applied to other dialect-rich, low-resource language families - particularly those where dialect variation is linguistically significant but computationally ignored."
+    },
+    {
+      "heading": "Current Status",
+      "type": "paragraph",
+      "value": "This is an active PhD project. Results from several of the research threads have already been presented at international conferences (ICKL-6, ICKL-7). Further publications and updates will be added here as the work progresses. [TODO: add links to papers and talks as they are published]"
+    }
+  ]
+}

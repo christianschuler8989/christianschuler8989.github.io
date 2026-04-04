@@ -55,8 +55,8 @@ main {
   max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
-  padding-right: var(--section-padding, 28px);
-  padding-top: var(--section-padding, 28px);
+  padding-right: var(--section-padding, 2px);
+  padding-top: var(--section-padding, 2px);
   z-index: 1;
 }
 
@@ -65,30 +65,51 @@ main {
   max-width: var(--content-max-width);
   margin-left: auto;
   margin-right: auto;
-  padding: var(--section-padding, 28px);
-  margin-bottom: var(--section-gap, 48px);
+  padding: 8px;
+  margin-bottom: 4px;
+  /* padding: var(--section-padding, 8px);
+  margin-bottom: var(--section-gap, 4px); */
+}
+
+/* Thin gradient separator between consecutive sections - appears before every
+   section except the first, fading to transparent at both edges. */
+.page-section + .page-section::before {
+  content: '';
+  display: block;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--border, rgba(0,0,0,0.15)) 20%,
+    var(--border, rgba(0,0,0,0.15)) 80%,
+    transparent
+  );
+  margin: 0 0 var(--section-padding, 4px);
 }
 
 
-/* ---------- Language switcher ---------- */
+/* ---------- Language switcher ----------
+   Rendered as the first child of #navigation (the aside sidebar).
+   Static positioning - the sidebar's flex layout handles placement. */
 .language-switcher {
-  position: fixed;
-  top: 18px;
-  right: 18px;
-  z-index: 999;  /* Always on top */
+  width: 100%;
   display: flex;
-  gap: 8px;
+  justify-content: center;
+  gap: 6px;
   flex-wrap: wrap;
+  padding: 6px 4px 10px;
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.08));
+  margin-bottom: 6px;
 }
 
 .language-switcher button {
-  padding: 6px 10px;
-  border-radius: 6px;
-  border: 1px solid var(--border, rgba(0,0,0,0.06));
+  padding: 4px 9px;
+  border-radius: 5px;
+  border: 1px solid var(--border, rgba(0,0,0,0.10));
   background: var(--bg, white);
   cursor: pointer;
   font-weight: 600;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   transition: all var(--transition, 200ms ease-out);
 }
 
@@ -120,49 +141,187 @@ main {
 
 /* ---------- Content Styling ---------- */
 
-/* Project grid */
+/* ── Project index grid ───────────────────────────────────────────────────── */
+
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 20px;
   margin-top: 20px;
 }
 
+/* Base card shared by linked and non-linked variants */
 .project-card {
   background: var(--surface, #f3f4f6);
   border: 1px solid var(--border, rgba(0,0,0,0.08));
   border-radius: 8px;
-  padding: 20px;
-  transition: all var(--transition, 200ms ease-out);
+  overflow: hidden;           /* clips thumbnail to card corners */
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--transition, 200ms ease-out),
+              box-shadow var(--transition, 200ms ease-out);
 }
 
-.project-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+/* Reset <a> defaults for linked cards */
+a.project-card {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.project-card strong {
+.project-card--linked:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+.project-card--linked:focus-visible {
+  outline: var(--focus-ring, 3px solid rgba(0,114,178,0.4));
+  outline-offset: 2px;
+}
+
+/* Optional thumbnail at card top */
+.project-card-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
   display: block;
-  font-size: 1.1rem;
-  margin-bottom: 8px;
-  color: var(--text, #111827);
+  border-bottom: 1px solid var(--border, rgba(0,0,0,0.06));
 }
 
+/* Body - all text content */
+.project-card-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;                    /* pushes CTA to bottom when card heights differ */
+}
+
+/* Status badge + title on one row */
+.project-card-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.project-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text, #111827);
+  line-height: 1.3;
+}
+
+/* Status badge */
+.project-status {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.project-status--pending   { background: #fef9c3; color: #7D5C13; }
+.project-status--ongoing    { background: #dcfce7; color: #166534; }
+.project-status--on-hold   { background: #F0DBFF; color: #450D70; }
+.project-status--completed { background: #dbeafe; color: #1e40af; }
+
+/* Summary text */
+.project-summary {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--text-secondary, #6b7280);
+  margin: 0;
+  flex: 1;
+}
+
+/* Tags row */
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-top: 12px;
+  margin-top: 4px;
 }
 
 .tag {
   background: var(--primary, #0072B2);
   color: white;
-  padding: 4px 8px;
+  padding: 3px 8px;
   border-radius: 4px;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
 }
+
+/* "View project →" CTA - only on linked cards, sits at bottom of body */
+.project-card-cta {
+  display: block;
+  font-size: 0.80rem;
+  font-weight: 600;
+  color: var(--primary, #0072B2);
+  margin-top: 4px;
+  transition: color var(--transition, 200ms ease-out);
+}
+.project-card--linked:hover .project-card-cta {
+  color: var(--accent, #D55E00);
+}
+
+/* ── Project detail page ─────────────────────────────────────────────────── */
+
+.project-detail-subtitle {
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--text-secondary, #6b7280);
+  margin: 4px 0 12px;
+}
+
+.project-detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.project-detail-period {
+  font-size: 0.84rem;
+  color: var(--text-secondary, #6b7280);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.project-collaborators {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.90rem;
+}
+
+.project-detail-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.project-detail-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 5px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  background: var(--primary, #0072B2);
+  color: #fff;
+  text-decoration: none;
+  transition: background var(--transition, 200ms ease-out);
+}
+.project-detail-link:hover { background: var(--accent, #D55E00); }
 
 /* Publications list */
 .pub-list {
@@ -199,7 +358,7 @@ main {
   color: var(--text-secondary, #6b7280);
 }
 
-/* ========== EVENTS — FIXED & MODERN CARDS ========== */
+/* ========== EVENTS - FIXED & MODERN CARDS ========== */
 
 .event-list {
   display: flex;
@@ -226,7 +385,7 @@ main {
   box-shadow: 0 20px 30px -8px rgba(0, 0, 0, 0.15);
 }
 
-/* Title — now impossible to miss */
+/* Title - now impossible to miss */
 .event-title-bar {
   margin-bottom: 16px;
 }
@@ -275,6 +434,12 @@ main {
   letter-spacing: 0.5px;
 }
 
+.event-role--attendee { background: #fef9c3; color: #7D5C13; }
+.event-role--presenter { background: #dcfce7; color: #166534; }
+.event-role--organizer { background: #F0DBFF; color: #450D70; }
+.event-role--assitant { background: #dbeafe; color: #1e40af; }
+
+
 /* Description */
 .event-description {
   font-size: 1rem;
@@ -283,7 +448,7 @@ main {
   margin-bottom: 24px;
 }
 
-/* === IMAGE GALLERY — now constrained === */
+/* === IMAGE GALLERY - now constrained === */
 .event-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -338,7 +503,7 @@ main {
   padding: 0 6px;
 }
 
-/* Presentations, resources, personal note — kept but cleaned up */
+/* Presentations, resources, personal note - kept but cleaned up */
 .event-presentations,
 .event-personal-note,
 .event-resources {
@@ -364,7 +529,7 @@ main {
   font-size: 1.6rem;
 }
 
-/* ========== PRESENTATIONS inside Events — Modern & Highlighted ========== */
+/* ========== PRESENTATIONS inside Events - Modern & Highlighted ========== */
 
 .event-presentations {
   margin-top: 28px;
@@ -407,7 +572,7 @@ main {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Type color variants — feel free to add more */
+/* Type color variants - feel free to add more */
 .event-pres-type.pres-type-poster-presentation,
 .event-pres-type.pres-type-poster-session {
   background: #6366f1;
@@ -487,7 +652,7 @@ main {
   min-width: 0; /* prevents flex overflow */
 }
 
-/* Resource links — now look like proper buttons / pills */
+/* Resource links - now look like proper buttons / pills */
 .event-resources {
   display: flex;
   flex-wrap: wrap;

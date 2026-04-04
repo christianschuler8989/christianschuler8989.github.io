@@ -1,0 +1,46 @@
+{
+  "id": "kurdishvoices",
+  "title": "Kurdish Voices",
+  "subtitle": "Dialect-specific automatic speech recognition for Kurdish",
+  "status": "active",
+  "period": "2024 – ongoing",
+  "tags": ["ASR", "speech recognition", "fine-tuning", "low-resource", "Kurdish", "dialects"],
+  "collaborators": [
+    { "name": "[TODO: add collaborators]", "role": "" }
+  ],
+  "links": [],
+  "related_publication_ids": [],
+  "related_event_ids": [],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "Kurdish Voices is a project focused on building dialect-aware automatic speech recognition (ASR) systems for Kurdish. Existing multilingual ASR models - even those that nominally support Kurdish - are typically trained on a narrow slice of one dialect, meaning speakers of other varieties receive significantly degraded recognition quality. This project investigates targeted fine-tuning strategies that allow a base model to specialise for a specific Kurdish dialect while retaining robustness."
+    },
+    {
+      "heading": "Motivation",
+      "type": "paragraph",
+      "value": "Spoken language is the primary mode of communication for many Kurdish speakers, particularly in rural and diaspora communities where literacy in Kurdish may be limited. High-quality dialect-specific ASR is therefore not merely an academic goal - it is a prerequisite for applications like voice interfaces, automatic transcription of oral history recordings, and accessibility tools. The current gap in dialect-aware Kurdish ASR is significant and largely unaddressed in the research literature."
+    },
+    {
+      "heading": "Approach",
+      "type": "list",
+      "items": [
+        "Fine-tuning pre-trained multilingual speech models (e.g. Whisper-family) on dialect-specific Kurdish audio data.",
+        "Leveraging the dialect-specific text corpora produced by the Dialectal Filtering project as a language modelling resource.",
+        "Evaluating recognition quality per dialect using appropriate word error rate (WER) benchmarks.",
+        "[TODO: describe data collection strategy once finalised]"
+      ]
+    },
+    {
+      "heading": "Current Status",
+      "type": "paragraph",
+      "value": "This project is in early development. Data collection and model selection are ongoing. Results and publications will be added here as the work progresses. [TODO: update with progress]"
+    },
+    {
+      "heading": "Connection to the Broader PhD Project",
+      "type": "paragraph",
+      "value": "Kurdish Voices is the spoken-language thread of the Dialect-Aware NLP PhD project, complementing the text-focused Dialectal Filtering work. Together they aim to cover both the written and spoken dimensions of Kurdish dialectal NLP."
+    }
+  ]
+}

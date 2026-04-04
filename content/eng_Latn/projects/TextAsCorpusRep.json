@@ -1,0 +1,53 @@
+{
+  "id": "TextAsCorpusRep",
+  "title": "Multilingual Text As Corpus Repository",
+  "subtitle": "Building corpora for low-resource machine translation",
+  "status": "completed",
+  "period": "Oct. 2023 – Apr. 2024",
+  "tags": ["low-resource NLP", "corpus creation", "machine translation", "data literacy"],
+  "collaborators": [
+    { "name": "Dr. Seid Muhie Yimam", "role": "Mentor" },
+    { "name": "Tania Tran",           "role": "Contributor" },
+    { "name": "Raman Ahmad",          "role": "Contributor" },
+    { "name": "Ānrán Wáng",           "role": "Contributor" },
+    { "name": "Myy Saurty",           "role": "Contributor" }
+  ],
+  "links": [
+    { "label": "GitHub",       "url": "https://github.com/Low-ResourceDialectology/TextAsCorpusRep" },
+    { "label": "Funding Page", "url": "https://www.isa.uni-hamburg.de/ddlitlab/data-literacy-studierendenprojekte/dritte-foerderrunde/textcorpus.html" }
+  ],
+  "related_publication_ids": [],
+  "related_event_ids": ["expo-2024"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "TextAsCorpusRep is a student research project that set out to build a modular, reusable repository of multilingual text corpora, with a particular focus on low-resource languages. The project was funded by the DDLitLab (D³ Data Literacy Lab) at the University of Hamburg for up to 10,000 €, under the mentorship of Dr. Seid Muhie Yimam."
+    },
+    {
+      "heading": "Motivation",
+      "type": "paragraph",
+      "value": "Machine translation systems for low-resource languages are held back not by a lack of algorithms but by a lack of data. Even small, carefully collected parallel corpora can dramatically improve translation quality for underrepresented language pairs. This project aimed to lower the barrier for building such corpora by providing reusable tooling and data-collection pipelines."
+    },
+    {
+      "heading": "What We Built",
+      "type": "list",
+      "items": [
+        "A structured repository of parallel and monolingual text data for multiple low-resource language pairs.",
+        "Data collection and cleaning pipelines reusable across new language pairs.",
+        "Documentation and guidelines for contributors adding data for new languages.",
+        "A public GitHub repository so that other researchers can extend the corpus."
+      ]
+    },
+    {
+      "heading": "Outcomes",
+      "type": "paragraph",
+      "value": "The project was presented as a poster at the EXPO 2024 student projects exposition at the BASE.CAMP creative lab in Hamburg, where it was awarded second place among all presented projects, along with a prize of 200 €. The repository remains publicly available on GitHub and continues to be a reference point for related corpus-creation efforts."
+    },
+    {
+      "heading": "Funding",
+      "type": "paragraph",
+      "value": "The project received funding of up to 10,000 € from the DDLitLab (D³ Data Literacy Lab) initiative at the University of Hamburg, which supports student-led data literacy projects. This was the third funding round of the programme."
+    }
+  ]
+}

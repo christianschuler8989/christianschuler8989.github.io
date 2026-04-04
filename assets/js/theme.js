@@ -114,14 +114,14 @@
 //    Exposes two functions via a global `window.theme` object:
 //      - applyTheme(themeObject): Directly applies a theme object to CSS variables
 //      - loadTheme(): Convenience async helper that fetches and returns theme.json (with warning on failure)
-//    Note: This module depends on a global `utils.fetchJsonNoCache` helper — [TODO: Confirm existence and signature in utils.js]
+//    Note: This module depends on a global `utils.fetchJsonNoCache` helper - [TODO: Confirm existence and signature in utils.js]
 //    Designed to be loaded early so that theme is applied before content rendering.
 // */
 
 // (function(global) {
 //   /**
 //    * Applies a theme object to document-root CSS custom properties.
-//    * Only sets properties that exist in the theme object — skips missing ones silently.
+//    * Only sets properties that exist in the theme object - skips missing ones silently.
 //    * Expected structure:
 //    * {
 //    *   colors: { bg, surface, text, muted, primary, accent, navHexBg },
@@ -136,7 +136,7 @@
 //     const s = theme.sizes || {};
 //     const root = document.documentElement.style;
 
-//     // Color variables — used across theme.css, layout.css, hexagons.css
+//     // Color variables - used across theme.css, layout.css, hexagons.css
 //     if (c.bg) root.setProperty('--bg', c.bg);
 //     if (c.surface) root.setProperty('--surface', c.surface);
 //     if (c.text) root.setProperty('--text', c.text);
@@ -145,7 +145,7 @@
 //     if (c.accent) root.setProperty('--accent', c.accent);
 //     if (c.navHexBg) root.setProperty('--nav-hex-bg', c.navHexBg);
 
-//     // Size/layout variables — critical for navigation honeycomb layout and content width
+//     // Size/layout variables - critical for navigation honeycomb layout and content width
 //     if (s.navWidth) root.setProperty('--nav-width', s.navWidth);
 //     if (s.hexSize) root.setProperty('--hex-size', s.hexSize);
 //     if (s.contentMaxWidth) root.setProperty('--content-max-width', s.contentMaxWidth);
@@ -159,11 +159,11 @@
 //    */
 //   async function loadTheme() {
 //     try {
-//       // Relies on global utils.fetchJsonNoCache — a wrapper around fetch + json() with no-cache
+//       // Relies on global utils.fetchJsonNoCache - a wrapper around fetch + json() with no-cache
 //       const theme = await global.utils.fetchJsonNoCache('config/theme.json');
 //       return theme;
 //     } catch (err) {
-//       console.warn('[theme] Could not load theme.json — using fallback defaults', err);
+//       console.warn('[theme] Could not load theme.json - using fallback defaults', err);
 //       return {};
 //     }
 //   }

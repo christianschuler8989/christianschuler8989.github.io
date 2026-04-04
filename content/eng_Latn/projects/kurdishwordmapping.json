@@ -1,0 +1,44 @@
+{
+  "id": "kurdishwordmapping",
+  "title": "Kurdish Linguistic Variations Map",
+  "subtitle": "An interactive map of dialectal diversity across Kurdish varieties",
+  "status": "active",
+  "period": "2022 – ongoing",
+  "tags": ["lexicography", "dialectgeography", "Kurdish", "visualisation", "interactive"],
+  "collaborators": [
+    { "name": "Murat Baran", "role": "Original idea" }
+  ],
+  "links": [
+    { "label": "Live Demo",  "url": "https://christianschuler8989.github.io/Language-Ontologies-and-Varieties-Explorer/" },
+    { "label": "GitHub",    "url": "https://github.com/christianschuler8989/kurdish-word-mapping" }
+  ],
+  "related_publication_ids": [],
+  "related_event_ids": [],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "The Kurdish Linguistic Variations Map is an interactive web application that visualises dialectal diversity across Kurdish varieties. Starting from the idea by Murat Baran, the prototype maps lexical and phonological variation using data from the Database of Kurdish Dialects (Matras, 2016). Users can explore how specific words and features vary across geographic regions and dialect groups."
+    },
+    {
+      "heading": "Data Source",
+      "type": "paragraph",
+      "value": "The primary data source is the Database of Kurdish Dialects compiled by Yaron Matras (2016), which contains systematic lexical elicitation data from a wide range of Kurdish varieties. This structured dataset makes it possible to generate comparative visualisations across dialect boundaries in a reproducible way."
+    },
+    {
+      "heading": "What It Shows",
+      "type": "list",
+      "items": [
+        "Geographic distribution of lexical variants for selected concepts across Kurdish varieties.",
+        "Boundaries and transition zones between major dialect groups (Kurmanji, Sorani, Zazaki, Gorani).",
+        "Point-by-point comparisons of how individual words surface in different dialects.",
+        "[TODO: describe additional features as the application grows]"
+      ]
+    },
+    {
+      "heading": "Current Status",
+      "type": "paragraph",
+      "value": "This is a first prototype. The application is live and publicly accessible via the demo link above. More Kurdish NLP projects and additional data layers will be added over time. [TODO: update with new features]"
+    }
+  ]
+}

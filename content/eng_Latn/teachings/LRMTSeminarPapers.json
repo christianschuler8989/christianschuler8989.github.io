@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "LRMT Seminar — Paper Repository",
-    "description": "Flat, tag-based repository of all papers considered for the Low-Resource Machine Translation seminar. Papers are not nested by week — weeks reference paper IDs. This separation keeps the paper list modular and reusable across seminar editions.",
+    "title": "LRMT Seminar - Paper Repository",
+    "description": "Flat, tag-based repository of all papers considered for the Low-Resource Machine Translation seminar. Papers are not nested by week - weeks reference paper IDs. This separation keeps the paper list modular and reusable across seminar editions.",
     "version": "2025-v0.1",
     "last_updated": "2025",
-    "notes": "The 'id' field is permanent and should never be changed between versions — it is the stable cross-reference key. The 'citationkey' field is a suggested BibTeX key and can be adjusted by individual users (e.g. to match their Zotero setup). Tags use a controlled vocabulary: see tag_vocabulary below."
+    "notes": "The 'id' field is permanent and should never be changed between versions - it is the stable cross-reference key. The 'citationkey' field is a suggested BibTeX key and can be adjusted by individual users (e.g. to match their Zotero setup). Tags use a controlled vocabulary: see tag_vocabulary below."
   },
   "tag_vocabulary": {
     "topic": [
@@ -526,7 +526,7 @@
       "id": "tiedemann2020tatoeba",
       "citationkey": "tiedemann2020TatoebaTranslationChallenge",
       "header": "Realistic low-resource MT benchmarks via Tatoeba",
-      "title": "The Tatoeba Translation Challenge — Realistic Data Sets for Low Resource and Multilingual MT",
+      "title": "The Tatoeba Translation Challenge - Realistic Data Sets for Low Resource and Multilingual MT",
       "reference_short": "Tiedemann, 2020",
       "reference_full": "Tiedemann, J. (2020). The Tatoeba Translation Challenge – Realistic Data Sets for Low Resource and Multilingual MT. WMT.",
       "year": 2020,

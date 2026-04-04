@@ -1,0 +1,44 @@
+{
+  "id": "love",
+  "title": "Language Ontologies & Varieties Explorer (LOVE)",
+  "subtitle": "A Feature Analyses Navigation tool for cross-linguistic comparison",
+  "status": "active",
+  "period": "2022 – ongoing",
+  "tags": ["linguistic features", "typology", "database", "multilingual", "visualisation"],
+  "collaborators": [
+    { "name": "Yusser Al Ghassin", "role": "Co-developer (FUAN)" }
+  ],
+  "links": [
+    { "label": "Live Demo", "url": "https://christianschuler8989.github.io/Language-Ontologies-and-Varieties-Explorer/" },
+    { "label": "GitHub",    "url": "https://github.com/christianschuler8989/Language-Ontologies-and-Varieties-Explorer" }
+  ],
+  "related_publication_ids": [],
+  "related_event_ids": [],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "LOVE - Language Ontologies & Varieties Explorer - is an interactive tool for exploring and comparing linguistic features across language varieties and language families. One of its components, the Feature Analyses Navigation (FUAN), was developed together with Yusser Al Ghassin and allows researchers to navigate typological feature databases in a visual, query-driven way."
+    },
+    {
+      "heading": "Motivation",
+      "type": "paragraph",
+      "value": "Typological databases like WALS (World Atlas of Language Structures) contain rich cross-linguistic data, but their standard interfaces can make it difficult to ask comparative or exploratory questions, particularly across multiple features simultaneously. LOVE aims to lower this barrier with a browser-based interface that brings together ontologies, variety classifications, and feature annotations in one place."
+    },
+    {
+      "heading": "Features",
+      "type": "list",
+      "items": [
+        "Navigate linguistic features across language varieties using a visual interface.",
+        "Filter and compare languages by typological properties.",
+        "Integrates with the Kurdish Linguistic Variations Map for dialect-level data.",
+        "[TODO: describe additional modules and data sources as the tool grows]"
+      ]
+    },
+    {
+      "heading": "Current Status",
+      "type": "paragraph",
+      "value": "LOVE is an ongoing project. The first prototype is live and accessible via the demo link above. Feature additions and new data integrations are planned. [TODO: update with new features and publications]"
+    }
+  ]
+}

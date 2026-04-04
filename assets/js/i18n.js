@@ -1,5 +1,5 @@
 /* i18n.js
-   Simple i18n loader & runtime. No reloads — updates DOM in-place.
+   Simple i18n loader & runtime. No reloads - updates DOM in-place.
    Usage:
      await i18n.init(defaultLang);
      i18n.t('nav.home');

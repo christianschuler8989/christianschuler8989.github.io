@@ -1,0 +1,44 @@
+{
+  "id": "woodenmath",
+  "title": "Wooden Math",
+  "subtitle": "A second-semester homework submission, carved in wood",
+  "status": "completed",
+  "period": "2018",
+  "tags": ["art", "mathematics", "woodworking", "student life"],
+  "collaborators": [
+    { "name": "Dominik Hauser", "role": "Co-solver" },
+    { "name": "Lema Shahbaz", "role": "Co-painter" }
+  ],
+  "links": [],
+  "related_publication_ids": [],
+  "related_event_ids": [],
+  "sections": [
+    {
+      "heading": "The Story",
+      "type": "paragraph",
+      "value": "In the second semester of studying computer science at the University of Hamburg, two friends and I found ourselves staring at yet another routine mathematics assignment. Instead of submitting the standard handwritten or typed solution, we decided to have a little fun with our math tutor. We carved the assignment onto two wooden planks, painted them white for contrast, added black for legibility, and combined them with a metal ring. Then we handed them in like ten commandments."
+    },
+    {
+      "heading": "The Process",
+      "type": "list",
+      "items": [
+        "Find appropriately sized wooden planks lying around at home.",
+        "Create the mathematical solutions and write them out on paper to plan the layout.",
+        "Carve the text and equations into the wood using hand tools.",
+        "Apply white paint as a base coat and let it dry over night.",
+        "Add black paint to the carved grooves for readability.",
+        "Submit. Observe tutor's reaction."
+      ]
+    },
+    {
+      "heading": "Why?",
+      "type": "paragraph",
+      "value": "Honestly? Because we could. And because it turned a forgettable homework assignment into a memory worth keeping. The tutor took it in good humour and the planks still exist."
+    },
+    {
+      "heading": "Broader Significance",
+      "type": "paragraph",
+      "value": "None whatsoever. But that is precisely the point. Not every project needs to advance science or solve a problem. Sometimes it is enough to make something with your hands, share a laugh with friends, and remind yourself not to take things too seriously."
+    }
+  ]
+}

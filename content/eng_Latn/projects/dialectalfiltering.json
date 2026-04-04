@@ -1,0 +1,52 @@
+{
+  "id": "dialectalfiltering",
+  "title": "Dialectal Filtering",
+  "subtitle": "Synthesising dialect-specific corpora from large noisy text collections",
+  "status": "active",
+  "period": "2024 – ongoing",
+  "tags": ["corpus creation", "dialect identification", "Kurdish", "low-resource", "data augmentation"],
+  "collaborators": [
+    { "name": "Raman Ahmad", "role": "Co-author" },
+    { "name": "Ānrán Wáng", "role": "Co-author" }
+  ],
+  "links": [],
+  "related_publication_ids": [],
+  "related_event_ids": ["ickl-7-2025"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "Kurdish NLP faces a fundamental data problem: available text corpora are large but extremely noisy, mixing multiple dialects, scripts, and registers without labelling. A model trained on such data learns an undifferentiated blend rather than the properties of any specific variety. Dialectal Filtering addresses this by using lexicographic features - dialect-specific markers identified from linguistic resources - to filter and partition large raw corpora into variety-specific sub-corpora."
+    },
+    {
+      "heading": "The Core Idea",
+      "type": "paragraph",
+      "value": "The approach treats dialect identification as a lightweight, lexicon-driven filtering step rather than a full classification task. For each target dialect, a set of discriminative lexical and morphological markers is identified. Documents containing a sufficient density of these markers are assigned to the corresponding dialect sub-corpus. This keeps the pipeline fast, interpretable, and applicable even when only small amounts of labelled data are available."
+    },
+    {
+      "heading": "Results",
+      "type": "list",
+      "items": [
+        "Over 100 dialect-specific sub-corpora synthesised from Northern Kurdish (Kurmanji) source data.",
+        "Presented at the 7th International Conference on Kurdish Linguistics (ICKL-7, Bamberg 2025).",
+        "Current limitations in precision are acknowledged; further refinement of the marker lexicon is ongoing.",
+        "[TODO: add quantitative results once finalised for publication]"
+      ]
+    },
+    {
+      "heading": "Connection to the Broader PhD Project",
+      "type": "paragraph",
+      "value": "Dialectal Filtering is one of the core data-creation threads of the Dialect-Aware NLP PhD project. The sub-corpora it produces feed directly into downstream tasks such as dialect-aware machine translation and ASR fine-tuning (see: Kurdish Voices)."
+    },
+    {
+      "heading": "Next Steps",
+      "type": "list",
+      "items": [
+        "Expand the marker lexicon to cover additional Kurdish varieties beyond Northern Kurdish.",
+        "Evaluate downstream task performance (MT, ASR) on the synthesised sub-corpora.",
+        "Investigate combining the lexicon-based approach with lightweight classification models.",
+        "[TODO: add publication link once available]"
+      ]
+    }
+  ]
+}

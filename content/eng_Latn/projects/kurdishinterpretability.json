@@ -1,0 +1,42 @@
+{
+  "id": "kurdishinterpretability",
+  "title": "Kurdish Interpretability",
+  "subtitle": "Mechanistic interpretability for low-resource Kurdish language models - KI mal anders",
+  "status": "active",
+  "period": "2024 – ongoing",
+  "tags": ["mechanistic interpretability", "low-resource", "Kurdish", "language models", "explainability"],
+  "collaborators": [
+    { "name": "[TODO: add collaborators]", "role": "" }
+  ],
+  "links": [],
+  "related_publication_ids": [],
+  "related_event_ids": [],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "Kurdish Interpretability - abbreviated KI, with a deliberate nod to the German word for AI - applies mechanistic interpretability methods to language models trained on or applied to Kurdish. The central question is: what do these models actually learn about Kurdish, and more specifically, about its dialectal variation? Do models encode dialect as a coherent feature, or do they represent it as noise?"
+    },
+    {
+      "heading": "Why Interpretability for Low-Resource Languages?",
+      "type": "paragraph",
+      "value": "Most mechanistic interpretability research has been conducted on large English-language models. Low-resource languages present a qualitatively different regime: models trained on them have seen far less data, may rely more heavily on transfer from other languages, and may have learned different internal representations as a result. Understanding these representations is both scientifically interesting and practically important - it can reveal failure modes invisible from benchmark scores alone."
+    },
+    {
+      "heading": "Research Questions",
+      "type": "list",
+      "items": [
+        "Which components of a multilingual model encode Kurdish-specific linguistic features?",
+        "Is dialectal variation represented as a continuous latent dimension, a discrete cluster, or something else?",
+        "How does the model's internal representation of Kurdish change as more Kurdish training data is provided?",
+        "Can interpretability findings guide more targeted fine-tuning strategies for low-resource languages?",
+        "[TODO: refine research questions as the project develops]"
+      ]
+    },
+    {
+      "heading": "Current Status",
+      "type": "paragraph",
+      "value": "This project is in the exploratory phase. Initial experiments are underway. Results and publications will be added here as the work progresses. [TODO: update with experiments and findings]"
+    }
+  ]
+}

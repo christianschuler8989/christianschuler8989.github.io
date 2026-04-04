@@ -1,0 +1,43 @@
+{
+  "id": "crazydeck",
+  "title": "Crazy Deck",
+  "subtitle": "A hand-designed card game, years in the making",
+  "status": "active",
+  "period": "Nov. 2017 – ongoing",
+  "tags": ["game design", "card game", "gamification", "game development"],
+  "collaborators": [
+    { "name": "Dominik Hauser", "role": "Co-designer and co-creator" },
+    { "name": "Ānrán Wáng",     "role": "Digital version co-developer" }
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/christianschuler8989/CrazyDeck" }
+  ],
+  "related_publication_ids": [],
+  "related_event_ids": [],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "Crazy Deck is a card game designed and created together with Dominik Hauser over the course of our computer science studies at the University of Hamburg. It began in November 2017 as a side project and evolved continuously alongside our studies. The game has gone through many iterations, playtests, and redesigns - and is now in the process of getting a digital multiplayer version, with Ānrán Wáng joining the team."
+    },
+    {
+      "heading": "Design Philosophy",
+      "type": "paragraph",
+      "value": "Crazy Deck was designed to be easy to pick up but hard to master, with a focus on social interaction and surprising turn reversals. The physical version was hand-illustrated and hand-assembled, which gave the whole project a personal character that mass-produced games rarely have. [TODO: describe the core game mechanics in more detail]"
+    },
+    {
+      "heading": "Versions",
+      "type": "list",
+      "items": [
+        "Physical card game - multiple editions, hand-designed and assembled.",
+        "Digital multiplayer version - currently in development with Ānrán Wáng.",
+        "[TODO: add version history and changelog as the game develops]"
+      ]
+    },
+    {
+      "heading": "A Note on Time",
+      "type": "paragraph",
+      "value": "Hach... if only the day had more than 24 hours! This project lives in the space between research commitments - slowly, steadily, joyfully. It is probably the longest-running project in this collection and, in some ways, the one most purely made for fun."
+    }
+  ]
+}

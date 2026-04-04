@@ -1,0 +1,50 @@
+{
+  "id": "kobanianalysis",
+  "title": "Analysis of Phonology and Morphology in the Kobani Dialect",
+  "subtitle": "A computer-aided study of a Southern Kurmanji variety spoken in Rojava",
+  "status": "active",
+  "period": "2022 – ongoing",
+  "tags": ["linguistics", "phonology", "morphology", "low-resource", "Kurdish", "Kurmanji"],
+  "collaborators": [
+    { "name": "Raman Ahmad", "role": "Co-investigator and native speaker consultant" }
+  ],
+  "links": [
+    { "label": "GitHub",         "url": "https://github.com/Low-ResourceDialectology/KobaniAnalysis" },
+    { "label": "Poster (ICKL-6)","url": "docs/posters/2023_Ahmad_Schuler_ICKL_KobaniAnalysis_Poster.pdf" }
+  ],
+  "related_publication_ids": [],
+  "related_event_ids": ["ickl-6-2023", "ickl-7-2025"],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "Kobani (also: Kobanî, Ain al-Arab) is the capital city of the district Ain al-Arab in the Aleppo governorate of Syria. The Kobani dialect of Kurdish belongs to the Southern Kurmanji sub-group and is spoken by approximately 200,000 native speakers in and around the region of Rojava. Despite its speaker community size, the dialect has received very little systematic linguistic documentation - this project addresses that gap."
+    },
+    {
+      "heading": "Research Approach",
+      "type": "paragraph",
+      "value": "The analysis is computer-aided: speech data was collected from dozens of native speakers from various villages in the Kobani region, then processed using phonetic analysis software to extract systematic phonological and morphological patterns. This combines the rigour of instrumental phonetics with the contextual knowledge of working closely with a native speaker collaborator (Raman Ahmad)."
+    },
+    {
+      "heading": "Key Findings So Far",
+      "type": "list",
+      "items": [
+        "Kobani can be classified within the Southern Kurmanji sub-group, sharing features with other dialects of that group while also showing distinctive local developments.",
+        "The use of tense ezafe (î / e) in copular constructions follows patterns similar to other Western Kurmanji dialects (e.g. Maraş), encoding stage-level predicates.",
+        "Unlike standard Kurmanji, Kobani restricts the tense ezafe to copular phrases rather than verbal predicates.",
+        "Presented at ICKL-6 (Frankfurt, 2023) and ICKL-7 (Bamberg, 2025).",
+        "[TODO: add detailed phonological inventory and morphological paradigm tables]"
+      ]
+    },
+    {
+      "heading": "Why Kobani?",
+      "type": "paragraph",
+      "value": "Beyond its linguistic interest, the Kobani dialect carries significant cultural weight: the city became internationally known during the Siege of Kobani (2014–2015) and the dialect is closely tied to the identity of its speakers. Documenting it is both a scientific contribution and an act of linguistic preservation."
+    },
+    {
+      "heading": "Current Status",
+      "type": "paragraph",
+      "value": "Data collection and primary analysis are ongoing. A poster was presented at ICKL-6 (2023) and follow-up work at ICKL-7 (2025). Further publications in preparation. [TODO: add publication links as they become available]"
+    }
+  ]
+}

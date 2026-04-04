@@ -1,0 +1,49 @@
+{
+  "id": "StudyToolkitVid",
+  "title": "StudyToolkitVid",
+  "subtitle": "A toolkit for studying human perception of video material",
+  "status": "completed",
+  "period": "2021 – 2022",
+  "tags": ["audio-visual translation", "quality assessment", "user study", "perception", "NLP"],
+  "collaborators": [
+    { "name": "Prof. Dr. Timo Baumann", "role": "Mentor" }
+  ],
+  "links": [
+    { "label": "GitHub",       "url": "https://github.com/christianschuler8989/StudyToolkitVid" },
+    { "label": "Funding Page", "url": "https://www.isa.uni-hamburg.de/ddlitlab/data-literacy-studierendenprojekte/erste-foerderrunde/studytoolkitvid.html" }
+  ],
+  "related_publication_ids": [],
+  "related_event_ids": [],
+  "sections": [
+    {
+      "heading": "Overview",
+      "type": "paragraph",
+      "value": "StudyToolkitVid is a student research project funded by the DDLitLab (D³ Data Literacy Lab) at the University of Hamburg for 10,000 €. It set out to build a reusable toolkit for designing and running user studies that measure human perception of video material - with a particular focus on audio-visual translations such as dubbing and lip-synced video."
+    },
+    {
+      "heading": "Motivation",
+      "type": "paragraph",
+      "value": "Evaluating audio-visual translation quality is hard: automated metrics like BLEU cannot capture whether translated speech feels natural when paired with the visual content. Human perception studies are the gold standard, but designing and running them requires significant tooling infrastructure. StudyToolkitVid aimed to lower that barrier by providing a reusable, configurable toolkit for this purpose."
+    },
+    {
+      "heading": "What Was Built",
+      "type": "list",
+      "items": [
+        "A configurable framework for presenting video stimuli to study participants and collecting their responses.",
+        "Support for various rating scales and response types relevant to audio-visual quality assessment.",
+        "Data export pipelines for statistical analysis of collected perception data.",
+        "Documentation and example study configurations to help other researchers adapt the toolkit."
+      ]
+    },
+    {
+      "heading": "Funding",
+      "type": "paragraph",
+      "value": "The project received funding of 10,000 € from the DDLitLab (D³ Data Literacy Lab) initiative at the University of Hamburg - the first funding round of the programme. It was mentored by Prof. Dr. Timo Baumann."
+    },
+    {
+      "heading": "Connection to Other Work",
+      "type": "paragraph",
+      "value": "StudyToolkitVid grew out of research on audio-visual speech processing and lip-sync evaluation conducted in collaboration with Timo Baumann's group. It provided tooling infrastructure for the neural synchrony evaluation work published at ICMI 2022 and the Linux Magazine article on NLP."
+    }
+  ]
+}
