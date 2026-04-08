@@ -38,12 +38,19 @@
         mainContainer.innerHTML = '<div class="loader">Loading project…</div>';
         await this.renderProjectPage(projectPath);
 
+      // } else if (hash.startsWith('#teachings/')) {
+      //   // e.g. #teachings/LRMTSeminar2026
+      //   const seminarId = hash.substring(1);
+      //   this.currentView = 'subpage';
+      //   mainContainer.innerHTML = '<div class="loader">Loading seminar curriculum…</div>';
+      //   await this.renderSeminarPage(seminarId);
+
       } else if (hash.startsWith('#teachings/')) {
         // e.g. #teachings/LRMTSeminar2026
         const seminarId = hash.substring(1);
         this.currentView = 'subpage';
         mainContainer.innerHTML = '<div class="loader">Loading seminar curriculum…</div>';
-        await this.renderSeminarPage(seminarId);
+        await this.renderSeminarPDF(seminarId);
 
       } else {
         if (this.currentView === 'subpage') {
@@ -273,6 +280,53 @@
           '<section class="page-section"><h1>Error</h1><p>Failed to load seminar materials.</p></section>';
       }
     },
+
+    // =========================================================================
+    // SEMINAR PAGE → now renders the embedded PDF (replaces all previous JSON logic)
+    // =========================================================================
+    async renderSeminarPDF(seminarPath) {
+    const mainContainer = document.getElementById('content');
+    const lang = (global.i18n && typeof global.i18n.getLanguage === 'function')
+                ? global.i18n.getLanguage()
+                : 'eng_Latn';
+
+    const pdfPath = `content/${lang}/teachings/LRMTSeminarSyllabus.pdf`;
+
+    mainContainer.innerHTML = `
+      <section class="page-section standalone-sub" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+          <h1 style="margin: 0;">LRMT Seminar 2026 – Syllabus</h1>
+          <a href="${pdfPath}" 
+            target="_blank" 
+            rel="noopener"
+            style="background: #0066cc; color: white; padding: 10px 18px; border-radius: 6px; text-decoration: none; font-weight: 500;">
+            📥 Download PDF
+          </a>
+        </div>
+
+        <div style="width: 100%; height: 85vh; min-height: 600px; background: #f4f4f4; border-radius: 8px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.12); border: 1px solid #ddd;">
+          <object 
+            data="${pdfPath}#toolbar=0&navpanes=0" 
+            type="application/pdf" 
+            width="100%" 
+            height="100%"
+            style="border: none; width: 100%; height: 100%;">
+            
+            <!-- Fallback -->
+            <div style="padding: 60px 20px; text-align: center;">
+              <p style="font-size: 1.1rem;">Your browser cannot display the embedded PDF.</p>
+              <a href="${pdfPath}" target="_blank" rel="noopener" 
+                style="background: #0066cc; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none;">
+                📥 Download the full syllabus PDF
+              </a>
+            </div>
+          </object>
+        </div>
+      </section>
+    `;
+
+    window.scrollTo(0, 0);
+  },
 
     // ── Shared helpers ────────────────────────────────────────────────────────
 

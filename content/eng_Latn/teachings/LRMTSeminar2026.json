@@ -12,13 +12,13 @@
             "time":  "16:15 - 17:45",
             "place": "Building C7 2 room 1.05"
         },
-        "prerequisites": {
-                "title": "Prerequisites",
-                "info":"This seminar is primarily targeted at Master students, but is also open to advanced Bachelor students. We expect you to have a curious mind."
-        },
         "coursecontent": {
             "title": "Course Content",
             "info": "Low-resource machine translation in all its beauty and all its horror! A preliminary syllabus and list of papers to choose from is found below."
+        },
+        "prerequisites": {
+                "title": "Prerequisites",
+                "info":"This seminar is primarily targeted at Master students, but is also open to advanced Bachelor students. We expect you to have a curious mind."
         },
         "grading": {
             "title": "Grading",

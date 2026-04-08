@@ -27,10 +27,9 @@
     ]
   },
   "papers": [
-
     {
       "id": "koehn2005europarl",
-      "citationkey": "koehn2005Europarl",
+      "citationkey": "koehn2005EuroparlParallelCorpusa",
       "header": "Foundational SMT corpus",
       "title": "Europarl: A Parallel Corpus for Statistical Machine Translation",
       "reference_short": "Koehn, 2005",
@@ -40,10 +39,9 @@
       "url": "https://aclanthology.org/2005.mtsummit-papers.11/",
       "tags": ["corpus-creation", "parallel-corpus-mining", "foundational", "high-resource", "multilingual"]
     },
-
     {
       "id": "koehn2020neuralmachinetr",
-      "citationkey": "koehn2020NeuralMachineTranslation",
+      "citationkey": "koehn2020NeuralMachineTranslationa",
       "header": "Introduction to NMT",
       "title": "Neural Machine Translation",
       "reference_short": "Koehn, 2020",
@@ -53,10 +51,9 @@
       "url": "https://www.cambridge.org/core/books/neural-machine-translation/7AAA628F88ADD64124EA008C425C0197",
       "tags": ["foundational", "survey", "multilingual", "low-resource"]
     },
-
     {
       "id": "papineni2002bleu",
-      "citationkey": "papineni2002BLEU",
+      "citationkey": "papineni2002BleuMethodAutomatica",
       "header": "The original BLEU metric",
       "title": "BLEU: A Method for Automatic Evaluation of Machine Translation",
       "reference_short": "Papineni et al., 2002",
@@ -69,7 +66,7 @@
 
     {
       "id": "vaswani2017attention",
-      "citationkey": "vaswani2017AttentionAllYou",
+      "citationkey": "vaswani2017AttentionAllYoua",
       "header": "The Transformer architecture",
       "title": "Attention is All You Need",
       "reference_short": "Vaswani et al., 2017",

@@ -746,3 +746,60 @@ a.project-card {
     grid-template-columns: 1fr;
   }
 }
+
+
+.pdf-seminar-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pdf-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.pdf-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.pdf-download-btn {
+  background: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.pdf-download-btn:hover {
+  background: #0055aa;
+  transform: translateY(-2px);
+}
+
+.pdf-container {
+  width: 100%;
+  height: 85vh;           /* Much better than fixed 1000px */
+  min-height: 600px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ddd;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .pdf-container {
+    height: 75vh;
+  }
+  .pdf-header h1 {
+    font-size: 1.5rem;
+  }
+}
