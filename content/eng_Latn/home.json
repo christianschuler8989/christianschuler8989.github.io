@@ -18,8 +18,8 @@
       "value": "<br>I enjoy applying computational methods to real-world problems at the intersection of linguistics, AI, and society. I welcome collaborations on research projects, interdisciplinary initiatives, and practical applications in these areas. Feel free to reach out if you are interested in discussing ideas or doing your thesis on a related topic."
     },
     {
-      "type": "paragraph",
-      "value": "NOTE: This entire homepage is currently under massive (re-)construction- some section are still scaffolding and the language-switching is not completely implemented yet- please bear with me ;)"
+      "type": "html",
+      "value": "<br><a class='note'>NOTE: This entire homepage is currently under massive (re-)construction- some section are still scaffolding and the language-switching is not completely implemented yet- please bear with me ;)</a>"
     }
   ]
 }

@@ -839,15 +839,15 @@ a.project-card {
 	<a href='[[URL]]' class='link-person' target='_blank' rel='noopener'>Prof. Dr. Josef van Genabith</a>
 */
 a.link-person {
-    color: #d32f2f;
+    color: #43068E;
     text-decoration: none;
-    border-bottom: 1px dotted #d32f2f;
+    border-bottom: 1px dotted #43068E;
     font-weight: 500;
 }
 
 a.link-person:hover {
-    color: #b71c1c;
-    border-bottom: 1px solid #b71c1c;
+    color: #2E0561;
+    border-bottom: 1px solid #2E0561;
 }
 
 /* 2. Affiliations / Organizations (Blue) */
@@ -855,15 +855,15 @@ a.link-person:hover {
 <a href='[[DFKI_MLT_URL]]' class='link-affiliation' target='_blank' rel='noopener'>German Research Center for Artificial Intelligence (DFKI)</a>
 */
 a.link-affiliation {
-    color: #0066cc;
+    color: #004F9E;
     text-decoration: none;
-    border-bottom: 1px dotted #0066cc;
+    border-bottom: 1px dotted #004F9E;
     font-weight: 500;
 }
 
 a.link-affiliation:hover {
-    color: #004499;
-    border-bottom: 1px solid #004499;
+    color: #003870;
+    border-bottom: 1px solid #003870;
 }
 
 /* 3. Works (Theses, Papers, Projects) (Green) */
@@ -871,13 +871,24 @@ a.link-affiliation:hover {
 <a href='[[THESIS_URL]]' class='link-work' target='_blank' rel='noopener'>“Leveraging Morphological and Lexical Features in Synthetic Data Generation for Dialect-Specific Machine Translation”</a>
 */
 a.link-work {
-    color: #2e7d32;
+    color: #246027;
     text-decoration: none;
-    border-bottom: 1px dotted #2e7d32;
+    border-bottom: 1px dotted #246027;
     font-weight: 500;
 }
 
 a.link-work:hover {
-    color: #1b5e20;
-    border-bottom: 1px solid #1b5e20;
+    color: #133013;
+    border-bottom: 1px solid #133013;
+}
+
+
+/* Little Notes */
+/*
+<a class='note'>Some small side note</a>
+*/
+a.note {
+    color: #ABABAB;
+    text-decoration: none;
+    font-weight: 500;
 }
