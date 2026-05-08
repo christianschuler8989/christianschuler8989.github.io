@@ -3,11 +3,20 @@
   "sections": [
     {
       "type": "paragraph",
-      "value": "A data-driven list of publications. Items are listed in descending chronological order by 'date' if available."
+      "value": "Click on any of the following entries for more information."
     }
   ],
   "items": [
     
+    {
+      "title": "Dialectal Filtering: Synthesizing Kurdish Corpora for Low-Resource Varieties by Utilizing \"Noise\" in Large Textual Data",
+      "authors": ["Christian Schuler", "Raman Ahmad", "Ānrán Wáng", "Daniil Gurgurov", "Timo Baumann", "Simon Ostermann", "Josef van Genabith"],
+      "venue": "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)",
+      "year": 2026,
+      "url": "https://lrec.elra.info/lrec2026-main-116",
+      "date": "2026",
+      "type": "conference"
+    },
     {
       "title": "When Chatbots meet Process Mining: Conversation Mining in the Era of Digital Trace Data",
       "authors": ["Christian Schuler", "Dominik Hauser", "Christoph Zehendner", "Maren Gierlich-Joas"],
