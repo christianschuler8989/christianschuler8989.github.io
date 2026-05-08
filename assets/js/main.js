@@ -46,7 +46,7 @@
     // so labels would be empty on first load. Calling it again after buildNavigation()
     // ensures all data-i18n attributes are resolved immediately.
     // =========================================================================
-    navigation.buildNavigation(siteConfig);
+    navigation.buildNavigation(siteConfig);e
     i18n.applyTranslations(); // Fix: populate nav labels on first load
 
     // =========================================================================
@@ -482,85 +482,86 @@ function buildResourceLinks(resources) {
     // SECTION POPULATION
     // =========================================================================
     async function populateSections(lang) {
-      const mainContainer = document.getElementById('content');
-      mainContainer.innerHTML = '';
+    const mainContainer = document.getElementById('content');
+    mainContainer.innerHTML = '';
 
-      for (const secId of siteConfig.order) {
-        let contentData;
-        try {
-          contentData = await loader.loadContent(lang, secId);
-        } catch (e) {
-          try {
-            contentData = await loader.loadContent('eng_Latn', secId);
-          } catch (e2) {
-            contentData = {
-              title: secId,
-              sections: [{ type: 'paragraph', value: 'Content not yet available.' }]
-            };
-          }
+    // ── 1. Fetch ALL section content in parallel ────────────────────────────
+    // Previously: sequential await inside for-of meant section N+1 didn't start
+    // loading until section N finished. Sections injected into the DOM while
+    // still empty caused scrollIntoView() to land in the wrong place.
+    // Now: all fetches fire simultaneously; rendering only begins once every
+    // section has its data, so the DOM is fully populated before any scroll.
+    const contentResults = await Promise.all(
+      siteConfig.order.map(secId =>
+        loader.loadContent(lang, secId)
+          .catch(() => loader.loadContent('eng_Latn', secId))
+          .catch(() => ({
+            title: secId,
+            sections: [{ type: 'paragraph', value: 'Content not yet available.' }]
+          }))
+      )
+    );
+
+    // ── 2. Render all sections (same logic as before, now data-driven) ───────
+    siteConfig.order.forEach((secId, idx) => {
+      const contentData = contentResults[idx];
+
+      const secEl = document.createElement('section');
+      secEl.id = secId;
+      secEl.className = 'page-section';
+
+      const h1 = document.createElement('h1');
+      const localizedTitle = i18n.t(`sections.${secId}.title`);
+      h1.textContent =
+        (localizedTitle && localizedTitle !== `sections.${secId}.title`)
+          ? localizedTitle
+          : (contentData.title || secId);
+      secEl.appendChild(h1);
+
+      const body = document.createElement('div');
+      body.className = 'section-body';
+
+      (contentData.sections || []).forEach(block => {
+        if (block.type === 'paragraph') {
+          const p = document.createElement('p');
+          p.textContent = block.value;
+          body.appendChild(p);
+        } else if (block.type === 'list') {
+          const ul = document.createElement('ul');
+          (block.items || []).forEach(it => {
+            const li = document.createElement('li');
+            li.textContent = it;
+            ul.appendChild(li);
+          });
+          body.appendChild(ul);
+        } else if (block.type === 'html') {
+          const div = document.createElement('div');
+          div.innerHTML = block.value;
+          body.appendChild(div);
         }
+      });
 
-        const secEl = document.createElement('section');
-        secEl.id = secId;
-        secEl.className = 'page-section';
+      const renderer = renderers[secId];
+      if (renderer) renderer(contentData, body);
 
-        // Section heading - prefer locale.json key, fall back to JSON title or raw ID
-        const h1 = document.createElement('h1');
-        const localizedTitle = i18n.t(`sections.${secId}.title`);
-        h1.textContent =
-          (localizedTitle && localizedTitle !== `sections.${secId}.title`)
-            ? localizedTitle
-            : (contentData.title || secId);
-        secEl.appendChild(h1);
+      secEl.appendChild(body);
+      mainContainer.appendChild(secEl);
+    });
 
-        const body = document.createElement('div');
-        body.className = 'section-body';
+    // ── 3. Scrollspy + pending scroll target (unchanged) ─────────────────────
+    scrollspy.initScrollSpy();
 
-        // 1. Generic block renderer - paragraph / list / html from contentData.sections
-        (contentData.sections || []).forEach(block => {
-          if (block.type === 'paragraph') {
-            const p = document.createElement('p');
-            p.textContent = block.value;
-            body.appendChild(p);
-          } else if (block.type === 'list') {
-            const ul = document.createElement('ul');
-            (block.items || []).forEach(it => {
-              const li = document.createElement('li');
-              li.textContent = it;
-              ul.appendChild(li);
-            });
-            body.appendChild(ul);
-          } else if (block.type === 'html') {
-            const div = document.createElement('div');
-            div.innerHTML = block.value; // Ensure block.value is sanitized before use
-            body.appendChild(div);
-          }
-        });
-
-        // 2. Registry renderer - handles structured contentData.items
-        const renderer = renderers[secId];
-        if (renderer) renderer(contentData, body);
-
-        secEl.appendChild(body);
-        mainContainer.appendChild(secEl);
-      }
-
-      // Reinitialise scrollspy so it observes the freshly rebuilt section elements
-      scrollspy.initScrollSpy();
-
-      // If a hex-button was clicked while on a sub-page, it stored the desired
-      // scroll target in sessionStorage before triggering a reload. Consume it now.
-      const scrollTarget = sessionStorage.getItem('scrollTarget');
-      if (scrollTarget) {
-        sessionStorage.removeItem('scrollTarget');
-        const el = document.getElementById(scrollTarget);
-        if (el) {
-          requestAnimationFrame(() =>
-            el.scrollIntoView({ behavior: 'smooth', block: 'start' })
-          );
-        }
+    const scrollTarget = sessionStorage.getItem('scrollTarget');
+    if (scrollTarget) {
+      sessionStorage.removeItem('scrollTarget');
+      const el = document.getElementById(scrollTarget);
+      if (el) {
+        requestAnimationFrame(() =>
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        );
       }
     }
+  }
 
     // Initial render
     await populateSections(defaultLang);
