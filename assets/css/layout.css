@@ -803,3 +803,81 @@ a.project-card {
     font-size: 1.5rem;
   }
 }
+
+/* --- Styles for the new Hero Image --- */
+
+/* 1. Wrapper: Enables Flexbox to align the image and the H1 */
+.homepage-header-image-wrapper {
+    display: flex;
+    align-items: center; /* Vertically centers the image with the text */
+    margin-bottom: 25px; /* Adds some spacing between the image/title group and the body content */
+    /* Optional: If the title is full width and the image is on the left */
+    /* justify-content: flex-start; */
+}
+
+/* 2. Image: Defines the size and appearance of the logo */
+.homepage-header-image {
+    width: 120px; /* Adjust this size as needed */
+    height: auto;
+    margin-right: 20px; /* Space between the image and the H1 text */
+    flex-shrink: 0; /* Prevents the image from shrinking if the viewport gets too narrow */
+}
+
+/* 3. Ensure H1 aligns nicely within the wrapper (If it's not already styled by default) */
+/* Since the H1 is a sibling to the wrapper, if the wrapper is the first element, 
+   it will start on the left edge of the #content area. */
+#content > .homepage-header-image-wrapper + h1 {
+    /* If the H1 itself needs any specific styling to look better next to the image */
+    margin-top: 0; 
+}
+
+
+/* ==================== Custom Link Styles ==================== */
+
+/* 1. People (Red) */
+/* 
+	<a href='[[URL]]' class='link-person' target='_blank' rel='noopener'>Prof. Dr. Josef van Genabith</a>
+*/
+a.link-person {
+    color: #d32f2f;
+    text-decoration: none;
+    border-bottom: 1px dotted #d32f2f;
+    font-weight: 500;
+}
+
+a.link-person:hover {
+    color: #b71c1c;
+    border-bottom: 1px solid #b71c1c;
+}
+
+/* 2. Affiliations / Organizations (Blue) */
+/*
+<a href='[[DFKI_MLT_URL]]' class='link-affiliation' target='_blank' rel='noopener'>German Research Center for Artificial Intelligence (DFKI)</a>
+*/
+a.link-affiliation {
+    color: #0066cc;
+    text-decoration: none;
+    border-bottom: 1px dotted #0066cc;
+    font-weight: 500;
+}
+
+a.link-affiliation:hover {
+    color: #004499;
+    border-bottom: 1px solid #004499;
+}
+
+/* 3. Works (Theses, Papers, Projects) (Green) */
+/*
+<a href='[[THESIS_URL]]' class='link-work' target='_blank' rel='noopener'>“Leveraging Morphological and Lexical Features in Synthetic Data Generation for Dialect-Specific Machine Translation”</a>
+*/
+a.link-work {
+    color: #2e7d32;
+    text-decoration: none;
+    border-bottom: 1px dotted #2e7d32;
+    font-weight: 500;
+}
+
+a.link-work:hover {
+    color: #1b5e20;
+    border-bottom: 1px solid #1b5e20;
+}

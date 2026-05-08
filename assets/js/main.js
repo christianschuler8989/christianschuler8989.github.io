@@ -46,7 +46,7 @@
     // so labels would be empty on first load. Calling it again after buildNavigation()
     // ensures all data-i18n attributes are resolved immediately.
     // =========================================================================
-    navigation.buildNavigation(siteConfig);e
+    navigation.buildNavigation(siteConfig);
     i18n.applyTranslations(); // Fix: populate nav labels on first load
 
     // =========================================================================
