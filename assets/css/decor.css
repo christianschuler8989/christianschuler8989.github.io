@@ -1,0 +1,344 @@
+/* Decorations of the homepage, configured in homepage/theme.json ("patterns" and "decor").
+   Page background pattern, heading styles, divider, card badge and pattern layers.
+   Card and keyword shapes are hex plates (assets/css/hexagons.css, theme.json "plates").
+   Shapes follow the flat-top hexagon of the navigation (height = width * 0.866).
+   Patterns and ornaments are SVG masks over a theme color, so they follow light and dark mode
+   and screen readers skip them. Parameters are checked by build_tool/homepage_build/decor.py. */
+
+:root {
+  --decor-hex: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  /* Honeycomb outline tile, flat-top hexagons with side 10 (30 x 17.32). */
+  --decor-honeycomb: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='17.32' viewBox='0 0 30 17.32'%3E%3Cpath d='M5 8.66 10 0h10l5 8.66-5 8.66H10zM0 8.66h5M25 8.66h5' fill='none' stroke='black' stroke-width='1'/%3E%3C/svg%3E");
+  /* One small filled hexagon per tile (16 x 14). */
+  --decor-hex-dot: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='14' viewBox='0 0 16 14'%3E%3Cpath d='M5 7 6.5 4.4h3L11 7 9.5 9.6h-3z'/%3E%3C/svg%3E");
+  /* One filled hexagon per tile with a small gap, for rows. */
+  --decor-hex-chain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='12' viewBox='0 0 14 12'%3E%3Cpath d='M1 6 4 .8h6L13 6l-3 5.2H4z'/%3E%3C/svg%3E");
+  /* One filled hexagon (20 x 17.32), as marker at the inner end of centered heading lines. */
+  --decor-hex-one: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='17.32' viewBox='0 0 20 17.32'%3E%3Cpath d='M0 8.66 5 0h10l5 8.66-5 8.66H5z'/%3E%3C/svg%3E");
+  /* Three hexagons, small, large, small. */
+  --decor-hex-trio: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='20' viewBox='0 0 64 20'%3E%3Cpath d='M21 10 26.5.47h11L43 10l-5.5 9.53h-11zM6 10l3-5.2h6l3 5.2-3 5.2H9zM46 10l3-5.2h6l3 5.2-3 5.2h-6z'/%3E%3C/svg%3E");
+}
+
+/* ---- Pattern layers ----
+   An element with the classes "has-pattern pattern--<name>" gets the pattern <name> of theme.json
+   as a layer behind its contents. On a hex plate the layer takes the plate's shape. */
+
+.has-pattern {
+  position: relative;
+  isolation: isolate;
+}
+
+.has-pattern::after,
+.hex-button::after,
+.page-picture::after,
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--pattern-color);
+  opacity: var(--pattern-opacity);
+  mask-image: var(--pattern-mask);
+  mask-size: var(--pattern-mask-size);
+  mask-repeat: var(--pattern-mask-repeat);
+  mask-composite: intersect;
+}
+
+.has-pattern::after {
+  clip-path: var(--plate-shape, none);
+}
+
+.pattern--comb-purple {
+  --pattern-color: var(--color-purple); --pattern-opacity: 0.1; --pattern-mask: var(--decor-honeycomb); --pattern-mask-size: 45px calc(45px * 0.5773); --pattern-mask-repeat: repeat;
+}
+
+.pattern--comb-fade-orange {
+  --pattern-color: var(--color-orange); --pattern-opacity: 0.3; --pattern-mask: var(--decor-honeycomb), linear-gradient(to bottom, black, transparent 85%); --pattern-mask-size: 36px calc(36px * 0.5773), 100% 100%; --pattern-mask-repeat: repeat, no-repeat;
+}
+
+.pattern--comb-fade-yellow {
+  --pattern-color: var(--color-yellow); --pattern-opacity: 0.3; --pattern-mask: var(--decor-honeycomb), linear-gradient(to bottom, black, transparent 85%); --pattern-mask-size: 36px calc(36px * 0.5773), 100% 100%; --pattern-mask-repeat: repeat, no-repeat;
+}
+
+.pattern--comb-fade-purple {
+  --pattern-color: var(--color-purple); --pattern-opacity: 0.35; --pattern-mask: var(--decor-honeycomb), linear-gradient(to bottom, black, transparent 85%); --pattern-mask-size: 36px calc(36px * 0.5773), 100% 100%; --pattern-mask-repeat: repeat, no-repeat;
+}
+
+.pattern--comb-fade-green {
+  --pattern-color: var(--color-decor); --pattern-opacity: 0.25; --pattern-mask: var(--decor-honeycomb), linear-gradient(to bottom, black, transparent 85%); --pattern-mask-size: 36px calc(36px * 0.5773), 100% 100%; --pattern-mask-repeat: repeat, no-repeat;
+}
+
+.pattern--comb-fine {
+  --pattern-color: var(--color-text); --pattern-opacity: 0.12; --pattern-mask: var(--decor-honeycomb); --pattern-mask-size: 16px calc(16px * 0.5773); --pattern-mask-repeat: repeat;
+}
+
+/* Page background (decor.page_pattern), fixed while the page scrolls. */
+body::before {
+  position: fixed;
+  --pattern-color: var(--color-purple); --pattern-opacity: 0.1; --pattern-mask: var(--decor-honeycomb); --pattern-mask-size: 45px calc(45px * 0.5773); --pattern-mask-repeat: repeat;
+}
+
+/* ---- Headings (decor.headings) ----
+   Roles and the headings they cover:
+     page     title of every page (.page h1)
+     section  headings inside a page (.page h2: year groups, detail and profile sections)
+   Styles:
+     chain    a row of small hexagons below the heading, fading out ("color")
+     line     a hexagon in front ("marker") and a line to the end of the column, fading out ("color")
+     none     plain heading
+   "align": "center" centers the heading. The chain then fades out to both sides, the line runs
+   on both sides of the text, each with the marker hexagon at its inner end. */
+.page h1::after {
+  content: "";
+  display: block;
+  block-size: 0.4em;
+  margin-block-start: 0.25em;
+  background: var(--color-decor);
+  mask-image: var(--decor-hex-chain), linear-gradient(to right, black 30%, transparent);
+  mask-composite: intersect;
+  mask-repeat: repeat-x, no-repeat;
+  mask-size: auto 100%, 100% 100%;
+}
+
+[dir="rtl"] .page h1::after,
+.page h1[dir="rtl"]::after {
+  mask-image: var(--decor-hex-chain), linear-gradient(to left, black 30%, transparent);
+  mask-position: right, 0 0;
+}
+
+.page h2 {
+  text-align: center;
+}
+
+.page h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.page h2::before,
+.page h2::after {
+  content: "";
+  flex: 1 1 2em;
+  block-size: 0.8em;
+  mask-image: var(--decor-hex-one), linear-gradient(black, black);
+  mask-repeat: no-repeat;
+  mask-size: 0.8em 0.69em, calc(100% - 0.6em) 2px;
+}
+
+.page h2::before {
+  mask-position: right center, left center;
+  background: linear-gradient(to left, var(--color-hex-active) 0.8em, var(--color-accent-strong) 0.8em, transparent);
+}
+
+.page h2::after {
+  mask-position: left center, right center;
+  background: linear-gradient(to right, var(--color-hex-active) 0.8em, var(--color-accent-strong) 0.8em, transparent);
+}
+
+/* Right to left, ::before sits on the right side, so both sides swap. */
+[dir="rtl"] .page h2::before,
+.page h2[dir="rtl"]::before {
+  mask-position: left center, right center;
+  background: linear-gradient(to right, var(--color-hex-active) 0.8em, var(--color-accent-strong) 0.8em, transparent);
+}
+
+[dir="rtl"] .page h2::after,
+.page h2[dir="rtl"]::after {
+  mask-position: right center, left center;
+  background: linear-gradient(to left, var(--color-hex-active) 0.8em, var(--color-accent-strong) 0.8em, transparent);
+}
+
+/* ---- Divider (decor.divider, templates/partials/divider.html) ----
+   trio-line  three hexagons ("color") in the middle of a line ("line") fading out to both ends
+   trio       the three hexagons only
+   line       the line only
+   none       nothing is shown */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  margin-block: 2em;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  block-size: 2px;
+}
+
+.divider::before {
+  background: linear-gradient(to left, var(--color-accent-strong), transparent);
+}
+
+.divider::after {
+  background: linear-gradient(to right, var(--color-accent-strong), transparent);
+}
+
+.divider span {
+  flex: none;
+  margin-inline: auto;
+  inline-size: 3.2em;
+  block-size: 1em;
+  background: var(--color-decor);
+  mask: var(--decor-hex-trio) center / contain no-repeat;
+}
+
+/* ---- Navigation buttons (decor.nav) ----
+   A frame running from "frame" to "frame_end", one fill per button cycling through "fills"
+   (first button first color), and a faint pattern on the fill. */
+.hex-button {
+  --nav-frame-width: 3px;
+  --nav-frame-bg: linear-gradient(135deg, var(--color-accent-strong), var(--color-decor));
+}
+
+.hex-nav > li:nth-child(6n + 1) .hex-button {
+  --nav-fill: var(--color-nav-green);
+}
+
+.hex-nav > li:nth-child(6n + 2) .hex-button {
+  --nav-fill: var(--color-nav-blue);
+}
+
+.hex-nav > li:nth-child(6n + 3) .hex-button {
+  --nav-fill: var(--color-nav-purple);
+}
+
+.hex-nav > li:nth-child(6n + 4) .hex-button {
+  --nav-fill: var(--color-nav-red);
+}
+
+.hex-nav > li:nth-child(6n + 5) .hex-button {
+  --nav-fill: var(--color-nav-orange);
+}
+
+.hex-nav > li:nth-child(6n + 6) .hex-button {
+  --nav-fill: var(--color-nav-yellow);
+}
+
+.hex-button::after {
+  inset: var(--nav-frame-width);
+  clip-path: var(--decor-hex);
+  --pattern-color: var(--color-text); --pattern-opacity: 0.12; --pattern-mask: var(--decor-honeycomb); --pattern-mask-size: 16px calc(16px * 0.5773); --pattern-mask-repeat: repeat;
+}
+
+/* ---- Page picture (decor.page_picture) ----
+   A frame running from "frame" to "frame_end", a thin gap ring in "gap_color" between frame and
+   picture, and a pattern on the gap hexagon (seen only where the picture is missing). */
+.page-picture {
+  --picture-frame: 6px;
+  --picture-gap: 3px;
+  --picture-frame-bg: linear-gradient(135deg, var(--color-accent-strong), var(--color-decor));
+  --picture-gap-bg: var(--color-bg);
+}
+
+.page-picture::after {
+  inset: var(--picture-frame);
+  clip-path: var(--decor-hex);
+  --pattern-color: var(--color-text); --pattern-opacity: 0.12; --pattern-mask: var(--decor-honeycomb); --pattern-mask-size: 16px calc(16px * 0.5773); --pattern-mask-repeat: repeat;
+}
+
+/* ---- Card badge (decor.cards.badge) ----
+   A small hexagon over the start corner of a card, holding its year. */
+.card-badge {
+  position: absolute;
+  inset-block-start: -0.9em;
+  inset-inline-start: 1em;
+  display: grid;
+  place-items: center;
+  inline-size: 3.6em;
+  aspect-ratio: 1 / 0.866;
+  background: var(--color-hex-active);
+  color: var(--color-hex-active-text);
+  font-size: 0.8rem;
+  font-weight: 700;
+  clip-path: var(--decor-hex);
+}
+
+.card.has-badge {
+  margin-block-start: 0.9em;
+  padding-block-start: 1.9em;
+}
+
+/* Wide badge (site.json collection option "badge" other than "year"): a hexagon with pointed ends
+   of fixed width that grows with its text (title, venue, student). It stays in the flow of the
+   card, so a long text wraps onto further lines and pushes the card contents down. It sticks out
+   above the card by --card-badge-overhang. */
+.card.has-badge-wide {
+  --card-badge-overhang: 0.9rem;
+  margin-block-start: var(--card-badge-overhang);
+}
+
+.card-badge.card-badge--wide {
+  position: relative;
+  inset: auto;
+  z-index: 1;
+  display: block;
+  grid-column: 1 / -1;
+  order: -2;
+  inline-size: fit-content;
+  max-inline-size: 100%;
+  aspect-ratio: auto;
+  margin-block: calc(-14px - var(--card-badge-overhang)) 10px;
+  margin-inline: 0;
+  padding: 0.35em 1.5em;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  text-align: center;
+  hyphens: auto;
+  overflow-wrap: anywhere;
+  clip-path: polygon(0.9em 0, calc(100% - 0.9em) 0, 100% 50%, calc(100% - 0.9em) 100%, 0.9em 100%, 0 50%);
+}
+
+.card-badge--wide a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-badge--wide a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Inline references (decor.references) ----
+   Links written into entity texts as [[<kind>:<target>|<label>]] (build_tool/homepage_build/references.py),
+   one color per kind. */
+.ref {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.ref:hover {
+  text-decoration-thickness: 2px;
+}
+
+.ref--person {
+  color: var(--color-ref-person);
+}
+
+.ref--affiliation {
+  color: var(--color-ref-affiliation);
+}
+
+.ref--document {
+  color: var(--color-ref-document);
+}
+
+.ref--venue {
+  color: var(--color-ref-venue);
+}
+
+.ref--event {
+  color: var(--color-ref-venue);
+}
+
+.ref--place {
+  color: var(--color-ref-place);
+}
+
+.ref--other {
+  color: var(--color-ref-other);
+}
+

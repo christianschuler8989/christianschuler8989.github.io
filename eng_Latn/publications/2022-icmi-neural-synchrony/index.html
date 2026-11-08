@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-language="eng_Latn" data-writing-mode="horizontal-tb">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation | Christian Schuler</title>
+  <link rel="canonical" href="https://christianschuler8989.github.io/eng_Latn/publications/2022-icmi-neural-synchrony/">
+  <link rel="alternate" hreflang="en" href="https://christianschuler8989.github.io/eng_Latn/publications/2022-icmi-neural-synchrony/">
+  <link rel="alternate" hreflang="de" href="https://christianschuler8989.github.io/deu_Latn/publications/2022-icmi-neural-synchrony/">
+  <link rel="alternate" hreflang="x-default" href="https://christianschuler8989.github.io/eng_Latn/publications/2022-icmi-neural-synchrony/">
+  <link rel="icon" href="/media/site/pictures/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/hexagons.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/content.css">
+  <link rel="stylesheet" href="/assets/css/decor.css">
+  <link rel="stylesheet" href="/assets/css/test-cases.css">
+  <script src="/assets/js/honeycomb.js" defer></script>
+  <script src="/assets/js/page-picture.js" defer></script>
+  <script src="/assets/js/filters.js" defer></script>
+  <script src="/assets/js/language-selector.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#page">Skip to the contents</a>
+  <div class="site">
+    <details class="language-switcher"
+      data-languages-url="/languages/languages.json"
+      data-complete="true"
+      data-patterns='{"default_section": "/{language}/", "entity": "/{language}/{section}/{entity}/", "section": "/{language}/{section}/"}'
+      data-default-section="home"
+      data-section="publications"
+      data-entity="2022-icmi-neural-synchrony"
+      data-current="eng_Latn">
+      <summary><span class="language-label">Language</span> <span class="language-current" lang="en" dir="ltr">English</span></summary>
+      <div class="language-panel">
+        <p class="language-filter-row" hidden>
+          <input type="search" class="language-filter" autocomplete="off" aria-label="Search languages" placeholder="Search languages">
+        </p>
+        <ul class="language-grid">
+          <li data-search="eng_latn englisch english"><a href="/eng_Latn/publications/2022-icmi-neural-synchrony/" hreflang="en" lang="en" dir="ltr" aria-current="true">English</a></li>
+          <li data-search="deu_latn deutsch german"><a href="/deu_Latn/publications/2022-icmi-neural-synchrony/" hreflang="de" lang="de" dir="ltr">Deutsch</a></li>
+        </ul>
+        <p class="language-all-row"><a class="language-all" href="/languages/?section=publications&amp;entity=2022-icmi-neural-synchrony">All languages</a></p>
+      </div>
+    </details><div class="page-identity">
+      <figure class="page-picture hex" data-picture-set='[{"alt": "Placeholder picture for publications", "src": "/media/site/pictures/Christian_Schuler_Thesis.jpg"}, {"alt": "Placeholder picture for publications", "src": "/media/site/pictures/Christian_Schuler_Linuxarticle.jpg"}]'>
+        <img src="/media/site/pictures/Christian_Schuler_Thesis.jpg" alt="Placeholder picture for publications">
+      </figure>
+      <p class="site-owner">Christian Schuler</p>
+    </div>    <nav class="site-nav" aria-label="Sections">
+<ul class="hex-nav">
+        <li><a class="hex-button hex" href="/eng_Latn/" title="Home" aria-label="Home"><span class="label-full">Home</span><span class="label-short" aria-hidden="true">H</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/publications/" title="Publications" aria-label="Publications" aria-current="page"><span class="label-full">Publications</span><span class="label-short" aria-hidden="true">P</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/projects/" title="Projects" aria-label="Projects"><span class="label-full">Projects</span><span class="label-short" aria-hidden="true">P</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/events/" title="Events" aria-label="Events"><span class="label-full">Events</span><span class="label-short" aria-hidden="true">E</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/talks/" title="Talks" aria-label="Talks"><span class="label-full">Talks</span><span class="label-short" aria-hidden="true">T</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/teaching/" title="Teaching" aria-label="Teaching"><span class="label-full">Teaching</span><span class="label-short" aria-hidden="true">T</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/supervision/" title="Supervision" aria-label="Supervision"><span class="label-full">Supervision</span><span class="label-short" aria-hidden="true">S</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/literature/" title="Literature" aria-label="Literature"><span class="label-full">Literature</span><span class="label-short" aria-hidden="true">L</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/service/" title="Service" aria-label="Service"><span class="label-full">Service</span><span class="label-short" aria-hidden="true">S</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/research/" title="Research" aria-label="Research"><span class="label-full">Research</span><span class="label-short" aria-hidden="true">R</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/about/" title="About" aria-label="About"><span class="label-full">About</span><span class="label-short" aria-hidden="true">A</span></a></li>
+        <li><a class="hex-button hex" href="/eng_Latn/portfolio/" title="Portfolio" aria-label="Portfolio"><span class="label-full">Portfolio</span><span class="label-short" aria-hidden="true">P</span></a></li>
+      </ul>    </nav>
+    <main id="page" class="page" tabindex="-1">
+      <p class="detail-back"><a href="/eng_Latn/publications/">Back to Publications</a></p>
+      <article class="detail">
+<h1>A Deep Dive Into Neural Synchrony Evaluation for Audio-visual Translation</h1>
+<p class="authors"><span class="author">Shravan Nayak</span>, <span class="author">Christian Schuler</span>, <span class="author">Debjoy Saha</span>, <span class="author">Timo Baumann</span></p>
+<dl class="detail-facts">
+  <dt>Date</dt><dd>2022</dd>
+  <dt>Type</dt><dd>Conference paper</dd>
+  <dt>Venue</dt><dd>ICMI &#39;22: Proceedings of the 2022 International Conference on Multimodal Interaction.</dd>
+</dl>
+<div class="divider" aria-hidden="true"><span></span></div><h2>Abstract</h2>
+<div class="prose">
+  <p>We present a comprehensive analysis of the neural audio-visual synchrony evaluation tool SyncNet. We assess the agreement of SyncNet scores vis-a-vis human perception and whether we can use these as a reliable metric for evaluating audio-visual lip-synchrony in generation tasks with no ground truth reference audio-video pair. We further look into the underlying elements in audio and video which vitally affect synchrony using interpretable explanations from SyncNet predictions and analyse its susceptibility by introducing adversarial noise. SyncNet has been used in numerous papers on visually-grounded text-to-speech for scenarios such as dubbing. We focus on this scenario which features many local asynchronies (something that SyncNet isn’t made for).</p>
+</div><h2>Keywords</h2>
+<ul class="keyword-list">
+  <li class="keyword hex-plate hex-plate--chip hex-plate-compact"><span class="hex-plate-shape" aria-hidden="true"></span>dubbing</li>
+  <li class="keyword hex-plate hex-plate--chip hex-plate-compact"><span class="hex-plate-shape" aria-hidden="true"></span>audio-visual synchrony</li>
+  <li class="keyword hex-plate hex-plate--chip hex-plate-compact"><span class="hex-plate-shape" aria-hidden="true"></span>speech-lip synchrony</li>
+</ul>
+<h2>Links</h2>
+<ul class="link-list">
+  <li><a href="https://dl.acm.org/doi/abs/10.1145/3536221.3556621">Publication</a></li>
+  <li><a href="https://doi.org/10.1145/3536221.3556621">DOI</a></li>
+</ul>
+<section class="media-block">
+  <h2>Documents</h2>
+  <ul class="document-list">
+    <li><a href="/media/body/publications/2022-icmi-neural-synchrony/2022-Nayak_Schuler_Saha_Baumann-ICMI-Paper-A-Deep-Dive-Into-Neural-Synchrony-Evaluation-for-Audio-visual-Translation.pdf">Paper PDF.</a> <span class="document-meta">PDF, 4.5 MB</span></li>
+    <li><a href="/media/body/publications/2022-icmi-neural-synchrony/2022-Nayak_Schuler_Saha_Baumann-ICMI-Poster-A-Deep-Dive-Into-Neural-Synchrony-Evaluation-for-Audio-visual-Translation.pdf">Poster PDF.</a> <span class="document-meta">PDF, 1.2 MB</span></li>
+  </ul>
+</section>
+<section class="related">
+  <h2>Related</h2>
+  <h3>Projects</h3>
+  <ul>
+    <li><a href="/eng_Latn/projects/study-toolkit-vid/">StudyToolkitVid</a></li>
+  </ul>
+</section>
+      </article>
+    </main>
+  </div>
+</body>
+</html>

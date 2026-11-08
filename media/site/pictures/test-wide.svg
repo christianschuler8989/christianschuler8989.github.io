@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <!-- Test picture (4:1) for the page picture test case. Markers show which part survives the hexagon crop. -->
+  <rect width="1200" height="300" fill="#56b4e9"/>
+  <rect width="150" height="300" fill="#d55e00"/>
+  <rect x="1050" width="150" height="300" fill="#d55e00"/>
+  <rect x="525" width="150" height="300" fill="#f0e442"/>
+  <g font-family="system-ui, sans-serif" font-size="28" font-weight="600" fill="#1d1d1b" text-anchor="middle">
+    <text x="75" y="160">LEFT</text>
+    <text x="600" y="160">CENTER</text>
+    <text x="1125" y="160">RIGHT</text>
+  </g>
+</svg>

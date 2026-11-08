@@ -1,0 +1,143 @@
+/* Frames around the test cases on the Test page of the development version.
+   Only the frames are styled here. The specimens inside use the regular classes of the homepage,
+   so they look and behave exactly like the real components. */
+
+.test-intro {
+  color: var(--color-muted);
+}
+
+.test-case {
+  border: 1px dashed var(--color-muted);
+  border-radius: 6px;
+  padding: var(--gutter);
+  margin-block: var(--gutter);
+}
+
+.test-case > h2 {
+  font-size: 1.1rem;
+  margin-block: 0 4px;
+  color: var(--color-accent-strong);
+}
+
+.test-case > .test-checks {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  margin-block: 0 var(--gutter);
+}
+
+.test-picture-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter);
+}
+
+.test-caption {
+  margin-block: 4px 0;
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.test-table {
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.test-table th,
+.test-table td {
+  border: 1px solid var(--color-card-border);
+  padding: 4px 8px;
+  text-align: start;
+}
+
+/* ---- Candidates (color-swatches, hex-plates, decorations) ----
+   Every candidate carries an id (G3, P2, H1, ...) to name it when picking. */
+
+.test-group-title {
+  font-size: 1rem;
+  margin-block: 1.5em 0.3em;
+}
+
+.test-id {
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.test-specimen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  gap: calc(var(--gutter) * 1.5) var(--gutter);
+}
+
+.test-specimen-grid--wide {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 26rem), 1fr));
+}
+
+.test-specimen > .test-caption:first-child {
+  margin-block: 0 0.6em;
+}
+
+/* Color swatch: the color as hexagon with "Aa" in the dark background color, then as text on
+   the dark and the light background of theme.json, each with its contrast ratio. */
+.test-swatch {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 4px 10px;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.test-swatch-hex {
+  grid-row: span 3;
+  display: grid;
+  place-items: center;
+  inline-size: 4.5rem;
+  aspect-ratio: 1 / 0.866;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.test-swatch-name {
+  margin: 0;
+}
+
+.test-swatch-on {
+  margin: 0;
+  padding: 2px 8px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.test-swatch-on small {
+  font-weight: 400;
+}
+
+.test-bg-panel {
+  padding: 12px var(--gutter);
+  border: 1px solid var(--color-card-border);
+  font-size: 0.9rem;
+}
+
+.test-bg-panel p {
+  margin-block: 0 6px;
+}
+
+.test-bg-heading {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.test-bg-button {
+  display: inline-grid;
+  place-items: center;
+  inline-size: 5rem;
+  aspect-ratio: 1 / 0.866;
+  font-weight: 700;
+}
+
+.test-pattern-box {
+  min-block-size: 10em;
+  padding: var(--gutter);
+  border: 1px solid var(--color-card-border);
+}

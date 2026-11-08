@@ -1,0 +1,405 @@
+/* Section contents: collections (cards), detail pages, profile, filters, language index. */
+
+/* ---- Collections ---- */
+
+.collection-count {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+/* Decoration of the heading comes from theme.json "decor.headings.section" (assets/css/decor.css). */
+.collection-group-heading {
+  font-size: 1.2rem;
+  color: var(--color-accent-strong);
+}
+
+.card-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--gutter);
+}
+
+/* Cards are hex plates (partials/card.html, theme.json "decor.cards"). Outline, fill, badge and
+   pattern come from the plate and decor settings. */
+.card {
+  padding: 14px calc(var(--gutter) + 4px);
+  max-width: var(--reading-max-width);
+  overflow-wrap: anywhere;
+}
+
+.card[hidden],
+.collection-group[hidden] {
+  display: none;
+}
+
+.card-title {
+  font-size: 1.05rem;
+  margin-block: 0 4px;
+  hyphens: auto;
+}
+
+.card-subtitle,
+.card-venue,
+.authors {
+  margin-block: 0 4px;
+}
+
+.card-subtitle,
+.card-venue {
+  color: var(--color-muted);
+}
+
+/* Date, type, separator and keywords in one row (partials/card_meta.html). */
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  margin-block: 2px 6px;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.card-meta .keyword-list {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--color-text);
+}
+
+.card-meta-separator {
+  flex: none;
+  inline-size: 0.6em;
+  aspect-ratio: 1 / 0.866;
+  background: var(--color-decor);
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+}
+
+/* Title and keywords in one row (cards/supervision.html). */
+.card-headline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 12px;
+  margin-block-end: 4px;
+}
+
+.card-headline .card-title {
+  margin: 0;
+}
+
+.card-headline .keyword-list {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+/* Entries inside one card or detail page (partials/entries.html): blocks with name, description
+   and related entities, or one row of dates. */
+.entry-list {
+  list-style: none;
+  margin: 6px 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.entry {
+  padding-inline-start: 10px;
+  border-inline-start: 2px solid var(--color-decor);
+}
+
+.entry-name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.entry-description {
+  margin: 2px 0 0;
+}
+
+.entry-related {
+  margin-block-start: 2px;
+  font-size: 0.9rem;
+}
+
+.entry-dates {
+  margin-block: 0 4px;
+  color: var(--color-muted);
+}
+
+/* Links and documents of a card in one list (partials/card_links.html). */
+.card-links {
+  gap: 4px 14px;
+}
+
+.card-summary {
+  margin-block: 4px;
+}
+
+.keyword-list,
+.link-list {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+  font-size: 0.8rem;
+}
+
+/* Keywords are small hex plates (partials/keywords.html, theme.json "decor.keywords"). */
+.keyword-list {
+  gap: 6px 8px;
+}
+
+/* ---- Detail pages ---- */
+
+.detail-back {
+  font-size: 0.9rem;
+  margin-block-start: 0;
+}
+
+.detail-subtitle {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+}
+
+.detail-facts {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 4px var(--gutter);
+  max-width: var(--reading-max-width);
+}
+
+.detail-facts dt {
+  color: var(--color-muted);
+}
+
+.detail-facts dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.people-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.people-role {
+  color: var(--color-muted);
+}
+
+.page h2 {
+  font-size: 1.15rem;
+  color: var(--color-accent-strong);
+}
+
+/* ---- Profile ---- */
+
+.profile-focus {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+/* The motto sits centered on the hex plate "motto" (theme.json, assets/css/hexagons.css).
+   The block margins leave room for offset back layers and shadows. */
+.profile-motto {
+  width: fit-content;
+  max-width: calc(100% - 1.5em);
+  margin: 2.5em auto;
+  text-align: center;
+}
+
+.profile-motto blockquote {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.profile-motto blockquote p {
+  margin: 0;
+}
+
+.profile-motto figcaption {
+  margin-block-start: 0.3em;
+}
+
+.profile-motto figcaption,
+.profile-date,
+.profile-note,
+.profile-label {
+  color: var(--color-muted);
+}
+
+.profile-list li {
+  margin-block-end: 8px;
+}
+
+/* ---- Filters aside ---- */
+
+.filters fieldset {
+  border: 0;
+  margin: 0 0 8px;
+  padding: 0;
+}
+
+.filters legend {
+  color: var(--color-muted);
+  padding: 0;
+}
+
+/* Small enough that most keywords fit on one line of the aside. */
+.filter-keyword {
+  display: block;
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.filter-n,
+.filter-count {
+  color: var(--color-muted);
+}
+
+.filters select,
+.filters button {
+  font: inherit;
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-muted);
+  border-radius: 4px;
+}
+
+/* ---- Language index ---- */
+
+.language-index {
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding: var(--gutter);
+}
+
+.language-index h1 {
+  color: var(--color-accent-strong);
+}
+
+.language-index-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.language-index-list li[hidden] {
+  display: none;
+}
+
+.language-code,
+.language-fallback,
+.language-index-count {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.language-search input {
+  font: inherit;
+  min-width: min(100%, 24rem);
+}
+
+/* ---- Card thumbnails (first published picture of an entity) ---- */
+
+.card:has(.card-thumb) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--card-thumb-width);
+  gap: var(--gutter);
+  align-items: start;
+}
+
+.card-body {
+  min-width: 0;
+}
+
+.card-thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  .card:has(.card-thumb) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .card-thumb {
+    order: -1;
+  }
+}
+
+/* ---- Published media on detail pages ---- */
+
+.gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--gallery-column-min), 1fr));
+  gap: var(--gutter);
+}
+
+.gallery figure {
+  margin: 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.gallery figcaption,
+.media-player figcaption {
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-block-start: 4px;
+}
+
+.media-player {
+  margin: 0 0 var(--gutter);
+}
+
+.media-player video {
+  display: block;
+  width: 100%;
+  max-height: 80vh;
+  background: var(--color-video-bg);
+}
+
+.media-player audio {
+  width: 100%;
+}
+
+.document-list {
+  padding-inline-start: 1.2em;
+}
+
+.document-meta {
+  color: var(--color-muted);
+  font-size: 0.8rem;
+}
+
+/* ---- Group heading between two dividers (theme.json "decor.collection") ---- */
+
+.collection-group-head {
+  margin-block: 2em 1em;
+}
+
+.collection-group-head .divider {
+  margin-block: 0.15em;
+}
+
+.collection-group-head .collection-group-heading {
+  margin-block: 0;
+}
+
+.collection-end .divider {
+  margin-block: 2em 0.5em;
+}

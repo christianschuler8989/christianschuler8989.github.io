@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-language="eng_Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Languages | Christian Schuler</title>
+  <link rel="icon" href="/media/site/pictures/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/content.css">
+  <script src="/assets/js/language-index.js" defer></script>
+</head>
+<body>
+  <main class="language-index" data-patterns='{"default_section": "/{language}/", "entity": "/{language}/{section}/{entity}/", "section": "/{language}/{section}/"}' data-default-section="home">
+    <h1>Languages</h1>
+    <p>Every language this homepage is available in, listed by its own name. Texts that are missing in a language are shown in the next language of its fallback chain.</p>
+    <p class="language-index-count">Languages: 2</p>
+    <p class="language-search" hidden>
+      <label for="language-search">Search languages</label>
+      <input id="language-search" type="search" autocomplete="off">
+    </p>
+    <ul class="language-index-list">
+      <li data-search="eng_latn englisch english">
+        <a href="/eng_Latn/" data-code="eng_Latn" hreflang="en" lang="en" dir="ltr">English</a>
+        <span class="language-code">eng_Latn</span>
+      </li>
+      <li data-search="deu_latn deutsch german">
+        <a href="/deu_Latn/" data-code="deu_Latn" hreflang="de" lang="de" dir="ltr">Deutsch</a>
+        <span class="language-code">deu_Latn</span>
+        <span class="language-fallback">Fallback
+          <span lang="en" dir="ltr">English</span>        </span>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>

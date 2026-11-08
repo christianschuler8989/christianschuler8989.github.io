@@ -1,154 +1,246 @@
-/* hexagons.css */
+/* Hexagon shapes for the page picture and the navigation buttons.
+   Flat-top hexagons: height = width * 0.866 (sqrt(3) / 2). Sizes come from homepage/theme.json. */
 
-:root {
-  --transition: 200ms ease-out;
+.hex {
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
 }
 
-/* 1. THE CONTAINER: Force a vertical column */
-.hex-list {
+/* ---- Page picture (top left of every page) ---- */
+
+/* Layers, outside in: the figure's own background (frame), a hexagon of the gap color (::before),
+   a pattern (::after, seen only where the picture is missing or transparent), the picture.
+   Frame, gap and pattern come from theme.json "decor.page_picture" (assets/css/decor.css). */
+.page-picture {
+  --picture-frame: 0px;
+  --picture-gap: 0px;
+  position: relative;
+  isolation: isolate;
+  margin: 0;
+  width: var(--page-picture-width);
+  aspect-ratio: 1 / 0.866;
+  background: var(--picture-frame-bg, var(--color-hex));
+}
+
+.page-picture::before {
+  content: "";
+  position: absolute;
+  inset: var(--picture-frame);
+  z-index: -1;
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  background: var(--picture-gap-bg, var(--color-hex));
+}
+
+.page-picture img {
+  position: absolute;
+  inset-block-start: calc(var(--picture-frame) + var(--picture-gap));
+  inset-inline-start: calc(var(--picture-frame) + var(--picture-gap));
+  width: calc(100% - 2 * (var(--picture-frame) + var(--picture-gap)));
+  height: calc(100% - 2 * (var(--picture-frame) + var(--picture-gap)));
+  object-fit: cover;
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+}
+
+/* ---- Navigation without JavaScript: plain rows of hexagons ---- */
+
+.hex-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* Default alignment left */
-  padding-left: 5px;      /* Initial offset from screen edge */
+  flex-wrap: wrap;
+  gap: var(--nav-hex-gap);
 }
 
-/* 2. THE ITEM: The actual space the hex takes up */
-.hex-item {
-  width: var(--hex-width);
-  height: var(--hex-height);
-  position: relative;
-  z-index: 1;
-  
-  /* LAYOUT MAGIC:
-     Negative margin pulls the *next* item up by half height.
-     This creates the vertical overlap. 
-  */
-  margin-bottom: calc(var(--hex-height) * -0.5 + var(--hex-gap));
-  
-  /* Reset left margin */
-  margin-left: 0;
-  
-  transition: transform var(--transition), z-index 0s;
-}
-
-/* 3. THE ZIG-ZAG: Indent every second item */
-.hex-list .hex-item:nth-child(even) {
-  /* Push to the right by 75% of width (standard hex spacing) */
-  margin-left: calc(var(--hex-width) * 0.75 + var(--hex-gap));
-}
-
-/* 4. THE BUTTON: Visuals and Interaction */
-.hex-btn {
-  width: 100%;
-  height: 100%;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  position: relative;
+.hex-nav li {
+  width: var(--nav-hex-width);
   display: grid;
   place-items: center;
-  
-  /* IMPORTANT: Use filter instead of box-shadow.
-     Drop-shadow respects the clip-path/transparency of children! */
-  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
-  transition: transform var(--transition), filter var(--transition);
 }
 
-/* Layers for the 3D Look */
-.hex-btn .layer {
-  position: absolute;
-  inset: 0;
-  /* The standard flat-topped hex polygon */
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-  transition: background var(--transition), border-color var(--transition);
+/* ---- Honeycomb (assets/js/honeycomb.js adds .is-honeycomb) ----
+   Tracks are a quarter hexagon wide and half a hexagon high. Each list item spans 4 x 2 tracks,
+   starting 3 tracks after its left neighbour and one track lower in odd columns, so the hexagons
+   interlock. Grid tracks follow the writing direction, so the honeycomb mirrors itself for
+   right-to-left languages. */
+
+.hex-nav.is-honeycomb {
+  display: grid;
+  gap: 0;
+  grid-auto-columns: calc(var(--nav-hex-width) / 4);
+  grid-auto-rows: calc(var(--nav-hex-width) * 0.866 / 2);
 }
 
-.hex-btn .layer.bottom {
-  background: rgba(0,0,0,0.05);
-  transform: translateY(4px); /* Faux 3D depth */
-  z-index: 0;
-}
-
-.hex-btn .layer.mid {
-  background: var(--surface, #ffffff);
-  /* A nice subtle border effect */
-  background-clip: padding-box; 
-  z-index: 1;
-}
-
-.hex-btn .layer.top {
-  /* Gradient shine */
-  background: linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 50%);
-  z-index: 2;
-}
-
-/* Content Styling */
-.hex-btn .content {
-  position: relative;
-  z-index: 3;
-  text-align: center;
-  color: var(--text-main, #333);
-  pointer-events: none; /* Let clicks pass through to button */
-}
-/* .kicker { font-size: 1.2rem; font-weight: 700; display: block; line-height: 1; } */
-.icon { font-size: 2.2rem; font-weight: 700; display: block; line-height: 1.0; margin-top: -20px;}
-.label { font-size: 0.80rem; font-weight: 600; text-transform: uppercase; opacity: 0.7; line-height: 1.0; margin-top: 4px; } /*; margin-top: 4px; }*/
-
-
-/* 5. INTERACTIONS: Hover & Active States */
-
-/* Hover */
-.hex-item:hover {
-  z-index: 10; /* Bring to front on hover */
-}
-.hex-item:hover .hex-btn {
-  transform: translateY(-4px) scale(1.05);
-  filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
-}
-
-/* Active / Selected */
-.hex-item.active {
-  z-index: 10;
-}
-.hex-item.active .hex-btn {
-  transform: translateY(-2px) scale(1.1);
-  filter: drop-shadow(0 10px 20px rgba(32,186,62,0.3)); /* Colored shadow for active */
-}
-
-/* Color the active hex */
-.hex-item.active .layer.mid {
-  background: var(--primary, #0072B2); /* Use your theme primary color */
-}
-.hex-item.active .content {
-  color: #fff;
-}
-
-/* Shine Animation */
-.hex-btn .shine {
-  position: absolute; inset: 0; z-index: 4;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
-  transform: skewX(-20deg) translateX(-150%);
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+.hex-nav.is-honeycomb li {
+  width: auto;
+  /* The list items overlap at the hexagon corners. Only the clipped buttons take clicks,
+     so a click in an overlap reaches the hexagon that is visible there. */
   pointer-events: none;
 }
-.hex-item:hover .shine {
-  transition: 0.5s;
-  transform: skewX(-20deg) translateX(150%);
+
+/* Layers: the button's own background is the frame, ::before the fill inside the frame (one color
+   per button, cycling through theme.json "decor.nav.fills"), ::after a faint pattern on the fill.
+   Values are set in assets/css/decor.css. */
+.hex-button {
+  --nav-frame-width: 0px;
+  position: relative;
+  isolation: isolate;
+  pointer-events: auto;
+  display: grid;
+  place-items: center;
+  /* Shrinking every hexagon by the same amount leaves an even gap along all edges. */
+  width: calc(100% - var(--nav-hex-gap));
+  aspect-ratio: 1 / 0.866;
+  padding: 0 14%;
+  background: var(--nav-frame-bg, transparent);
+  color: var(--color-text);
+  text-align: center;
+  text-decoration: none;
+  font-size: var(--nav-font-size);
+  line-height: 1.15;
+  /* Long labels (e.g. "Veranstaltungen") break with a hyphen, based on the language of the label. */
+  hyphens: auto;
+  overflow-wrap: break-word;
+  overflow: hidden;
 }
 
-/* Mobile Fallback */
-@media (max-width: 720px) {
-  .hex-list {
-    flex-direction: row;
-    padding: 1px;
-    align-items: center;
-    overflow-x: auto;
+.hex-button::before {
+  content: "";
+  position: absolute;
+  inset: var(--nav-frame-width);
+  z-index: -1;
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+  background: var(--nav-fill, var(--color-hex));
+  transition: filter 150ms ease;
+}
+
+.hex-nav:not(.is-honeycomb) .hex-button {
+  width: 100%;
+}
+
+.hex-button:hover::before {
+  filter: brightness(1.3) saturate(1.2);
+}
+
+.hex-button[aria-current="page"] {
+  color: var(--color-hex-active-text);
+  font-weight: 600;
+}
+
+.hex-button[aria-current="page"]::before {
+  background: var(--color-hex-active);
+}
+
+/* The focus ring of a clipped button would be cut off, so the list item carries it. */
+.hex-nav li:focus-within {
+  outline: 3px solid var(--color-focus);
+  outline-offset: -2px;
+}
+
+.hex-button:focus-visible {
+  outline: none;
+}
+
+/* Full label on wide screens, short label only on narrow screens. */
+.hex-button .label-short {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .hex-button {
+    padding: 0;
   }
-  .hex-item {
-    margin-bottom: 0;
-    margin-left: 0 !important;
-    margin-right: -15px; /* Slight horizontal overlap */
-    width: 80px;
-    height: 80px; /* Smaller on mobile */
+
+  .hex-button .label-full {
+    display: none;
   }
+
+  .hex-button .label-short {
+    display: inline;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hex-button::before {
+    transition: none;
+  }
+}
+
+/* ---- Hex plate: a wide flat-top hexagon holding text, built from stacked layers ----
+   Markup (templates/partials/hex_plate.html):
+     <div class="hex-plate hex-plate--<name>"><span class="hex-plate-shape" aria-hidden="true"></span> text </div>
+   The pointed ends keep a fixed width ("tip") and the middle stretches with the text, so long
+   translations and several lines fit. The shape is symmetric and mirrors for right-to-left text.
+   Layers, back to front: hard shadow of both layers ("drop"), back layer ("back", offset and
+   grown), front layer ("front"). Parameters are listed in build_tool/homepage_build/decor.py.
+   Named plates come from theme.json "plates", candidates on the Test page carry their
+   parameters inline. */
+
+.hex-plate {
+  --plate-tip: 1.5em;
+  --plate-front: var(--color-hex);
+  --plate-text: var(--color-text);
+  --plate-back: transparent;
+  --plate-back-x: 0px;
+  --plate-back-y: 0px;
+  --plate-back-grow: 0px;
+  --plate-drop: transparent;
+  --plate-drop-x: 0px;
+  --plate-drop-y: 0px;
+  --plate-shape-hex: polygon(var(--plate-tip) 0, calc(100% - var(--plate-tip)) 0, 100% 50%,
+                             calc(100% - var(--plate-tip)) 100%, var(--plate-tip) 100%, 0 50%);
+  /* Cut corners at the top start and bottom end, for cards. */
+  --plate-shape-cut2: polygon(var(--plate-tip) 0, 100% 0, 100% calc(100% - var(--plate-tip)),
+                              calc(100% - var(--plate-tip)) 100%, 0 100%, 0 var(--plate-tip));
+  /* All four corners cut. */
+  --plate-shape-cut4: polygon(var(--plate-tip) 0, calc(100% - var(--plate-tip)) 0, 100% var(--plate-tip),
+                              100% calc(100% - var(--plate-tip)), calc(100% - var(--plate-tip)) 100%,
+                              var(--plate-tip) 100%, 0 calc(100% - var(--plate-tip)), 0 var(--plate-tip));
+  --plate-shape: var(--plate-shape-hex);
+  position: relative;
+  isolation: isolate;
+  color: var(--plate-text);
+  padding: 0.9em calc(var(--plate-tip) + 0.8em);
+}
+
+/* The layers sit in their own element, so the shadow filter never touches the text. */
+.hex-plate-shape {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  filter: drop-shadow(var(--plate-drop-x) var(--plate-drop-y) 0 var(--plate-drop));
+}
+
+.hex-plate-shape::before,
+.hex-plate-shape::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  clip-path: var(--plate-shape);
+}
+
+.hex-plate-shape::before {
+  inset: calc(-1 * var(--plate-back-grow));
+  translate: var(--plate-back-x) var(--plate-back-y);
+  background: var(--plate-back);
+}
+
+.hex-plate-shape::after {
+  background: var(--plate-front);
+}
+
+/* Small inline plates, e.g. keywords. The font size comes from the surrounding list. */
+.hex-plate-compact {
+  display: inline-block;
+  padding: 0.2em calc(var(--plate-tip) + 0.45em);
+}
+
+/* Named plates of theme.json. */
+.hex-plate--motto {
+  --plate-tip: 1.6em; --plate-back: var(--color-accent-strong); --plate-back-grow: 5px;
+}
+.hex-plate--card {
+  --plate-shape: var(--plate-shape-cut4); --plate-tip: 12px; --plate-back: var(--color-accent-strong); --plate-back-grow: 2px;
+}
+.hex-plate--chip {
+  --plate-tip: 0.6em; --plate-back: var(--color-decor); --plate-back-grow: 1px;
 }

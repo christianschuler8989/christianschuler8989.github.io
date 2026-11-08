@@ -1,5 +1,149 @@
-* { box-sizing: border-box; }
-html,body { height:100%; margin:0; background:var(--bg); color:var(--text); font-family:var(--font-sans); }
-a { color: inherit; text-decoration: none; }
-button { font: inherit; cursor: pointer; }
-.main-content { padding: 24px; max-width:1100px; margin: 0 auto; }
+/* Design tokens and element defaults.
+   Every value in {{ ... }} comes from homepage/theme.json and is filled in by the build tool.
+   Colors are picked with the color candidates of the Test page (contrast ratios shown there). */
+
+:root {
+  --color-bg: #fcf8f7;
+  --color-text: #1d1d1b;
+  --color-muted: #5e5452;
+  --color-accent: #00873e;
+  --color-accent-strong: #00703a;
+  --color-hex: #f0e4e2;
+  --color-hex-hover: #e5d0cd;
+  --color-hex-active: #39ff14;
+  --color-hex-active-text: #170a0c;
+  --color-decor: #00c96b;
+  --color-purple: #7a3fc4;
+  --color-orange: #d9730d;
+  --color-yellow: #c9a000;
+  --color-nav-green: #cdebd8;
+  --color-nav-blue: #cfe0f5;
+  --color-nav-purple: #e2d4f5;
+  --color-nav-red: #f5d0d4;
+  --color-nav-orange: #f8dcc4;
+  --color-nav-yellow: #f3eab8;
+  --color-ref-person: #00703a;
+  --color-ref-affiliation: #1a5fb4;
+  --color-ref-document: #a34f00;
+  --color-ref-venue: #7a6000;
+  --color-ref-place: #6f2dbd;
+  --color-ref-other: #b0172a;
+  --color-focus: #e69f00;
+  --color-card-border: #e2d3d0;
+  --color-error-bg: #fbe3d6;
+  --color-error-text: #8a2b00;
+  --color-fallback-outline: #cc79a7;
+  --color-shadow: rgba(40, 0, 8, 0.18);
+  --color-video-bg: #000000;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --site-max-width: 1440px;
+  --reading-max-width: none;
+  --gutter: 16px;
+  --page-picture-width: 180px;
+  --nav-hex-width: 110px;
+  --nav-hex-gap: 6px;
+  --nav-font-size: 0.8rem;
+  --language-panel-width: 1100px;
+  --language-panel-max-height: 70vh;
+  --language-column-min: 11rem;
+  --card-thumb-width: 180px;
+  --gallery-column-min: 220px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #241014;
+    --color-text: #ecebe6;
+    --color-muted: #bcaaa8;
+    --color-accent: #2fe07a;
+    --color-accent-strong: #2fe07a;
+    --color-hex: #371a20;
+    --color-hex-hover: #4a222a;
+    --color-hex-active: #39ff14;
+    --color-hex-active-text: #241014;
+    --color-decor: #00ff7f;
+    --color-purple: #b48cff;
+    --color-orange: #ff9f1c;
+    --color-yellow: #ffd60a;
+    --color-nav-green: #0f4d2e;
+    --color-nav-blue: #143a6b;
+    --color-nav-purple: #3d1f66;
+    --color-nav-red: #6b1520;
+    --color-nav-orange: #7a3b0c;
+    --color-nav-yellow: #5e520a;
+    --color-ref-person: #2fe07a;
+    --color-ref-affiliation: #6cb6ff;
+    --color-ref-document: #ffa94d;
+    --color-ref-venue: #ffd60a;
+    --color-ref-place: #c49bff;
+    --color-ref-other: #ff7b7b;
+    --color-focus: #e69f00;
+    --color-card-border: #5c3039;
+    --color-error-bg: #4a2412;
+    --color-error-text: #ffd2bd;
+    --color-fallback-outline: #cc79a7;
+    --color-shadow: rgba(0, 0, 0, 0.6);
+    --color-video-bg: #000000;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --page-picture-width: 110px;
+    --nav-hex-width: 44px;
+    --nav-hex-gap: 3px;
+    --nav-font-size: 1rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-accent-strong);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: var(--gutter);
+  inset-block-start: -100px;
+  background: var(--color-bg);
+  padding: 4px 8px;
+}
+
+.skip-link:focus {
+  inset-block-start: var(--gutter);
+}
+
+.error-message {
+  background: var(--color-error-bg);
+  color: var(--color-error-text);
+  padding: 12px var(--gutter);
+  border-radius: 6px;
+}

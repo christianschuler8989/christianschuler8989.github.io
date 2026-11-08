@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://christianschuler8989.github.io/sitemap.xml

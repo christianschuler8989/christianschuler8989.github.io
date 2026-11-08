@@ -1,0 +1,11 @@
+/* Development aid, linked only when mark_fallback_texts is true in the build configuration.
+   Outlines every text that comes from another language than the page language. */
+
+[data-fallback] {
+  outline: 1px dashed var(--color-fallback-outline);
+  outline-offset: 1px;
+}
+
+.hex-button[data-fallback] {
+  outline-offset: -6px;
+}
